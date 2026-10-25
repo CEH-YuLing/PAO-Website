@@ -1,0 +1,1960 @@
+{
+  "version": 1,
+  "fields": [
+    {
+      "id": "agents.0.name",
+      "group": "04 · Đội ngũ AI",
+      "label": "Planner · Tên",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.0.role",
+      "group": "04 · Đội ngũ AI",
+      "label": "Planner · Vai trò",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.0.text",
+      "group": "04 · Đội ngũ AI",
+      "label": "Planner · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "agents.1.name",
+      "group": "04 · Đội ngũ AI",
+      "label": "Content · Tên",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.1.role",
+      "group": "04 · Đội ngũ AI",
+      "label": "Content · Vai trò",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.1.text",
+      "group": "04 · Đội ngũ AI",
+      "label": "Content · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "agents.2.name",
+      "group": "04 · Đội ngũ AI",
+      "label": "Creative · Tên",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.2.role",
+      "group": "04 · Đội ngũ AI",
+      "label": "Creative · Vai trò",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.2.text",
+      "group": "04 · Đội ngũ AI",
+      "label": "Creative · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "agents.3.name",
+      "group": "04 · Đội ngũ AI",
+      "label": "Developer · Tên",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.3.role",
+      "group": "04 · Đội ngũ AI",
+      "label": "Developer · Vai trò",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.3.text",
+      "group": "04 · Đội ngũ AI",
+      "label": "Developer · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "agents.4.name",
+      "group": "04 · Đội ngũ AI",
+      "label": "Marketing · Tên",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.4.role",
+      "group": "04 · Đội ngũ AI",
+      "label": "Marketing · Vai trò",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.4.text",
+      "group": "04 · Đội ngũ AI",
+      "label": "Marketing · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "agents.5.name",
+      "group": "04 · Đội ngũ AI",
+      "label": "Ads · Tên",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.5.role",
+      "group": "04 · Đội ngũ AI",
+      "label": "Ads · Vai trò",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.5.text",
+      "group": "04 · Đội ngũ AI",
+      "label": "Ads · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "agents.6.name",
+      "group": "04 · Đội ngũ AI",
+      "label": "CRM · Tên",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.6.role",
+      "group": "04 · Đội ngũ AI",
+      "label": "CRM · Vai trò",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.6.text",
+      "group": "04 · Đội ngũ AI",
+      "label": "CRM · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "agents.7.name",
+      "group": "04 · Đội ngũ AI",
+      "label": "Finance · Tên",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.7.role",
+      "group": "04 · Đội ngũ AI",
+      "label": "Finance · Vai trò",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "agents.7.text",
+      "group": "04 · Đội ngũ AI",
+      "label": "Finance · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "capabilities.0.title",
+      "group": "03 · Khả năng",
+      "label": "Một trợ lý. Nhiều việc hơn. · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.0.subtitle",
+      "group": "03 · Khả năng",
+      "label": "Một trợ lý. Nhiều việc hơn. · Phụ đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.0.text",
+      "group": "03 · Khả năng",
+      "label": "Một trợ lý. Nhiều việc hơn. · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "capabilities.0.status",
+      "group": "03 · Khả năng",
+      "label": "Một trợ lý. Nhiều việc hơn. · Trạng thái",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.1.title",
+      "group": "03 · Khả năng",
+      "label": "Nhìn rõ bức tranh chung · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.1.subtitle",
+      "group": "03 · Khả năng",
+      "label": "Nhìn rõ bức tranh chung · Phụ đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.1.text",
+      "group": "03 · Khả năng",
+      "label": "Nhìn rõ bức tranh chung · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "capabilities.1.status",
+      "group": "03 · Khả năng",
+      "label": "Nhìn rõ bức tranh chung · Trạng thái",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.2.title",
+      "group": "03 · Khả năng",
+      "label": "Đúng vai trò, đúng công việc · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.2.subtitle",
+      "group": "03 · Khả năng",
+      "label": "Đúng vai trò, đúng công việc · Phụ đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.2.text",
+      "group": "03 · Khả năng",
+      "label": "Đúng vai trò, đúng công việc · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "capabilities.2.status",
+      "group": "03 · Khả năng",
+      "label": "Đúng vai trò, đúng công việc · Trạng thái",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.3.title",
+      "group": "03 · Khả năng",
+      "label": "Từ ý tưởng đến kế hoạch · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.3.subtitle",
+      "group": "03 · Khả năng",
+      "label": "Từ ý tưởng đến kế hoạch · Phụ đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.3.text",
+      "group": "03 · Khả năng",
+      "label": "Từ ý tưởng đến kế hoạch · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "capabilities.3.status",
+      "group": "03 · Khả năng",
+      "label": "Từ ý tưởng đến kế hoạch · Trạng thái",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.4.title",
+      "group": "03 · Khả năng",
+      "label": "Hiểu khách hàng hơn · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.4.subtitle",
+      "group": "03 · Khả năng",
+      "label": "Hiểu khách hàng hơn · Phụ đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.4.text",
+      "group": "03 · Khả năng",
+      "label": "Hiểu khách hàng hơn · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "capabilities.4.status",
+      "group": "03 · Khả năng",
+      "label": "Hiểu khách hàng hơn · Trạng thái",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.5.title",
+      "group": "03 · Khả năng",
+      "label": "Công việc có nhịp, có duyệt · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.5.subtitle",
+      "group": "03 · Khả năng",
+      "label": "Công việc có nhịp, có duyệt · Phụ đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.5.text",
+      "group": "03 · Khả năng",
+      "label": "Công việc có nhịp, có duyệt · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "capabilities.5.status",
+      "group": "03 · Khả năng",
+      "label": "Công việc có nhịp, có duyệt · Trạng thái",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.6.title",
+      "group": "03 · Khả năng",
+      "label": "Biến dữ liệu thành góc nhìn · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.6.subtitle",
+      "group": "03 · Khả năng",
+      "label": "Biến dữ liệu thành góc nhìn · Phụ đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.6.text",
+      "group": "03 · Khả năng",
+      "label": "Biến dữ liệu thành góc nhìn · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "capabilities.6.status",
+      "group": "03 · Khả năng",
+      "label": "Biến dữ liệu thành góc nhìn · Trạng thái",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.7.title",
+      "group": "03 · Khả năng",
+      "label": "Tri thức có ngữ cảnh · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.7.subtitle",
+      "group": "03 · Khả năng",
+      "label": "Tri thức có ngữ cảnh · Phụ đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "capabilities.7.text",
+      "group": "03 · Khả năng",
+      "label": "Tri thức có ngữ cảnh · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "capabilities.7.status",
+      "group": "03 · Khả năng",
+      "label": "Tri thức có ngữ cảnh · Trạng thái",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.0.title",
+      "group": "06 · Demo mô phỏng",
+      "label": "Lên kế hoạch marketing · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.0.prompt",
+      "group": "06 · Demo mô phỏng",
+      "label": "Lên kế hoạch marketing · Yêu cầu mẫu",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.0.answer",
+      "group": "06 · Demo mô phỏng",
+      "label": "Lên kế hoạch marketing · Phản hồi mẫu",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "demoScenarios.0.result",
+      "group": "06 · Demo mô phỏng",
+      "label": "Lên kế hoạch marketing · Kết quả mẫu",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.0.steps.0",
+      "group": "06 · Demo mô phỏng",
+      "label": "Kịch bản 1 · Bước 1",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.0.steps.1",
+      "group": "06 · Demo mô phỏng",
+      "label": "Kịch bản 1 · Bước 2",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.0.steps.2",
+      "group": "06 · Demo mô phỏng",
+      "label": "Kịch bản 1 · Bước 3",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.1.title",
+      "group": "06 · Demo mô phỏng",
+      "label": "Sắp xếp công việc hôm nay · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.1.prompt",
+      "group": "06 · Demo mô phỏng",
+      "label": "Sắp xếp công việc hôm nay · Yêu cầu mẫu",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.1.answer",
+      "group": "06 · Demo mô phỏng",
+      "label": "Sắp xếp công việc hôm nay · Phản hồi mẫu",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "demoScenarios.1.result",
+      "group": "06 · Demo mô phỏng",
+      "label": "Sắp xếp công việc hôm nay · Kết quả mẫu",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.1.steps.0",
+      "group": "06 · Demo mô phỏng",
+      "label": "Kịch bản 2 · Bước 1",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.1.steps.1",
+      "group": "06 · Demo mô phỏng",
+      "label": "Kịch bản 2 · Bước 2",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.1.steps.2",
+      "group": "06 · Demo mô phỏng",
+      "label": "Kịch bản 2 · Bước 3",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.2.title",
+      "group": "06 · Demo mô phỏng",
+      "label": "Xem AI phối hợp · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.2.prompt",
+      "group": "06 · Demo mô phỏng",
+      "label": "Xem AI phối hợp · Yêu cầu mẫu",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.2.answer",
+      "group": "06 · Demo mô phỏng",
+      "label": "Xem AI phối hợp · Phản hồi mẫu",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "demoScenarios.2.result",
+      "group": "06 · Demo mô phỏng",
+      "label": "Xem AI phối hợp · Kết quả mẫu",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.2.steps.0",
+      "group": "06 · Demo mô phỏng",
+      "label": "Kịch bản 3 · Bước 1",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.2.steps.1",
+      "group": "06 · Demo mô phỏng",
+      "label": "Kịch bản 3 · Bước 2",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.2.steps.2",
+      "group": "06 · Demo mô phỏng",
+      "label": "Kịch bản 3 · Bước 3",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "graphNodes.0.title",
+      "group": "07 · Tri thức",
+      "label": "Dự án · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "graphNodes.0.detail",
+      "group": "07 · Tri thức",
+      "label": "Dự án · Chi tiết",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "graphNodes.1.title",
+      "group": "07 · Tri thức",
+      "label": "Công việc · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "graphNodes.1.detail",
+      "group": "07 · Tri thức",
+      "label": "Công việc · Chi tiết",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "graphNodes.2.title",
+      "group": "07 · Tri thức",
+      "label": "AI Agents · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "graphNodes.2.detail",
+      "group": "07 · Tri thức",
+      "label": "AI Agents · Chi tiết",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "graphNodes.3.title",
+      "group": "07 · Tri thức",
+      "label": "Tri thức · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "graphNodes.3.detail",
+      "group": "07 · Tri thức",
+      "label": "Tri thức · Chi tiết",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "graphNodes.4.title",
+      "group": "07 · Tri thức",
+      "label": "Khách hàng · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "graphNodes.4.detail",
+      "group": "07 · Tri thức",
+      "label": "Khách hàng · Chi tiết",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "graphNodes.5.title",
+      "group": "07 · Tri thức",
+      "label": "Marketing · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "graphNodes.5.detail",
+      "group": "07 · Tri thức",
+      "label": "Marketing · Chi tiết",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "graphNodes.6.title",
+      "group": "07 · Tri thức",
+      "label": "Vận hành · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "graphNodes.6.detail",
+      "group": "07 · Tri thức",
+      "label": "Vận hành · Chi tiết",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "graphNodes.7.title",
+      "group": "07 · Tri thức",
+      "label": "Báo cáo · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "graphNodes.7.detail",
+      "group": "07 · Tri thức",
+      "label": "Báo cáo · Chi tiết",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "faqs.0.0",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 1 · Câu hỏi",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "faqs.0.1",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 1 · Trả lời",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "faqs.1.0",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 2 · Câu hỏi",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "faqs.1.1",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 2 · Trả lời",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "faqs.2.0",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 3 · Câu hỏi",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "faqs.2.1",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 3 · Trả lời",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "faqs.3.0",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 4 · Câu hỏi",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "faqs.3.1",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 4 · Trả lời",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "faqs.4.0",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 5 · Câu hỏi",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "faqs.4.1",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 5 · Trả lời",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "faqs.5.0",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 6 · Câu hỏi",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "faqs.5.1",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 6 · Trả lời",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "faqs.6.0",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 7 · Câu hỏi",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "faqs.6.1",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 7 · Trả lời",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "faqs.7.0",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 8 · Câu hỏi",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "faqs.7.1",
+      "group": "10 · Câu hỏi",
+      "label": "Câu 8 · Trả lời",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "navItems.0.label",
+      "group": "00 · Điều hướng",
+      "label": "Mục menu 1",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "navItems.1.label",
+      "group": "00 · Điều hướng",
+      "label": "Mục menu 2",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "navItems.2.label",
+      "group": "00 · Điều hướng",
+      "label": "Mục menu 3",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "navItems.3.label",
+      "group": "00 · Điều hướng",
+      "label": "Mục menu 4",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "navItems.4.label",
+      "group": "00 · Điều hướng",
+      "label": "Mục menu 5",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.1",
+      "group": "01 · Trang đầu",
+      "label": "AI BUSINESS OPERATING SYSTEM",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.2",
+      "group": "01 · Trang đầu",
+      "label": "Meet",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.3",
+      "group": "01 · Trang đầu",
+      "label": "PAO.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.4",
+      "group": "01 · Trang đầu",
+      "label": "Your AI",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.5",
+      "group": "01 · Trang đầu",
+      "label": "Chief of Staff.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.6",
+      "group": "01 · Trang đầu",
+      "label": "Một hệ điều hành thông minh giúp bạn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.7",
+      "group": "01 · Trang đầu",
+      "label": "lập kế hoạch, điều phối và phát triển doanh nghiệp.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.8",
+      "group": "01 · Trang đầu",
+      "label": "One intelligent operating system to help you plan, manage, and gr",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.9",
+      "group": "01 · Trang đầu",
+      "label": "Khám phá PAO",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.10",
+      "group": "01 · Trang đầu",
+      "label": "Tìm hiểu khả năng",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.11",
+      "group": "01 · Trang đầu",
+      "label": "Ngữ cảnh doanh nghiệp",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.12",
+      "group": "01 · Trang đầu",
+      "label": "AI phối hợp",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.13",
+      "group": "01 · Trang đầu",
+      "label": "Bạn kiểm soát",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.14",
+      "group": "01 · Trang đầu",
+      "label": "PAO INTELLIGENCE",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.15",
+      "group": "01 · Trang đầu",
+      "label": "Tư duy có ngữ cảnh",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.16",
+      "group": "01 · Trang đầu",
+      "label": "Hiểu việc. Kết nối tri thức.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.17",
+      "group": "01 · Trang đầu",
+      "label": "Một đội ngũ AI",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.18",
+      "group": "01 · Trang đầu",
+      "label": "Cùng hướng đến mục tiêu.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.19",
+      "group": "01 · Trang đầu",
+      "label": "NHÂN VẬT AI MINH HỌA",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.20",
+      "group": "01 · Trang đầu",
+      "label": "DESIGNED FOR BUSINESS",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.21",
+      "group": "01 · Trang đầu",
+      "label": "Cuộn để khám phá",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.22",
+      "group": "01 · Trang đầu",
+      "label": "DEVELOPED BY",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trang-chu.copy.23",
+      "group": "01 · Trang đầu",
+      "label": "IVN MEDIA",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "gioi-thieu.heading.1",
+      "group": "02 · Giới thiệu",
+      "label": "Số mục / nhãn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "gioi-thieu.heading.2",
+      "group": "02 · Giới thiệu",
+      "label": "Tiêu đề mục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "gioi-thieu.heading.3",
+      "group": "02 · Giới thiệu",
+      "label": "Tiêu đề nhấn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "gioi-thieu.heading.4",
+      "group": "02 · Giới thiệu",
+      "label": "Mô tả mục",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "kha-nang.heading.1",
+      "group": "03 · Khả năng",
+      "label": "Số mục / nhãn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "kha-nang.heading.2",
+      "group": "03 · Khả năng",
+      "label": "Tiêu đề mục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "kha-nang.heading.3",
+      "group": "03 · Khả năng",
+      "label": "Tiêu đề nhấn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "kha-nang.copy.1",
+      "group": "03 · Khả năng",
+      "label": "Một hệ thống, nhiều điểm chạm.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "kha-nang.copy.2",
+      "group": "03 · Khả năng",
+      "label": "Khám phá những khả năng PAO đang xây dựng cho doanh nghiệp.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "kha-nang.copy.3",
+      "group": "03 · Khả năng",
+      "label": "PAO, bắt đầu từ đâu?",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "kha-nang.copy.4",
+      "group": "03 · Khả năng",
+      "label": "Hãy cùng làm rõ mục tiêu của bạn.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "kha-nang.copy.5",
+      "group": "03 · Khả năng",
+      "label": "Minh họa",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "kha-nang.copy.6",
+      "group": "03 · Khả năng",
+      "label": "“Đã kiểm thử local” chỉ phạm vi đã nghiệm thu trên môi trường cục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "doi-ngu.heading.1",
+      "group": "04 · Đội ngũ AI",
+      "label": "Số mục / nhãn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "doi-ngu.heading.2",
+      "group": "04 · Đội ngũ AI",
+      "label": "Tiêu đề mục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "doi-ngu.heading.3",
+      "group": "04 · Đội ngũ AI",
+      "label": "Tiêu đề nhấn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "doi-ngu.heading.4",
+      "group": "04 · Đội ngũ AI",
+      "label": "Mô tả mục",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "doi-ngu.copy.1",
+      "group": "04 · Đội ngũ AI",
+      "label": "Phân công theo nhiệm vụ",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "doi-ngu.copy.2",
+      "group": "04 · Đội ngũ AI",
+      "label": "Kết quả có bước xem xét",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "doi-ngu.copy.3",
+      "group": "04 · Đội ngũ AI",
+      "label": "Quyền được kiểm soát riêng",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "doi-ngu.copy.4",
+      "group": "04 · Đội ngũ AI",
+      "label": "Sơ đồ vai trò minh họa. Không xác nhận tất cả agent đã được triển",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "san-pham.heading.1",
+      "group": "05 · Sản phẩm",
+      "label": "Số mục / nhãn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "san-pham.heading.2",
+      "group": "05 · Sản phẩm",
+      "label": "Tiêu đề mục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "san-pham.heading.3",
+      "group": "05 · Sản phẩm",
+      "label": "Tiêu đề nhấn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "san-pham.heading.4",
+      "group": "05 · Sản phẩm",
+      "label": "Mô tả mục",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "trai-nghiem.heading.1",
+      "group": "06 · Demo mô phỏng",
+      "label": "Số mục / nhãn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trai-nghiem.heading.2",
+      "group": "06 · Demo mô phỏng",
+      "label": "Tiêu đề mục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trai-nghiem.heading.3",
+      "group": "06 · Demo mô phỏng",
+      "label": "Tiêu đề nhấn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "trai-nghiem.copy.1",
+      "group": "06 · Demo mô phỏng",
+      "label": "Chọn một tình huống để khám phá cách PAO có thể hỗ trợ công việc ",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "tri-thuc.heading.1",
+      "group": "07 · Tri thức",
+      "label": "Số mục / nhãn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "tri-thuc.heading.2",
+      "group": "07 · Tri thức",
+      "label": "Tiêu đề mục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "tri-thuc.heading.3",
+      "group": "07 · Tri thức",
+      "label": "Tiêu đề nhấn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "tri-thuc.heading.4",
+      "group": "07 · Tri thức",
+      "label": "Mô tả mục",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "quy-trinh.heading.1",
+      "group": "08 · Quy trình",
+      "label": "Số mục / nhãn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.heading.2",
+      "group": "08 · Quy trình",
+      "label": "Tiêu đề mục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.heading.3",
+      "group": "08 · Quy trình",
+      "label": "Tiêu đề nhấn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.copy.1",
+      "group": "08 · Quy trình",
+      "label": "0",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.copy.2",
+      "group": "08 · Quy trình",
+      "label": "Quy trình minh họa. Hành động thực tế phụ thuộc quyền, cấu hình v",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.copy.1",
+      "group": "09 · Quyền kiểm soát",
+      "label": "YOUR BUSINESS. YOUR CONTEXT.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.copy.2",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Quyền truy cập theo doanh nghiệp",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.heading.1",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Số mục / nhãn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.heading.2",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Tiêu đề mục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.heading.3",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Tiêu đề nhấn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.heading.4",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Mô tả mục",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "bao-mat.copy.3",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Thông tin về website và dữ liệu",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "cau-hoi.heading.1",
+      "group": "10 · Câu hỏi",
+      "label": "Số mục / nhãn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "cau-hoi.heading.2",
+      "group": "10 · Câu hỏi",
+      "label": "Tiêu đề mục",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "cau-hoi.heading.3",
+      "group": "10 · Câu hỏi",
+      "label": "Tiêu đề nhấn",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "cau-hoi.heading.4",
+      "group": "10 · Câu hỏi",
+      "label": "Mô tả mục",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "cau-hoi.copy.1",
+      "group": "10 · Câu hỏi",
+      "label": "Trao đổi với IVN Media",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "cau-hoi.copy.2",
+      "group": "10 · Câu hỏi",
+      "label": "0",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "cau-hoi.copy.3",
+      "group": "10 · Câu hỏi",
+      "label": "+",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "lien-he.copy.1",
+      "group": "11 · Liên hệ",
+      "label": "LET’S BUILD WHAT’S NEXT",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "lien-he.copy.2",
+      "group": "11 · Liên hệ",
+      "label": "Doanh nghiệp thông minh hơn.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "lien-he.copy.3",
+      "group": "11 · Liên hệ",
+      "label": "Bắt đầu cùng PAO.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "lien-he.copy.4",
+      "group": "11 · Liên hệ",
+      "label": "Tìm hiểu cách PAO có thể đồng hành với doanh nghiệp của bạn.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "lien-he.copy.5",
+      "group": "11 · Liên hệ",
+      "label": "Liên hệ IVN Media",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "lien-he.copy.6",
+      "group": "11 · Liên hệ",
+      "label": "Trải nghiệm mô phỏng",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.1",
+      "group": "12 · Chân trang",
+      "label": "Your AI Chief of Staff.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.2",
+      "group": "12 · Chân trang",
+      "label": "Developed by",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.3",
+      "group": "12 · Chân trang",
+      "label": "IVN Media",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.4",
+      "group": "12 · Chân trang",
+      "label": "Khám phá PAO",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.5",
+      "group": "12 · Chân trang",
+      "label": "Giới thiệu",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.6",
+      "group": "12 · Chân trang",
+      "label": "Khả năng",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.7",
+      "group": "12 · Chân trang",
+      "label": "Sản phẩm",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.8",
+      "group": "12 · Chân trang",
+      "label": "Demo mô phỏng",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.9",
+      "group": "12 · Chân trang",
+      "label": "Công ty cổ phần công nghệ truyền thông IVN Media",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.10",
+      "group": "12 · Chân trang",
+      "label": "IVN Media Joint Stock Company",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.11",
+      "group": "12 · Chân trang",
+      "label": "No 06 Viet Thang, Viet Hung,",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.12",
+      "group": "12 · Chân trang",
+      "label": "Quang Ninh City",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.15",
+      "group": "12 · Chân trang",
+      "label": "© 2026 IVN Media. PAO OS.",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.16",
+      "group": "12 · Chân trang",
+      "label": "Business Operating Systems for SME",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "footer.copy.17",
+      "group": "12 · Chân trang",
+      "label": "Website & dữ liệu",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "gioi-thieu.items.0.0.1",
+      "group": "02 · Giới thiệu",
+      "label": "Nội dung 1 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "gioi-thieu.items.0.0.2",
+      "group": "02 · Giới thiệu",
+      "label": "Nội dung 1 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "gioi-thieu.items.0.1.1",
+      "group": "02 · Giới thiệu",
+      "label": "Nội dung 2 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "gioi-thieu.items.0.1.2",
+      "group": "02 · Giới thiệu",
+      "label": "Nội dung 2 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "gioi-thieu.items.0.2.1",
+      "group": "02 · Giới thiệu",
+      "label": "Nội dung 3 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "gioi-thieu.items.0.2.2",
+      "group": "02 · Giới thiệu",
+      "label": "Nội dung 3 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "gioi-thieu.items.0.3.1",
+      "group": "02 · Giới thiệu",
+      "label": "Nội dung 4 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "gioi-thieu.items.0.3.2",
+      "group": "02 · Giới thiệu",
+      "label": "Nội dung 4 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "quy-trinh.items.1.0.1",
+      "group": "08 · Quy trình",
+      "label": "Bước 1 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.items.1.0.2",
+      "group": "08 · Quy trình",
+      "label": "Bước 1 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "quy-trinh.items.1.1.1",
+      "group": "08 · Quy trình",
+      "label": "Bước 2 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.items.1.1.2",
+      "group": "08 · Quy trình",
+      "label": "Bước 2 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "quy-trinh.items.1.2.1",
+      "group": "08 · Quy trình",
+      "label": "Bước 3 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.items.1.2.2",
+      "group": "08 · Quy trình",
+      "label": "Bước 3 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "quy-trinh.items.1.3.1",
+      "group": "08 · Quy trình",
+      "label": "Bước 4 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.items.1.3.2",
+      "group": "08 · Quy trình",
+      "label": "Bước 4 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "quy-trinh.items.1.4.1",
+      "group": "08 · Quy trình",
+      "label": "Bước 5 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.items.1.4.2",
+      "group": "08 · Quy trình",
+      "label": "Bước 5 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "quy-trinh.items.1.5.1",
+      "group": "08 · Quy trình",
+      "label": "Bước 6 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "quy-trinh.items.1.5.2",
+      "group": "08 · Quy trình",
+      "label": "Bước 6 · Mô tả",
+      "type": "textarea",
+      "maxLength": 6000
+    },
+    {
+      "id": "bao-mat.items.2.0.0",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Nội dung 1 · Mô tả",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.items.2.0.1",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Nội dung 1 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.items.2.1.0",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Nội dung 2 · Mô tả",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.items.2.1.1",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Nội dung 2 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.items.2.2.0",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Nội dung 3 · Mô tả",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.items.2.2.1",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Nội dung 3 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.items.2.3.0",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Nội dung 4 · Mô tả",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "bao-mat.items.2.3.1",
+      "group": "09 · Quyền kiểm soát",
+      "label": "Nội dung 4 · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "images.hero",
+      "group": "01 · Trang đầu",
+      "label": "Ảnh nhân vật PAO",
+      "type": "image",
+      "maxLength": 3000000
+    },
+    {
+      "id": "images.hero.alt",
+      "group": "01 · Trang đầu",
+      "label": "Mô tả ảnh nhân vật",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "images.primary",
+      "group": "00 · Điều hướng",
+      "label": "Logo chính",
+      "type": "image",
+      "maxLength": 3000000
+    },
+    {
+      "id": "images.secondary",
+      "group": "12 · Chân trang",
+      "label": "Logo phụ",
+      "type": "image",
+      "maxLength": 3000000
+    },
+    {
+      "id": "links.hero.primary",
+      "group": "01 · Trang đầu",
+      "label": "Nút chính · Đích đến",
+      "type": "link",
+      "maxLength": 1200
+    },
+    {
+      "id": "links.hero.secondary",
+      "group": "01 · Trang đầu",
+      "label": "Nút phụ · Đích đến",
+      "type": "link",
+      "maxLength": 1200
+    },
+    {
+      "id": "contact.email.link",
+      "group": "11 · Liên hệ",
+      "label": "Liên kết email (dùng chung)",
+      "type": "link",
+      "maxLength": 1200
+    },
+    {
+      "id": "contact.phone.link",
+      "group": "11 · Liên hệ",
+      "label": "Liên kết điện thoại (dùng chung)",
+      "type": "link",
+      "maxLength": 1200
+    },
+    {
+      "id": "nav.cta",
+      "group": "00 · Điều hướng",
+      "label": "Nút liên hệ",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "background.mode",
+      "group": "13 · Hiệu ứng nền",
+      "label": "Hiệu ứng nền",
+      "type": "select",
+      "maxLength": 1200,
+      "options": [
+        {
+          "value": "ghost",
+          "label": "Ghost Fibers"
+        },
+        {
+          "value": "off",
+          "label": "Nền tĩnh"
+        }
+      ]
+    },
+    {
+      "id": "background.speed",
+      "group": "13 · Hiệu ứng nền",
+      "label": "Tốc độ chuyển động",
+      "type": "number",
+      "maxLength": 1200,
+      "min": 0.05,
+      "max": 1,
+      "step": 0.01
+    },
+    {
+      "id": "background.opacity",
+      "group": "13 · Hiệu ứng nền",
+      "label": "Độ đậm (desktop)",
+      "type": "number",
+      "maxLength": 1200,
+      "min": 0.1,
+      "max": 1,
+      "step": 0.01
+    },
+    {
+      "id": "background.glow",
+      "group": "13 · Hiệu ứng nền",
+      "label": "Màu ánh sáng",
+      "type": "color",
+      "maxLength": 1200
+    },
+    {
+      "id": "background.line",
+      "group": "13 · Hiệu ứng nền",
+      "label": "Màu sợi",
+      "type": "color",
+      "maxLength": 1200
+    },
+    {
+      "id": "background.secondary",
+      "group": "13 · Hiệu ứng nền",
+      "label": "Màu phụ",
+      "type": "color",
+      "maxLength": 1200
+    },
+    {
+      "id": "seo.title",
+      "group": "14 · Tìm kiếm & chia sẻ",
+      "label": "Tiêu đề trên trình duyệt / tìm kiếm",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "seo.description",
+      "group": "14 · Tìm kiếm & chia sẻ",
+      "label": "Mô tả tìm kiếm",
+      "type": "textarea",
+      "maxLength": 500
+    },
+    {
+      "id": "contact.email",
+      "label": "Email hiển thị (dùng chung)",
+      "group": "11 · Liên hệ",
+      "type": "text",
+      "maxLength": 150
+    },
+    {
+      "id": "contact.phone",
+      "label": "Hotline hiển thị (dùng chung)",
+      "group": "11 · Liên hệ",
+      "type": "text",
+      "maxLength": 150
+    },
+    {
+      "id": "hero.automation.title",
+      "group": "01 · Trang đầu",
+      "label": "Ô tự động hóa · Tiêu đề",
+      "type": "text",
+      "maxLength": 120
+    },
+    {
+      "id": "hero.automation.text",
+      "group": "01 · Trang đầu",
+      "label": "Ô tự động hóa · Mô tả",
+      "type": "textarea",
+      "maxLength": 400
+    },
+    {
+      "id": "demoScenarios.3.title",
+      "group": "06 · Demo mô phỏng",
+      "label": "Triển khai & giám sát quảng cáo tự động · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.3.prompt",
+      "group": "06 · Demo mô phỏng",
+      "label": "Triển khai & giám sát quảng cáo tự động · Mục tiêu",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.3.result",
+      "group": "06 · Demo mô phỏng",
+      "label": "Triển khai & giám sát quảng cáo tự động · Kết quả",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.3.steps.0",
+      "group": "06 · Demo mô phỏng",
+      "label": "Triển khai & giám sát quảng cáo tự động · Bước 1",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.3.steps.1",
+      "group": "06 · Demo mô phỏng",
+      "label": "Triển khai & giám sát quảng cáo tự động · Bước 2",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.3.steps.2",
+      "group": "06 · Demo mô phỏng",
+      "label": "Triển khai & giám sát quảng cáo tự động · Bước 3",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.4.title",
+      "group": "06 · Demo mô phỏng",
+      "label": "Omni-channel đa kênh cùng agent · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.4.prompt",
+      "group": "06 · Demo mô phỏng",
+      "label": "Omni-channel đa kênh cùng agent · Mục tiêu",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.4.result",
+      "group": "06 · Demo mô phỏng",
+      "label": "Omni-channel đa kênh cùng agent · Kết quả",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.4.steps.0",
+      "group": "06 · Demo mô phỏng",
+      "label": "Omni-channel đa kênh cùng agent · Bước 1",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.4.steps.1",
+      "group": "06 · Demo mô phỏng",
+      "label": "Omni-channel đa kênh cùng agent · Bước 2",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.4.steps.2",
+      "group": "06 · Demo mô phỏng",
+      "label": "Omni-channel đa kênh cùng agent · Bước 3",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.5.title",
+      "group": "06 · Demo mô phỏng",
+      "label": "Phân công sales qua Sales pipeline · Tiêu đề",
+      "type": "text",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.5.prompt",
+      "group": "06 · Demo mô phỏng",
+      "label": "Phân công sales qua Sales pipeline · Mục tiêu",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.5.result",
+      "group": "06 · Demo mô phỏng",
+      "label": "Phân công sales qua Sales pipeline · Kết quả",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.5.steps.0",
+      "group": "06 · Demo mô phỏng",
+      "label": "Phân công sales qua Sales pipeline · Bước 1",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.5.steps.1",
+      "group": "06 · Demo mô phỏng",
+      "label": "Phân công sales qua Sales pipeline · Bước 2",
+      "type": "textarea",
+      "maxLength": 1200
+    },
+    {
+      "id": "demoScenarios.5.steps.2",
+      "group": "06 · Demo mô phỏng",
+      "label": "Phân công sales qua Sales pipeline · Bước 3",
+      "type": "textarea",
+      "maxLength": 1200
+    }
+  ]
+}

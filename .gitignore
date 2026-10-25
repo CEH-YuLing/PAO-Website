@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+evidence/*.html
+evidence/*.json
+evidence/*.png
+backups/
+
+delivery/
+*.log
+.DS_Store
+Thumbs.db
+.editor/
+.runtime/
+
+# Next.js temporary configuration artifacts
+*.next.config*
+next.config.compiled.*
