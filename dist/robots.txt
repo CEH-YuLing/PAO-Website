@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /editor/
+
+Sitemap: https://pao-os.com/sitemap.xml

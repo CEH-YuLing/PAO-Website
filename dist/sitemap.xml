@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://pao-os.com/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://pao-os.com/privacy/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/privacy/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/privacy/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/privacy/" />
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://pao-os.com/en/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://pao-os.com/en/privacy/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/privacy/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/privacy/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/privacy/" />
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://pao-os.com/zh/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/" />
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://pao-os.com/zh/privacy/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/privacy/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/privacy/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/privacy/" />
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+</urlset>
