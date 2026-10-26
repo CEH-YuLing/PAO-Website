@@ -346,3 +346,13 @@ html[data-editor-picking] .hero-typing .typing-char{visibility:visible!important
 .privacy-policy a:focus-visible{outline:2px solid #58d7ff;outline-offset:5px;border-radius:3px}
 @media(max-width:800px){.privacy-layout{grid-template-columns:1fr;gap:36px}.privacy-toc{position:static}.privacy-toc ol{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:20px}.privacy-heading{margin-bottom:30px}.privacy-policy .legal-nav{margin-bottom:38px}}
 @media(max-width:480px){.legal-page.privacy-policy{padding-block:26px 60px}.privacy-heading h1{font-size:34px;letter-spacing:-1px}.privacy-heading .legal-lead{font-size:14px}.privacy-toc{padding:19px 14px}.privacy-toc a{font-size:11px;gap:8px}.privacy-toc ol{column-gap:12px}.privacy-policy .privacy-section h2{font-size:21px;gap:11px}.privacy-policy .privacy-section p,.privacy-section li{font-size:14px;line-height:1.85}.privacy-closing{padding:20px}}
+
+/* A compact closing statement beneath the contact actions. */
+.contact-section .contact-card{max-width:1040px;margin-inline:auto;padding:52px 40px 28px;border-radius:16px}
+.contact-section .contact-card h2{font-size:clamp(29px,3.5vw,44px);line-height:1.35;text-wrap:balance}
+.contact-section .contact-card>p{max-width:760px;margin:18px auto 0;line-height:1.85}
+.contact-section .contact-card .button-row{margin-top:26px}
+.contact-slogan{display:flex;justify-content:center;align-items:baseline;flex-wrap:wrap;gap:7px 10px;margin:30px auto 0;padding:21px 8px 0;border-top:1px solid #25466a80;font-size:11px;line-height:1.85;font-weight:600;letter-spacing:1.15px;text-align:center;text-transform:uppercase;color:#a5bbd3;text-wrap:balance}
+.contact-slogan strong{font-weight:650;color:#72d9f5}
+@media(max-width:699px){.contact-section .contact-card{padding:36px 22px 24px;border-radius:12px}.contact-section .contact-card h2{font-size:27px;line-height:1.4}.contact-section .contact-card>p{margin-top:16px}.contact-section .contact-card .button-row{margin-top:23px}.contact-slogan{margin-top:24px;padding:18px 0 0;gap:4px 9px;font-size:10px;letter-spacing:.7px}}
+@media(max-width:379px){.contact-section .contact-card{padding:30px 18px 22px}.contact-section .contact-card h2{font-size:24px;letter-spacing:-.8px}.contact-slogan{font-size:9px;letter-spacing:.5px}}

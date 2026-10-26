@@ -1,3 +1,4 @@
+import ContactSlogan from '@/components/contact-slogan';
 import HeroTypewriter from '@/components/hero-typewriter';
 import TeamContext from '@/components/team-context';
 import FaqGuidance from '@/components/faq-guidance';
@@ -8,7 +9,7 @@ import HeroBackground from '@/components/hero-background';
 import TextMarqueeBand from '@/components/sample-logo-band';
 import LowerStarfield from '@/components/lower-starfield';
 import ProductUseCases from '@/components/product-use-cases';
-import { ArrowDown, ArrowRight, ArrowUpRight, Check, CircleCheck, Layers3, Mail, Phone, ShieldCheck, Sparkles } from 'lucide-react';
+import { ArrowDown, ArrowRight, ArrowUpRight, Check, CircleCheck, Layers3, Phone, ShieldCheck, Sparkles } from 'lucide-react';
 import { AgentTeam, KnowledgeGraph, Navbar, Reveal } from '@/components/experience';
 import { capabilities, faqs } from '@/lib/content';
 import { FeatureIcon } from '@/components/icons';
@@ -62,6 +63,6 @@ export default function Home() {
       <div className="faq-list">{faqs.map(([question], i) => <details key={question} className="faq-item" name="pao-faq"><summary><span className="faq-number"><EditableText field="cau-hoi.copy.2" />{i + 1}</span><h3><EditableText field={`faqs.${i}.0`} /></h3><span className="faq-plus" aria-hidden="true"><EditableText field="cau-hoi.copy.3" /></span></summary><p><EditableText field={`faqs.${i}.1`} /></p></details>)}</div>
     </div></section>
 
-    <section id="lien-he" className="section section-anchor contact-section"><div className="shell"><Reveal><div className="contact-card"><div className="contact-grid" aria-hidden="true" /><span className="eyebrow"><span /><EditableText field="lien-he.copy.1" /></span><h2><EditableText field="lien-he.copy.2" /><br /><span className="text-gradient"><EditableText field="lien-he.copy.3" /></span></h2><p><EditableText field="lien-he.copy.4" /></p><div className="button-row"><a className="button button-primary" href="tel:+84925880088"><EditableText field="lien-he.copy.5" /><Phone size={18} /></a><a className="button button-ghost" href="#trai-nghiem"><EditableText field="lien-he.copy.6" /><ArrowRight size={17} /></a></div><div className="contact-methods"><EditableLink field="contact.email.link"><Mail size={16} /><EditableText field="contact.email" /></EditableLink><EditableLink field="contact.phone.link"><Phone size={16} /><EditableText field="contact.phone" /></EditableLink></div></div></Reveal></div></section>
+    <section id="lien-he" className="section section-anchor contact-section"><div className="shell"><Reveal><div className="contact-card"><div className="contact-grid" aria-hidden="true" /><span className="eyebrow"><span /><EditableText field="lien-he.copy.1" /></span><h2><EditableText field="lien-he.copy.2" /><br /><span className="text-gradient"><EditableText field="lien-he.copy.3" /></span></h2><p><EditableText field="lien-he.copy.4" /></p><div className="button-row"><a className="button button-primary" href="tel:+84925880088"><EditableText field="lien-he.copy.5" /><Phone size={18} /></a><a className="button button-ghost" href="#trai-nghiem"><EditableText field="lien-he.copy.6" /><ArrowRight size={17} /></a></div><ContactSlogan/></div></Reveal></div></section>
   </main><SiteFooter/></div>;
 }
