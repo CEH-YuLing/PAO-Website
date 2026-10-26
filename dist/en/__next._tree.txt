@@ -1,6 +1,4 @@
-:HL["/_next/static/chunks/26ye-k4mex_rh.css","style"]
-:HC["/",""]
-:HL["/_next/static/chunks/1vqcz-tnvs2j-.css","style"]
+:HL["/_next/static/chunks/0rgcffoogrnn3.css","style"]
 2:[["children",{"s":"__PAGE__","h":128}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["editor","privacy"]},"h":65584,"c":"$Q2"}]]
-0:{"b":"16FqlIdsFMstDpIuVDzdl","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"nRbzG_6Hn5bAl4miEapIh","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
