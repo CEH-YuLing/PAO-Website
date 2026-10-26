@@ -55,5 +55,5 @@ export const faqs = [
   ['PAO hỗ trợ marketing như thế nào?', 'PAO hướng tới hỗ trợ brief, kế hoạch, nội dung và đọc báo cáo. Kết nối nền tảng quảng cáo, đăng nội dung hoặc chi tiêu cần quyền và nghiệm thu riêng; các thẻ trên website không xác nhận những hành động đó đang hoạt động.'],
   ['PAO có thay thế nhân viên không?', 'PAO được định hướng làm công cụ hỗ trợ và điều phối. Con người vẫn xác định mục tiêu, cung cấp ngữ cảnh, xem xét chất lượng và quyết định những hành động quan trọng.'],
   ['Dữ liệu doanh nghiệp được bảo vệ thế nào?', 'Thiết kế PAO phân tách ngữ cảnh và quyền theo doanh nghiệp, có kiểm soát truy cập và bước duyệt trong các luồng đã hỗ trợ. Phạm vi dữ liệu gửi tới AI phụ thuộc nguồn và nhà cung cấp được chọn. Không coi nghiệm thu local là chứng nhận bảo mật production.'],
-  ['Làm thế nào để tìm hiểu hoặc trải nghiệm PAO?', 'Bạn có thể dùng demo mô phỏng ngay trên trang hoặc liên hệ IVN Media qua cs@pao-os.com và hotline 0925.88.00.00 để trao đổi về sản phẩm. Website chưa cung cấp đăng ký tài khoản hoặc cam kết lịch mở bán.'],
+  ['Làm thế nào để tìm hiểu hoặc trải nghiệm PAO?', 'Bạn có thể dùng demo mô phỏng ngay trên trang hoặc liên hệ IVN Media qua cs@pao-os.com và hotline 0925880088 để trao đổi về sản phẩm. Website chưa cung cấp đăng ký tài khoản hoặc cam kết lịch mở bán.'],
 ] as const;

@@ -12,10 +12,10 @@ const labels = {
 };
 
 function inline(text: string): ReactNode {
-  return text.split(/(\*\*.*?\*\*|cs@pao-os\.com|0925\.88\.00\.00|0921\.88\.00\.88)/g).map((part, i) => {
+  return text.split(/(\*\*.*?\*\*|cs@pao-os\.com|0925880088)/g).map((part, i) => {
     if (part.startsWith('**') && part.endsWith('**')) return <strong key={i}>{inline(part.slice(2, -2))}</strong>;
     if (part === 'cs@pao-os.com') return <a key={i} href="mailto:cs@pao-os.com">{part}</a>;
-    if (/^092[15]\./.test(part)) return <a key={i} href={`tel:+84${part.replaceAll('.', '').slice(1)}`}>{part}</a>;
+    if (part === '0925880088') return <a key={i} href={`tel:+84${part.replaceAll('.', '').slice(1)}`}>{part}</a>;
     return part;
   });
 }
