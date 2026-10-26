@@ -68,15 +68,16 @@ export function EditableText({ field }: { field: string }) {
   const { values, preview } = useContext(ContentContext);
   return preview ? <span className="editor-copy" data-edit-field={field}>{values[field]}</span> : <>{values[field]}</>;
 }
-export function EditableImage({ field, altField, alt, ...props }: Omit<ImgHTMLAttributes<HTMLImageElement>, 'src'> & { field: string; altField?: string }) {
+export function EditableImage({ field, altField, alt, original, defaultSrc, defaultSrcSet, ...props }: Omit<ImgHTMLAttributes<HTMLImageElement>, 'src'> & { field: string; altField?: string; original?: string; defaultSrc?: string; defaultSrcSet?: string }) {
   const { values, preview } = useContext(ContentContext);
   // Native img is intentional: uploaded data URLs and static export paths need no image server.
   // eslint-disable-next-line @next/next/no-img-element
-  return <img {...props} src={values[field]} alt={altField ? values[altField] : alt} data-edit-field={preview ? field : undefined} />;
+  return <img {...props} src={values[field] === original ? defaultSrc : values[field] === '/brand/pao-primary-200.webp' ? '/brand/pao-primary-v2-200.webp' : values[field]} srcSet={values[field] === original ? defaultSrcSet : undefined} alt={altField ? values[altField] : alt} data-edit-field={preview ? field : undefined} />;
 }
-export function EditableSource({ field, original, fallback, media }: { field: string; original: string; fallback: string; media: string }) {
+export function EditableSource({ field, original, fallback, media, sizes, type }: { field: string; original: string; fallback: string; media: string; sizes?: string; type?: string }) {
   const value = useContentValue(field);
-  return <source media={media} srcSet={value === original ? fallback : value} />;
+  if (type && value !== original) return null;
+  return <source type={type} media={media} sizes={sizes} srcSet={value === original ? fallback : value} />;
 }
 export function EditableLink({ field, children, ...props }: Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'> & { field: string }) {
   const { values, preview } = useContext(ContentContext);

@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import type { Viewport } from 'next';
 import { notFound } from 'next/navigation';
-import '@fontsource-variable/manrope';
+import '../manrope.css';
 import '../globals.css';
 import SiteShell, { getSiteMetadata } from '@/components/site-shell';
 export const dynamicParams=false;
