@@ -46,6 +46,8 @@
 /* Ghost Fibers / React Bits — decorative Hero layer, PAO palette. */
 .hero-ghost-background{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.72;mask-image:linear-gradient(90deg,#0007,#000 58%,#000);contain:strict}
 .hero-ghost-background>div{position:absolute;inset:0}
+.hero-ghost-background:before{content:'';position:absolute;inset:0;background:url('/images/pao-fibers-static.svg') center/cover no-repeat;opacity:.5;pointer-events:none}
+.hero-ghost-background:has([data-ghost-state=running]):before,.hero-ghost-background:has([data-ghost-state=paused]):before,.hero-ghost-background:has([data-ghost-state=static-performance]):before{opacity:0}
 .hero-ghost-background:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#030b1e 0%,transparent 22%,transparent 86%,#030b1e88 100%);pointer-events:none}
 .hero:has(.hero-ghost-background) .hero-grid{opacity:.07}
 .hero:has(.hero-ghost-background) .hero-inner,.hero:has(.hero-ghost-background) .hero-bottom{z-index:1}
@@ -92,6 +94,14 @@ html{scroll-padding-top:76px}.site-header{text-transform:uppercase}.site-header 
 .logo-band{border-bottom:1px solid var(--line);background:var(--navy);overflow:hidden}
 .logo-band-inner{position:relative;display:flex;align-items:center;gap:14px;min-height:54px;padding:5px clamp(16px,2.5vw,48px)}
 .logo-band .text-marquee-loop{flex:1;min-width:0;color:#8190a9}
+.text-marquee-viewport{flex:1;min-width:0;overflow:hidden;color:#8190a9;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);touch-action:pan-y;user-select:none;cursor:grab}
+.text-marquee-viewport:active{cursor:grabbing}
+.text-marquee-track{display:flex;width:max-content;will-change:transform}
+.text-marquee-track[data-ready=true]{animation:pao-marquee var(--marquee-duration,40s) linear infinite}
+.text-marquee-group{display:flex;align-items:center;gap:56px;flex-shrink:0;list-style:none;padding:0 56px 0 0;margin:0}
+.text-marquee-track[data-paused=true],.text-marquee-viewport:hover .text-marquee-track,.text-marquee-viewport:focus-within .text-marquee-track{animation-play-state:paused}
+@keyframes pao-marquee{from{transform:translateX(calc(-1 * var(--marquee-period,2000px) + var(--marquee-shift,0px)))}to{transform:translateX(calc(-2 * var(--marquee-period,2000px) + var(--marquee-shift,0px)))}}
+@media(prefers-reduced-motion:reduce){.text-marquee-track[data-ready=true]{animation:none;transform:none}}
 .marquee-word{display:block;white-space:nowrap;text-transform:uppercase;font-size:clamp(13px,1.05vw,16px);font-weight:750;letter-spacing:.12em;line-height:1.5;transition:color .2s ease,text-shadow .2s ease}
 .marquee-word:hover{color:#a2eaff;text-shadow:0 0 18px #00b9ff30}
 .logo-band-pause{display:grid;place-items:center;width:28px;height:28px;flex-shrink:0;color:#8da7c6;background:#0a1930;border:1px solid #203c5b;border-radius:50%;transition:color .2s,border-color .2s}

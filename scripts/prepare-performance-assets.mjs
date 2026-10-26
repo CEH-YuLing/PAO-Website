@@ -2,7 +2,7 @@ import sharp from 'sharp';
 import { copyFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 
 // Regenerate delivery variants only. The approved social cover stays untouched.
-for (const width of [384, 512, 768, 1000]) {
+for (const width of [384, 400, 512, 768, 1000]) {
   await sharp('public/images/pao-chibi-source.png')
     .resize({ width, withoutEnlargement: true })
     .webp({ quality: 76, effort: 6 })

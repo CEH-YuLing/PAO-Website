@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { createAnimationBudget, hasUsefulStarfieldArea } from '@/lib/animation-budget.mjs';
 
 type Star = { x: number; y: number; z: number; phase: number; size: number; tint: number };
 
@@ -30,7 +31,9 @@ export default function LowerStarfield() {
     let scrollRaf = 0;
     let last = 0;
     let time = 0;
+    let needsPaint = true;
     let seed = 82413;
+    const budget = createAnimationBudget();
     const random = () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
     const status = (value: string) => { if (layer.dataset.starfieldState !== value) layer.dataset.starfieldState = value; };
     function reset(star: Star, initial = false) {
@@ -43,6 +46,7 @@ export default function LowerStarfield() {
     }
     function paint(dt: number) {
       if (!context) return;
+      needsPaint = false;
       context.setTransform(ratio, 0, 0, ratio, 0, 0);
       context.clearRect(0, 0, width, height);
       const focal = height * 0.6;
@@ -88,19 +92,22 @@ export default function LowerStarfield() {
       const interval = 1000 / (compact ? 16 : 24);
       if (last && now - last < interval) { raf = requestAnimationFrame(frame); return; }
       const dt = last ? Math.min((now - last) / 1000, 0.08) : 0;
+      const gap = last ? now - last : 0;
       last = now;
       time += dt;
+      const started = performance.now();
       paint(dt);
+      if (budget.record(performance.now() - started, gap)) { status('static-performance'); return; }
       status('running');
       raf = requestAnimationFrame(frame);
     }
-    function wake() { if (!raf && visible && !disposed && !document.hidden) raf = requestAnimationFrame(frame); }
+    function wake() { if (budget.limited) { if (needsPaint && visible && !document.hidden) paint(0); status('static-performance'); return; } if (!raf && visible && !disposed && !document.hidden) raf = requestAnimationFrame(frame); }
     function syncBoundary() {
       scrollRaf = 0;
       if (!layer || !boundary) return;
       const top = Math.max(0, Math.min(height, boundary.getBoundingClientRect().bottom));
       layer.style.setProperty('--lower-bg-clip', `${Math.round(top)}px`);
-      const next = top < height;
+      const next = hasUsefulStarfieldArea(height, top);
       if (next !== visible) { visible = next; last = 0; }
       if (!visible || document.hidden) { cancelAnimationFrame(raf); raf = 0; status(document.hidden ? 'paused' : 'above-boundary'); }
       else wake();
@@ -117,7 +124,7 @@ export default function LowerStarfield() {
         seed = 82413;
         stars = Array.from({length:wanted},()=>{const star = {} as Star;reset(star,true);return star;});
         layer.dataset.starCount = String(wanted);
-        last = 0;paint(0);
+        last = 0;needsPaint = true;
       }
       syncBoundary();
     }

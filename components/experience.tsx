@@ -2,6 +2,7 @@
 
 import LanguageSwitcher, {useT} from './site-language';
 import CrystalMemory from './crystal-memory';
+import { scrollToSection } from '@/lib/section-navigation.mjs';
 import DetailedAgentMap from './detailed-agent-map';
 import { EditableText, EditableImage, useContentCollection } from './site-content';
 
@@ -37,12 +38,11 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
   const toggleRef = useRef<HTMLButtonElement>(null);
   function navigate(event: MouseEvent<HTMLAnchorElement>, href: string) {
-    event.preventDefault();
-    setOpen(false);
-    requestAnimationFrame(() => {
-      document.getElementById(href.slice(1))?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
-      window.history.replaceState(null, '', href); window.dispatchEvent(new Event('hashchange'));
-    });
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    const target = document.getElementById(href.slice(1));
+    if (!target) return;
+    event.preventDefault(); setOpen(false);
+    scrollToSection(target, event.detail === 0);
   }
   useEffect(() => {
     if (!open) return;

@@ -6,6 +6,7 @@
 'use client';
 
 import { useEffect, useRef, type HTMLAttributes } from 'react';
+import { createAnimationBudget, isSoftwareGraphics } from '@/lib/animation-budget.mjs';
 
 export type GhostFibersFiberStyle = 'dots' | 'dashes' | 'lines';
 
@@ -736,6 +737,12 @@ const GhostFibers = ({
       return undefined;
     }
 
+    const debug = gl.getExtension('WEBGL_debug_renderer_info');
+    const rendererName = debug ? gl.getParameter(debug.UNMASKED_RENDERER_WEBGL) : '';
+    if (isSoftwareGraphics(rendererName)) {
+      container.dataset.ghostState = 'fallback';
+      return undefined;
+    }
     const floatTargets = !!gl.getExtension('EXT_color_buffer_float');
     const dots = link(gl, DOT_VERTEX, DOT_FRAGMENT, DOT_UNIFORMS);
     const dust = link(gl, DUST_VERTEX, DOT_FRAGMENT, DUST_UNIFORMS);
@@ -801,6 +808,7 @@ const GhostFibers = ({
     let lastPaint = 0;
     let visible = true;
     let alive = true;
+    const budget = createAnimationBudget();
 
     const toRgb = (value: string, fallback: number[]): number[] => {
       if (!probeContext || !value) return fallback;
@@ -1102,7 +1110,12 @@ const GhostFibers = ({
       }
       state.focus += (focusGoal - state.focus) * (1 - Math.exp(-dt / 0.35));
 
+      const started = performance.now();
       render();
+      if (budget.record(performance.now() - started, elapsed * 1000)) {
+        container.dataset.ghostState = 'static-performance';
+        return;
+      }
       const settling =
         Math.abs(goal - hover.presence) > 0.002 ||
         Math.abs(lookX - look.x) > 0.0002 ||
@@ -1114,6 +1127,7 @@ const GhostFibers = ({
     };
 
     const wake = () => {
+      if (budget.limited) { container.dataset.ghostState = 'static-performance'; return; }
       if (!raf && alive && visible && !document.hidden) raf = requestAnimationFrame(frame);
     };
 
