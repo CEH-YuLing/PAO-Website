@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 850" fill="none">
+  <defs>
+    <linearGradient id="light" x1="0" y1="700" x2="1500" y2="80" gradientUnits="userSpaceOnUse"><stop stop-color="#006bff" stop-opacity="0"/><stop offset=".35" stop-color="#087de7" stop-opacity=".45"/><stop offset=".68" stop-color="#29c9ef" stop-opacity=".8"/><stop offset="1" stop-color="#126df5" stop-opacity=".1"/></linearGradient>
+    <path id="fiber" d="M-100 720C170 680 330 140 710 255S1130 750 1430 300S1720 170 1790 70"/>
+  </defs>
+  <g stroke="url(#light)" stroke-width="1">
+    <use href="#fiber" transform="translate(0 -114)"/><use href="#fiber" transform="translate(0 -102)"/>
+    <use href="#fiber" transform="translate(0 -90)"/><use href="#fiber" transform="translate(0 -78)"/>
+    <use href="#fiber" transform="translate(0 -66)"/><use href="#fiber" transform="translate(0 -54)"/>
+    <use href="#fiber" transform="translate(0 -42)"/><use href="#fiber" transform="translate(0 -30)"/>
+    <use href="#fiber" transform="translate(0 -18)"/><use href="#fiber" transform="translate(0 -6)"/>
+    <use href="#fiber" transform="translate(0 6)"/><use href="#fiber" transform="translate(0 18)"/>
+    <use href="#fiber" transform="translate(0 30)"/><use href="#fiber" transform="translate(0 42)"/>
+    <use href="#fiber" transform="translate(0 54)"/><use href="#fiber" transform="translate(0 66)"/>
+    <use href="#fiber" transform="translate(0 78)"/><use href="#fiber" transform="translate(0 90)"/>
+    <use href="#fiber" transform="translate(0 102)"/><use href="#fiber" transform="translate(0 114)"/>
+  </g>
+</svg>
