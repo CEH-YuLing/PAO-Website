@@ -371,10 +371,16 @@ html[data-editor-picking] .hero-typing .typing-char{animation:none;opacity:1}
 @media(prefers-reduced-motion:reduce){.structure-beam-light{opacity:.28}}
 /* Compact DMCA badge centered between copyright and locale tools. */
 .pao-footer-legal>.shell{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:20px}
+.pao-footer-trust{display:flex;align-items:center;justify-content:center;justify-self:center;gap:10px}
+.pao-ssl-badge{display:inline-flex;align-items:center;justify-content:center;gap:5px;width:110px;height:25px;box-sizing:border-box;border:1px solid #32627d;border-radius:2px;background:#0a2034;color:#79dcf4;white-space:nowrap;font-size:9px;line-height:1;letter-spacing:.45px}
+.pao-ssl-badge strong{font-weight:800;color:#d9f8ff}
+.pao-ssl-badge>span{font-size:8px;font-weight:650;letter-spacing:.55px}
+.pao-ssl-badge svg{flex-shrink:0}
 .pao-dmca-badge{display:inline-flex;align-items:center;justify-content:center;justify-self:center;line-height:0;flex-shrink:0}
 .pao-dmca-badge img{display:block;width:125px;height:25px;object-fit:contain}
 .pao-footer-legal-tools{justify-self:end}
 @media(max-width:620px){.pao-footer-legal>.shell{grid-template-columns:minmax(0,1fr) auto auto;gap:12px;padding-block:15px}.pao-dmca-badge img{width:clamp(86px,26vw,112px);height:auto}.pao-footer-legal p{min-width:0;font-size:8px}}
+@media(max-width:620px){.pao-footer-trust{flex-direction:column;gap:6px}.pao-ssl-badge{width:clamp(86px,26vw,112px);height:22px;gap:4px;font-size:8px}.pao-ssl-badge>span{font-size:7px;letter-spacing:.35px}.pao-ssl-badge svg{width:14px;height:14px}}
 
 /* Unframed social icons wrap naturally as channels are added. */
 .pao-footer-socials{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 19px;padding-bottom:14px;border-bottom:1px solid #37516f66}
