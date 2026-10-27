@@ -64,7 +64,7 @@ Features, integrations, data access and automation depend on the business config
 
 The public website uses Google Analytics 4 to measure visits, page views, device information and website interactions. Analytics data is sent to Google to help improve content and the browsing experience. Local previews and the editor are excluded from analytics. Google Analytics may use cookies; browser controls and Google's opt-out tool are described in the privacy policy.
 
-Information voluntarily provided by email or telephone is used to respond to inquiries. The website does not provide customer account login, online payments or a data collection form. Data processing for an actual PAO OS customer deployment is governed by its service agreement and deployment policies.
+Information voluntarily provided by email or telephone is used to respond to inquiries. The newsletter form is an interface only: it does not send or store email addresses. The website does not provide customer account login or online payments. Data processing for an actual PAO OS customer deployment is governed by its service agreement and deployment policies.
 
 - Vietnamese privacy policy: https://pao-os.com/privacy/
 - English privacy policy: https://pao-os.com/en/privacy/
