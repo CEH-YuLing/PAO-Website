@@ -1,6 +1,6 @@
 # PAO OS — Hostinger static release
 
-Source commit: 9fd863b8648bf5d65166a0874ff4b97100c9e10b
+Source commit: 0c89333a96d53bce0c8e71fb3160a3b984501cab
 
 Hostinger: select branch **hostinger-static**, framework **Other / static frontend**, Node.js **24.x**, build script **build**, output directory **dist**. No environment variables, Next.js compiler or server entry file are required.
 
