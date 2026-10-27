@@ -385,13 +385,13 @@ html[data-editor-picking] .hero-typing .typing-char{animation:none;opacity:1}
 .pao-footer-socials{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 19px;padding-bottom:14px;border-bottom:1px solid #37516f66}
 .pao-footer-social-links{display:flex;align-items:center;flex-wrap:wrap;gap:6px 16px;min-width:0}
 .pao-newsletter{margin-top:19px;max-width:380px}
-.pao-newsletter>label{display:block;color:#c9e6f5;font-size:12px;font-weight:650;line-height:1.5}
+.pao-newsletter>label{display:block;color:#a6bfd2;font-size:11px;font-weight:500;line-height:1.6}
 .pao-newsletter>p{margin:7px 0 12px;color:#829fb9;font-size:10px;line-height:1.7}
-.pao-newsletter-field{display:flex;align-items:stretch;border:1px solid #31516c;border-radius:6px;background:#06172b;overflow:hidden;transition:border-color .2s,box-shadow .2s}
+.pao-newsletter-field{display:flex;align-items:center;margin-top:11px;border:1px solid #31516c;border-radius:999px;background:#06172b80;overflow:hidden;transition:border-color .2s,box-shadow .2s}
 .pao-newsletter-field:focus-within{border-color:#54cce9;box-shadow:0 0 0 2px #35c7ee18}
-.pao-newsletter-field input{width:100%;min-width:0;min-height:42px;padding:11px 12px;border:0;outline:0;background:transparent;color:#e1f3ff;font:inherit;font-size:11px}
+.pao-newsletter-field input{width:100%;min-width:0;min-height:42px;padding:11px 8px 11px 16px;border:0;outline:0;background:transparent;color:#e1f3ff;font:inherit;font-size:11px}
 .pao-newsletter-field input::placeholder{color:#7892ab}
-.pao-newsletter-field button{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex-shrink:0;padding:10px 12px;border:0;border-left:1px solid #31516c;background:#10324a;color:#a6ecff;font:inherit;font-size:10px;font-weight:650;cursor:pointer}
+.pao-newsletter-field button{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:32px;height:32px;margin:4px;padding:0;border:0;border-radius:50%;background:#10324a;color:#a6ecff;cursor:pointer}
 .pao-newsletter-field button:hover{background:#16435d;color:#e4faff}
 .pao-newsletter-field button:focus-visible{outline:2px solid #61d7ed;outline-offset:-3px}
 .pao-newsletter .pao-newsletter-status{margin:0;font-size:10px;color:#9dbbd0}
@@ -399,7 +399,7 @@ html[data-editor-picking] .hero-typing .typing-char{animation:none;opacity:1}
 .pao-footer-company-address{display:flex;align-items:flex-start;gap:7px;margin-top:10px;color:#819fba;font-size:10px;line-height:1.7}
 .pao-footer-company-address>svg{flex-shrink:0;margin-top:2px;color:#65c7ea}
 @media(max-width:800px){.pao-footer-company-address{justify-content:center}}
-@media(max-width:499px){.pao-newsletter{max-width:none}.pao-newsletter-field input{min-height:44px;font-size:16px}.pao-newsletter-field button{min-width:88px}.pao-footer-company-address{font-size:9px}}
+@media(max-width:499px){.pao-newsletter{max-width:none}.pao-newsletter-field input{min-height:44px;font-size:16px}.pao-footer-company-address{font-size:9px}}
 .pao-footer-socials a{display:flex;align-items:center;justify-content:center;width:28px;height:36px;flex-shrink:0;color:#a9d2eb;transition:color .2s,transform .2s}
 .pao-footer-socials>.pao-footer-social-arrow{margin-left:auto;color:#65c7ea}
 .pao-footer-socials a:hover{color:#65def9;transform:translateY(-2px)}
