@@ -21,6 +21,10 @@ for (const name of fontNames) {
   await copyFile(`${source}/files/${name}`, `public/fonts/${name.replace('.woff2', '-5.3.0.woff2')}`);
 }
 await copyFile(`${source}/LICENSE`, 'public/fonts/Manrope-LICENSE.txt');
-await writeFile('app/manrope.css', css.replace(/url\(\.\/files\/([^)]*)\)/g,
+// Vietnamese must follow Latin Extended because their unicode ranges overlap.
+const vietnameseFace = css.match(/\/\* manrope-vietnamese-wght-normal \*\/[\s\S]*?\n}/)?.[0];
+if (!vietnameseFace) throw new Error('Vietnamese font face missing');
+const orderedCss = css.replace(vietnameseFace, '') + '\n' + vietnameseFace + '\n';
+await writeFile('app/manrope.css', orderedCss.replace(/url\(\.\/files\/([^)]*)\)/g,
   (_, name) => `url(/fonts/${name.replace('.woff2', '-5.3.0.woff2')})`));
 console.log('Responsive artwork and versioned local fonts ready.');

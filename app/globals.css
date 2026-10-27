@@ -44,7 +44,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hologram{transform:none!important}}
 .hologram-frame>picture{display:contents}.chat-run{animation:chat-appear .3s ease}@keyframes chat-appear{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 /* Ghost Fibers / React Bits — decorative Hero layer, PAO palette. */
-.hero-ghost-background{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.72;mask-image:linear-gradient(90deg,#0007,#000 58%,#000);contain:strict}
+.hero-ghost-background{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:var(--hero-background-opacity,.72);mask-image:linear-gradient(90deg,#0007,#000 58%,#000);contain:strict}
 .hero-ghost-background>div{position:absolute;inset:0}
 .hero-ghost-background:before{content:'';position:absolute;inset:0;background:url('/images/pao-fibers-static.svg') center/cover no-repeat;opacity:.5;pointer-events:none}
 .hero-ghost-background:has([data-ghost-state=running]):before,.hero-ghost-background:has([data-ghost-state=paused]):before,.hero-ghost-background:has([data-ghost-state=static-performance]):before{opacity:0}
@@ -52,7 +52,7 @@
 .hero:has(.hero-ghost-background) .hero-grid{opacity:.07}
 .hero:has(.hero-ghost-background) .hero-inner,.hero:has(.hero-ghost-background) .hero-bottom{z-index:1}
 .hero-ghost-background [data-ghost-state=fallback] canvas{visibility:hidden}
-@media(max-width:767px){.hero-ghost-background{opacity:.5;mask-image:linear-gradient(#0009,#000 50%,#000)} }
+@media(max-width:767px){.hero-ghost-background{opacity:min(var(--hero-background-opacity,.72),.5);mask-image:linear-gradient(#0009,#000 50%,#000)} }
 @media(prefers-reduced-motion:reduce){.hero-ghost-background{display:none}}
 
 /* Editor selection styles exist only inside the preview iframe. */
@@ -387,3 +387,6 @@ html[data-editor-picking] .hero-typing .typing-char{animation:none;opacity:1}
 
 /* Keep the initial mobile composition stable and reduce continuous repainting. */
 @media(max-width:767px){.hero .hologram,.hero .hero-float{animation:none}.hero .hologram{transform:none}}
+
+/* Mobile presents the complete message on first paint; desktop keeps typing. */
+@media(max-width:767px){.hero-typing .typing-char{animation:none;opacity:1}}

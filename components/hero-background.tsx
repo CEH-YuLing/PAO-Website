@@ -1,6 +1,6 @@
 'use client';
 
-import { lazy, Suspense, useEffect, useState, useSyncExternalStore } from 'react';
+import { lazy, Suspense, useEffect, useState, useSyncExternalStore, type CSSProperties } from 'react';
 
 import { useContentValue } from './site-content';
 
@@ -37,7 +37,7 @@ export default function HeroBackground() {
     return () => window.clearTimeout(timeout);
   }, []);
 
-  return <div className="hero-ghost-background" style={{ opacity: compact ? Math.min(opacity, 0.5) : opacity }} aria-hidden="true" data-motion={reduced ? 'reduced' : 'enabled'} data-quality={compact ? 'mobile' : 'desktop'}>
+  return <div className="hero-ghost-background" style={{ '--hero-background-opacity': opacity } as CSSProperties} aria-hidden="true" data-motion={reduced ? 'reduced' : 'enabled'} data-quality={compact ? 'mobile' : 'desktop'}>
     {ready && !reduced && !compact && mode === "ghost" && <Suspense fallback={null}><GhostFibers
       glowColor={glow}
       lineColor={line}
