@@ -22,7 +22,7 @@
           "Khi liên hệ qua email hoặc điện thoại, bạn có thể cung cấp tên, thông tin liên lạc, tên doanh nghiệp và nội dung yêu cầu tư vấn.",
           "**Dữ liệu kỹ thuật**",
           "Hệ thống máy chủ hoặc nhà cung cấp dịch vụ lưu trữ có thể ghi nhận địa chỉ IP, thời điểm truy cập, thông tin trình duyệt và nhật ký kỹ thuật nhằm duy trì hoạt động, bảo mật và xử lý sự cố.",
-          "Website sử dụng Google Analytics 4 để thống kê lượt truy cập, trang được xem, thông tin thiết bị và tương tác với website. Dữ liệu được gửi tới Google để phân tích và cải thiện nội dung, trải nghiệm truy cập. Website không tích hợp biểu mẫu thu thập dữ liệu, đăng nhập khách hàng hoặc thanh toán trực tuyến."
+          "Website sử dụng Google Analytics 4 để thống kê lượt truy cập, trang được xem, thông tin thiết bị và tương tác với website. Dữ liệu được gửi tới Google để phân tích và cải thiện nội dung, trải nghiệm truy cập. Ô đăng ký nhận tin hiện chỉ là giao diện, chưa gửi hoặc lưu địa chỉ email. Website không tích hợp hệ thống đăng nhập khách hàng hoặc thanh toán trực tuyến."
         ]
       },
       {
@@ -134,7 +134,7 @@
           "We aim to collect only the information necessary for its intended purpose.",
           "**Information you provide:** When contacting us by email or telephone, you may provide your name, contact details, business name and the content of your inquiry.",
           "**Technical data:** Servers or hosting providers may record IP addresses, access times, browser information and technical logs to operate the website, maintain security and resolve incidents.",
-          "The website uses Google Analytics 4 to measure visits, page views, device information and website interactions. Data is sent to Google to analyze usage and improve content and the browsing experience. The website does not integrate data collection forms, customer login or online payments."
+          "The website uses Google Analytics 4 to measure visits, page views, device information and website interactions. Data is sent to Google to analyze usage and improve content and the browsing experience. The newsletter form is currently an interface only and does not send or store email addresses. The website does not integrate customer login or online payments."
         ]
       },
       {
@@ -245,7 +245,7 @@
           "我们遵循数据最小化原则，仅收集与使用目的相符的必要信息。",
           "**您主动提供的信息：**通过电子邮件或电话联系我们时，您可能提供姓名、联系方式、企业名称及咨询内容。",
           "**技术数据：**服务器或托管服务商可能记录 IP 地址、访问时间、浏览器信息和技术日志，用于网站运行、安全维护及故障处理。",
-          "本网站使用 Google Analytics 4 统计访问量、页面浏览量、设备信息及网站互动。相关数据发送至 Google，用于分析使用情况并改善内容和浏览体验。网站未集成数据收集表单、客户登录或在线支付。"
+          "本网站使用 Google Analytics 4 统计访问量、页面浏览量、设备信息及网站互动。相关数据发送至 Google，用于分析使用情况并改善内容和浏览体验。订阅表单目前仅提供界面，不发送或存储电子邮箱。网站未集成客户登录或在线支付。"
         ]
       },
       {
