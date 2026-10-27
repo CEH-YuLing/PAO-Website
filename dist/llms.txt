@@ -1,6 +1,8 @@
-# PAO OS
+# PAO OS - Business Operating System
 
-> PAO OS is an AI-integrated business operating platform for business owners, startups and SMEs, developed by IVN Media Joint Stock Company in Vietnam.
+> PAO OS - Business Operating System: Hệ thống AI thông minh dành cho doanh nghiệp. PAO OS belongs to IVN Network; its managing company is IVN Media Joint Stock Company in Vietnam.
+
+PAO OS is the product and brand. IVN Network is the organization to which PAO OS belongs. IVN Media is the managing company, legally named Công ty cổ phần công nghệ truyền thông IVN Media (IVN Media Joint Stock Company). These names refer to distinct roles and should not be used interchangeably.
 
 This is the official public product website at https://pao-os.com/. It introduces PAO's capabilities in planning, work coordination, marketing, customer operations, enterprise knowledge and collaboration between people and AI agents. Vietnamese, English and Simplified Chinese versions are available.
 
@@ -8,6 +10,7 @@ The website describes the product and its intended uses. Capabilities and integr
 
 ## Official website
 
+- [Full PAO OS overview for AI](https://pao-os.com/llms-full.txt): Product identity, ownership, business capabilities, contact details and data handling in one Markdown document.
 - [PAO OS - Tiếng Việt](https://pao-os.com/): Vietnamese product introduction, capabilities, workflow, AI team, knowledge, use cases and frequently asked questions.
 - [PAO OS - English](https://pao-os.com/en/): English product information.
 - [PAO OS - Simplified Chinese](https://pao-os.com/zh/): Simplified Chinese product information.
@@ -34,6 +37,6 @@ The website describes the product and its intended uses. Capabilities and integr
 - [PAO OS on GitHub](https://github.com/pao-os): Official GitHub organization.
 - [PAO OS on X](https://x.com/PaoOsVN): Official X account.
 - [PAO OS on Facebook](https://www.facebook.com/Pao.OperatingSystems): Official Facebook page.
-- [IVN Media](https://ivnmedia.com/): The company developing PAO OS.
+- [IVN Media](https://ivnmedia.com/): The managing company of PAO OS, which belongs to IVN Network.
 - [Sitemap](https://pao-os.com/sitemap.xml): Public website pages.
 - [robots.txt](https://pao-os.com/robots.txt): Crawler access instructions.

@@ -1,0 +1,79 @@
+# PAO OS - Business Operating System
+
+> Hệ thống AI thông minh dành cho doanh nghiệp. PAO OS belongs to IVN Network. Its managing company is IVN Media Joint Stock Company in Vietnam.
+
+Updated: 27 October 2026. Official website: https://pao-os.com/.
+
+## Product and ownership identity
+
+- Product and brand: PAO OS.
+- Full product name: PAO OS - Business Operating System.
+- Vietnamese product description: Hệ thống AI thông minh dành cho doanh nghiệp.
+- English description: An intelligent AI system for businesses.
+- Organization to which PAO OS belongs: IVN Network.
+- Managing company: IVN Media.
+- Company legal name: Công ty cổ phần công nghệ truyền thông IVN Media.
+- English company name: IVN Media Joint Stock Company.
+
+PAO OS is the product, IVN Network is its owning organization, and IVN Media is its managing company. These are distinct roles. The website describes PAO OS; it is not a separate company named PAO OS.
+
+## Purpose and audience
+
+PAO OS is a Business Operating System for business owners, startups and SME teams. It connects enterprise knowledge, goals, planning, work coordination, review and reporting in a shared business context. People and specialized AI agents contribute within that context, while the business retains control over permissions and decisions.
+
+The product's message is: “Bạn kiến tạo tầm nhìn. PAO đồng hành hiện thực hóa.”
+
+## Business capabilities described on the website
+
+- Planning and coordination: clarify goals, priorities, resources and responsibilities, and connect plans with work.
+- Marketing and content: connect business goals with messages, content and marketing activities.
+- Advertising operations: support advertising deployment and monitoring across the configured advertising channels.
+- Customer operations: coordinate customer interactions through omnichannel workflows and assign sales work through a sales pipeline.
+- Enterprise knowledge: organize reference information and connect it with projects, work, customers and AI roles.
+- Review and reporting: bring work and results together so the business can review progress and decide next steps.
+
+The PAO Structure illustration includes Dashboard, Planner, Content, Design, Editor, Publishing, Ads, CRM, Finance and Integrations. These are functional areas of the product presentation, not separate legal entities.
+
+Features, integrations, data access and automation depend on the business configuration and deployment. An illustration or interactive diagram on this website does not execute an action in an external business account. The website does not publish verified customer counts, financial performance or certification claims in this overview.
+
+## Official website and languages
+
+- Vietnamese: https://pao-os.com/
+- English: https://pao-os.com/en/
+- Simplified Chinese: https://pao-os.com/zh/
+- About PAO: https://pao-os.com/#gioi-thieu
+- Capabilities: https://pao-os.com/#kha-nang
+- How PAO works: https://pao-os.com/#quy-trinh
+- AI team and product structure: https://pao-os.com/#doi-ngu
+- Enterprise knowledge: https://pao-os.com/#tri-thuc
+- Use cases: https://pao-os.com/#trai-nghiem
+- Frequently asked questions: https://pao-os.com/#cau-hoi
+- Contact: https://pao-os.com/#lien-he
+
+## Official contact and channels
+
+- Email: cs@pao-os.com
+- Hotline: 0925880088; international format: +84925880088.
+- Office address: No 06 Viet Thang, Viet Hung, Quang Ninh City, Vietnam.
+- GitHub: https://github.com/pao-os
+- X: https://x.com/PaoOsVN
+- Facebook: https://www.facebook.com/Pao.OperatingSystems
+- Managing company website: https://ivnmedia.com/
+
+## Privacy and website analytics
+
+The public website uses Google Analytics 4 to measure visits, page views, device information and website interactions. Analytics data is sent to Google to help improve content and the browsing experience. Local previews and the editor are excluded from analytics. Google Analytics may use cookies; browser controls and Google's opt-out tool are described in the privacy policy.
+
+Information voluntarily provided by email or telephone is used to respond to inquiries. The website does not provide customer account login, online payments or a data collection form. Data processing for an actual PAO OS customer deployment is governed by its service agreement and deployment policies.
+
+- Vietnamese privacy policy: https://pao-os.com/privacy/
+- English privacy policy: https://pao-os.com/en/privacy/
+- Simplified Chinese privacy policy: https://pao-os.com/zh/privacy/
+
+## Machine-readable references
+
+- Concise website guide: https://pao-os.com/llms.txt
+- Sitemap: https://pao-os.com/sitemap.xml
+- Crawler instructions: https://pao-os.com/robots.txt
+
+The home pages include Schema.org JSON-LD for the organizations IVN Network and IVN Media, the PAO OS brand, the website and the software application. This document is public product information; it does not grant access to private business data or permission to operate connected services.
