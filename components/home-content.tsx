@@ -21,7 +21,7 @@ function SectionHeading({ eyebrow, title, accent, text }: { eyebrow: string; tit
 
 export default function Home() {
   return <div className="home-surface"><HeroImagePreload/><LowerStarfield /><Navbar /><main id="noi-dung">
-    <section className="hero section-anchor" id="trang-chu" aria-labelledby="hero-title">
+    <section data-beasties-container="" className="hero section-anchor" id="trang-chu" aria-labelledby="hero-title">
       <div className="hero-grid" aria-hidden="true" /><HeroBackground />
       <div className="hero-inner shell">
         <div className="hero-copy">

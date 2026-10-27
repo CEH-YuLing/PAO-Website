@@ -39,7 +39,7 @@ export default function TextMarqueeBand() {
     track.current?.style.setProperty('--marquee-shift', `${offset.current}px`);
   }
   function up() { drag.current = null; setDragging(false); }
-  return <div className="logo-band text-marquee-band"><div className="logo-band-inner">
+  return <div data-beasties-container="" className="logo-band text-marquee-band"><div className="logo-band-inner">
     <div className="text-marquee-viewport" role="group" aria-label={t('Dòng chữ chuyển động về năng lực PAO')} onPointerDown={down} onPointerMove={move} onPointerUp={up} onPointerCancel={up}>
       <div ref={track} className="text-marquee-track" data-paused={paused || dragging}>
         {Array.from({ length: 4 }, (_, copy) => <ul ref={copy === 0 ? group : undefined} className="text-marquee-group" key={copy} aria-hidden={copy !== 0 ? true : undefined}>{words.map(word => <li key={word}><span className="marquee-word">{t(word)}</span></li>)}</ul>)}

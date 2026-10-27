@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 3177",
-    "build": "next build && node scripts/compress.mjs",
+    "build": "next build && node scripts/inline-critical-css.mjs && node scripts/compress.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "eslint app components lib scripts --max-warnings 0",
     "preview": "node scripts/serve.mjs",
@@ -30,6 +30,7 @@
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "beasties": "0.5.5",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
     "lighthouse": "latest",
