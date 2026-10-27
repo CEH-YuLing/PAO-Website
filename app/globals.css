@@ -366,3 +366,21 @@ html[data-editor-picking] .hero-typing .typing-char{visibility:visible!important
 .contact-slogan strong{font-weight:650;color:#72d9f5}
 @media(max-width:699px){.contact-section .contact-card{padding:36px 22px 24px;border-radius:12px}.contact-section .contact-card h2{font-size:27px;line-height:1.4}.contact-section .contact-card>p{margin-top:16px}.contact-section .contact-card .button-row{margin-top:23px}.contact-slogan{margin-top:24px;padding:18px 0 0;gap:4px 9px;font-size:10px;letter-spacing:.7px}}
 @media(max-width:379px){.contact-section .contact-card{padding:30px 18px 22px}.contact-section .contact-card h2{font-size:24px;letter-spacing:-.8px}.contact-slogan{font-size:9px;letter-spacing:.5px}}
+/* UI Layouts-style moving light on existing structure connections. */
+.structure-beam-light{opacity:.95}
+@media(prefers-reduced-motion:reduce){.structure-beam-light{opacity:.28}}
+/* Verified badge placement: centered between copyright and locale tools. */
+.pao-footer-legal>.shell{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:20px}
+.pao-dmca-badge{display:inline-flex;align-items:center;justify-content:center;justify-self:center;line-height:0;flex-shrink:0}
+.pao-dmca-badge img{display:block;width:125px;height:25px;object-fit:contain}
+.pao-footer-legal-tools{justify-self:end}
+@media(max-width:620px){.pao-footer-legal>.shell{grid-template-columns:minmax(0,1fr) auto auto;gap:12px;padding-block:15px}.pao-dmca-badge img{width:clamp(86px,26vw,112px);height:auto}.pao-footer-legal p{min-width:0;font-size:8px}}
+
+/* Unframed social icons wrap naturally as channels are added. */
+.pao-footer-socials{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 19px;padding-bottom:14px;border-bottom:1px solid #37516f66}
+.pao-footer-social-links{display:flex;align-items:center;flex-wrap:wrap;gap:6px 16px;min-width:0}
+.pao-footer-socials a{display:flex;align-items:center;justify-content:center;width:28px;height:36px;flex-shrink:0;color:#a9d2eb;transition:color .2s,transform .2s}
+.pao-footer-socials>.pao-footer-social-arrow{margin-left:auto;color:#65c7ea}
+.pao-footer-socials a:hover{color:#65def9;transform:translateY(-2px)}
+.pao-footer-socials a:focus-visible{outline:2px solid #55d6f2;outline-offset:3px;border-radius:3px}
+@media(prefers-reduced-motion:reduce){.pao-footer-socials a{transition:none}.pao-footer-socials a:hover{transform:none}}
