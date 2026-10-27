@@ -22,7 +22,7 @@
           "Khi liên hệ qua email hoặc điện thoại, bạn có thể cung cấp tên, thông tin liên lạc, tên doanh nghiệp và nội dung yêu cầu tư vấn.",
           "**Dữ liệu kỹ thuật**",
           "Hệ thống máy chủ hoặc nhà cung cấp dịch vụ lưu trữ có thể ghi nhận địa chỉ IP, thời điểm truy cập, thông tin trình duyệt và nhật ký kỹ thuật nhằm duy trì hoạt động, bảo mật và xử lý sự cố.",
-          "Tại thời điểm công bố chính sách, website không tích hợp biểu mẫu thu thập dữ liệu, hệ thống đăng nhập khách hàng, thanh toán trực tuyến hoặc công cụ quảng cáo và phân tích hành vi người dùng."
+          "Website sử dụng Google Analytics 4 để thống kê lượt truy cập, trang được xem, thông tin thiết bị và tương tác với website. Dữ liệu được gửi tới Google để phân tích và cải thiện nội dung, trải nghiệm truy cập. Website không tích hợp biểu mẫu thu thập dữ liệu, đăng nhập khách hàng hoặc thanh toán trực tuyến."
         ]
       },
       {
@@ -35,6 +35,7 @@
           "Cung cấp thông tin về sản phẩm, dịch vụ theo yêu cầu.",
           "Hỗ trợ trao đổi và chuẩn bị phương án triển khai.",
           "Duy trì hoạt động, bảo mật và xử lý sự cố kỹ thuật.",
+          "Đo lường việc sử dụng website để cải thiện nội dung và trải nghiệm truy cập.",
           "Thực hiện các nghĩa vụ pháp lý khi có yêu cầu hợp lệ."
         ],
         "after": [
@@ -69,7 +70,8 @@
       {
         "title": "Cookie và lưu trữ trên trình duyệt",
         "paragraphs": [
-          "Website hiện không chủ động triển khai cookie phục vụ quảng cáo hoặc theo dõi hành vi người dùng.",
+          "Google Analytics 4 có thể sử dụng cookie để phân biệt lượt truy cập và đo lường tương tác. Công cụ này hoạt động trên tên miền công khai pao-os.com; bản xem trước cục bộ và chế độ biên tập không gửi dữ liệu thống kê.",
+          "Dữ liệu thống kê được Google xử lý theo chính sách quyền riêng tư của Google tại https://policies.google.com/privacy. Bạn có thể quản lý hoặc xóa cookie trong trình duyệt và sử dụng tiện ích tắt Google Analytics tại https://tools.google.com/dlpage/gaoptout.",
           "Một số công cụ biên tập dành riêng cho người quản lý có thể lưu bản nháp và cấu hình trong bộ nhớ trình duyệt trên thiết bị sử dụng.",
           "Bản nháp không tự động đồng bộ lên máy chủ PAO OS. Người quản lý có thể chủ động lưu nội dung qua dịch vụ biên tập cục bộ, xuất bản nháp thành tệp hoặc xóa dữ liệu lưu trữ cục bộ thông qua trình duyệt."
         ]
@@ -132,7 +134,7 @@
           "We aim to collect only the information necessary for its intended purpose.",
           "**Information you provide:** When contacting us by email or telephone, you may provide your name, contact details, business name and the content of your inquiry.",
           "**Technical data:** Servers or hosting providers may record IP addresses, access times, browser information and technical logs to operate the website, maintain security and resolve incidents.",
-          "At publication, the website does not integrate data collection forms, customer login, online payments, advertising trackers or behavioral analytics."
+          "The website uses Google Analytics 4 to measure visits, page views, device information and website interactions. Data is sent to Google to analyze usage and improve content and the browsing experience. The website does not integrate data collection forms, customer login or online payments."
         ]
       },
       {
@@ -145,6 +147,7 @@
           "Providing requested product and service information.",
           "Supporting discussions and preparing implementation options.",
           "Operating the website, maintaining security and resolving technical incidents.",
+          "Measuring website usage to improve content and the browsing experience.",
           "Meeting legal obligations in response to valid requests."
         ],
         "after": [
@@ -178,7 +181,8 @@
       {
         "title": "Cookies and browser storage",
         "paragraphs": [
-          "The website does not currently deploy cookies for advertising or behavioral tracking.",
+          "Google Analytics 4 may use cookies to distinguish visits and measure interactions. Analytics runs on the public pao-os.com domain; local previews and the editor do not send analytics data.",
+          "Analytics data is processed by Google under its privacy policy at https://policies.google.com/privacy. You can manage or delete cookies in your browser and use the Google Analytics opt-out add-on at https://tools.google.com/dlpage/gaoptout.",
           "Editing tools for website administrators may store drafts and settings in browser storage on the device being used.",
           "These drafts are not automatically synchronized to a PAO OS server. An administrator can explicitly save content through the local editing service, export drafts or remove local browser storage."
         ]
@@ -241,7 +245,7 @@
           "我们遵循数据最小化原则，仅收集与使用目的相符的必要信息。",
           "**您主动提供的信息：**通过电子邮件或电话联系我们时，您可能提供姓名、联系方式、企业名称及咨询内容。",
           "**技术数据：**服务器或托管服务商可能记录 IP 地址、访问时间、浏览器信息和技术日志，用于网站运行、安全维护及故障处理。",
-          "截至本政策发布时，网站未集成数据收集表单、客户登录、在线支付、广告追踪或用户行为分析工具。"
+          "本网站使用 Google Analytics 4 统计访问量、页面浏览量、设备信息及网站互动。相关数据发送至 Google，用于分析使用情况并改善内容和浏览体验。网站未集成数据收集表单、客户登录或在线支付。"
         ]
       },
       {
@@ -254,6 +258,7 @@
           "按请求提供产品与服务信息。",
           "支持沟通并准备部署方案。",
           "维持网站运行、保障安全及处理技术故障。",
+          "分析网站使用情况，以改善内容和浏览体验。",
           "根据有效要求履行法律义务。"
         ],
         "after": [
@@ -287,7 +292,8 @@
       {
         "title": "Cookie 与浏览器存储",
         "paragraphs": [
-          "网站目前未主动部署用于广告或用户行为追踪的 Cookie。",
+          "Google Analytics 4 可能使用 Cookie 来区分访问并衡量互动。该工具仅在 pao-os.com 公开域名运行；本地预览和编辑模式不发送统计数据。",
+          "统计数据由 Google 按照其隐私政策处理，详见 https://policies.google.com/privacy。您可以通过浏览器管理或删除 Cookie，也可以使用 Google Analytics 停用插件：https://tools.google.com/dlpage/gaoptout。",
           "供网站管理者使用的编辑工具可能在当前设备的浏览器中保存草稿和设置。",
           "这些草稿不会自动同步至 PAO OS 服务器。管理者可主动通过本地编辑服务保存内容、导出草稿，或通过浏览器删除本地存储。"
         ]
