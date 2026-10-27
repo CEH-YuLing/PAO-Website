@@ -1,4 +1,5 @@
+:HL["/_next/static/chunks/1czksqub6_rok.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":"privacy","h":64,"c":"$Q3"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["editor","privacy"]},"h":65584,"c":"$Q2"}]]
-0:{"b":"HZmBlwAYMsbfjhw3czwt-","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"7cGdrz-n_A2_OFp28GVQb","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
