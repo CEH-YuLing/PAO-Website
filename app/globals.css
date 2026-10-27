@@ -384,3 +384,6 @@ html[data-editor-picking] .hero-typing .typing-char{animation:none;opacity:1}
 .pao-footer-socials a:hover{color:#65def9;transform:translateY(-2px)}
 .pao-footer-socials a:focus-visible{outline:2px solid #55d6f2;outline-offset:3px;border-radius:3px}
 @media(prefers-reduced-motion:reduce){.pao-footer-socials a{transition:none}.pao-footer-socials a:hover{transform:none}}
+
+/* Keep the initial mobile composition stable and reduce continuous repainting. */
+@media(max-width:767px){.hero .hologram,.hero .hero-float{animation:none}.hero .hologram{transform:none}}
