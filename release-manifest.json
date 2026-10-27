@@ -1,5 +1,5 @@
 {
-  "sourceCommit": "df5abbd2ed08a7ee69f4485071d9019d9e6223dc",
+  "sourceCommit": "13163b8cb033ddcf72ba3133cb0f87c9185d2e64",
   "files": {
     "404/index.html": "494b59521483dd7ab60ec488e280ba192e86a0f6cfa9f1e0d8042c8095f93158",
     "404/index.html.br": "eca1955b8ec2bf77ec41cddec495539ef4ccb5ae638aad44e443773ec932be35",
@@ -233,6 +233,9 @@
     "__next._full.txt": "4bf3628164f7da8dfc53b3a7fd72954e2e8b4e9bf83f3aaf48669f024d8cb16d",
     "__next._full.txt.br": "a995fc2599e5927f9c35ce52df0fa8b826b51d14c53527812319710969e078e0",
     "__next._full.txt.gz": "d3ff10df7f5363155a0e49a362d17e7759b58867ae4d70a5bb6701eb3c82c628",
-    "__next._tree.txt": "7dc63e2b9632ab8fa196dcbcd914151c9aba6f1fd585cf408be1d90da14ffbdb"
+    "__next._tree.txt": "7dc63e2b9632ab8fa196dcbcd914151c9aba6f1fd585cf408be1d90da14ffbdb",
+    "llms.txt": "d1353161dc21a584810a662f206e28f4137b1f49799855d381049d09e9c06331",
+    "llms.txt.gz": "1664b379f285468769eb4adbfdc896ec5ae8562fdd7558664705b5fd037e8cd4",
+    "llms.txt.br": "569e23e472b0921f62bb966e007aaa61e7f030d5ad13990ceb39c0e43e4cd15a"
   }
 }

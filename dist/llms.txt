@@ -1,0 +1,39 @@
+# PAO OS
+
+> PAO OS is an AI-integrated business operating platform for business owners, startups and SMEs, developed by IVN Media Joint Stock Company in Vietnam.
+
+This is the official public product website at https://pao-os.com/. It introduces PAO's capabilities in planning, work coordination, marketing, customer operations, enterprise knowledge and collaboration between people and AI agents. Vietnamese, English and Simplified Chinese versions are available.
+
+The website describes the product and its intended uses. Capabilities and integrations depend on each business's configuration and deployment. Consult the privacy policy for information about data handling. Business contact: cs@pao-os.com; hotline: 0925880088.
+
+## Official website
+
+- [PAO OS - Tiếng Việt](https://pao-os.com/): Vietnamese product introduction, capabilities, workflow, AI team, knowledge, use cases and frequently asked questions.
+- [PAO OS - English](https://pao-os.com/en/): English product information.
+- [PAO OS - Simplified Chinese](https://pao-os.com/zh/): Simplified Chinese product information.
+
+## Product information
+
+- [About PAO](https://pao-os.com/#gioi-thieu): Overview of the platform and its purpose for SMEs.
+- [Capabilities](https://pao-os.com/#kha-nang): AI assistance, business workspace, marketing, customer operations, automation and enterprise knowledge.
+- [How PAO works](https://pao-os.com/#quy-trinh): Goals, planning, coordination and review.
+- [AI team](https://pao-os.com/#doi-ngu): Functional roles and their coordination through PAO.
+- [Enterprise knowledge](https://pao-os.com/#tri-thuc): Connections between business information, work and context.
+- [Use cases](https://pao-os.com/#trai-nghiem): Examples of how PAO can support business workflows.
+- [Frequently asked questions](https://pao-os.com/#cau-hoi): Answers to common product questions.
+
+## Privacy and data protection
+
+- [Chính sách quyền riêng tư](https://pao-os.com/privacy/): Vietnamese privacy and data protection policy.
+- [Privacy policy](https://pao-os.com/en/privacy/): English privacy and data protection policy.
+- [Privacy policy - Simplified Chinese](https://pao-os.com/zh/privacy/): Simplified Chinese privacy and data protection policy.
+
+## Optional
+
+- [Contact PAO](https://pao-os.com/#lien-he): Official business contact information.
+- [PAO OS on GitHub](https://github.com/pao-os): Official GitHub organization.
+- [PAO OS on X](https://x.com/PaoOsVN): Official X account.
+- [PAO OS on Facebook](https://www.facebook.com/Pao.OperatingSystems): Official Facebook page.
+- [IVN Media](https://ivnmedia.com/): The company developing PAO OS.
+- [Sitemap](https://pao-os.com/sitemap.xml): Public website pages.
+- [robots.txt](https://pao-os.com/robots.txt): Crawler access instructions.
