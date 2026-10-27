@@ -369,12 +369,13 @@ html[data-editor-picking] .hero-typing .typing-char{animation:none;opacity:1}
 /* UI Layouts-style moving light on existing structure connections. */
 .structure-beam-light{opacity:.95}
 @media(prefers-reduced-motion:reduce){.structure-beam-light{opacity:.28}}
-/* Verified badge placement: centered between copyright and locale tools. */
+/* DMCA's official status card keeps its own verification link and state. */
 .pao-footer-legal>.shell{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:20px}
-.pao-dmca-badge{display:inline-flex;align-items:center;justify-content:center;justify-self:center;line-height:0;flex-shrink:0}
-.pao-dmca-badge img{display:block;width:125px;height:25px;object-fit:contain}
+.pao-dmca-card{width:360px;max-width:100%;min-width:0;justify-self:center;line-height:0}
+.pao-dmca-card iframe{display:block;width:100%;height:150px}
 .pao-footer-legal-tools{justify-self:end}
-@media(max-width:620px){.pao-footer-legal>.shell{grid-template-columns:minmax(0,1fr) auto auto;gap:12px;padding-block:15px}.pao-dmca-badge img{width:clamp(86px,26vw,112px);height:auto}.pao-footer-legal p{min-width:0;font-size:8px}}
+@media(max-width:800px){.pao-footer-legal>.shell{grid-template-columns:minmax(0,1fr) auto;gap:18px;padding-block:18px}.pao-dmca-card{grid-column:1/-1;grid-row:2}.pao-footer-legal-tools{grid-column:2;grid-row:1}.pao-footer-legal p{min-width:0}}
+@media(max-width:620px){.pao-footer-legal p{font-size:8px}}
 
 /* Unframed social icons wrap naturally as channels are added. */
 .pao-footer-socials{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 19px;padding-bottom:14px;border-bottom:1px solid #37516f66}
