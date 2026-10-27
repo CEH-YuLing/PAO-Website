@@ -1,4 +1,3 @@
-:HL["/_next/static/chunks/22ud2ii1_y7md.css","style"]
 2:[["children",{"s":"__PAGE__","h":128}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["editor","privacy"]},"h":65584,"c":"$Q2"}]]
-0:{"b":"dmMIsKQ1MKKfgF6zirM5R","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"HZmBlwAYMsbfjhw3czwt-","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
