@@ -385,7 +385,13 @@ html[data-editor-picking] .hero-typing .typing-char{animation:none;opacity:1}
 .pao-footer-socials{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 19px;padding-bottom:14px;border-bottom:1px solid #37516f66}
 .pao-footer-social-links{display:flex;align-items:center;flex-wrap:wrap;gap:6px 16px;min-width:0}
 .pao-newsletter{margin-top:19px;max-width:380px}
-.pao-newsletter>label{display:block;color:#a6bfd2;font-size:11px;font-weight:500;line-height:1.6}
+.pao-newsletter>label{display:block;color:#f0f5ff}
+.pao-footer{--footer-heading-size:19px;--footer-heading-spacing:-.4px}
+.pao-footer h3,.pao-newsletter>label{font-size:var(--footer-heading-size);font-weight:700;line-height:1.45;letter-spacing:var(--footer-heading-spacing);text-transform:uppercase}
+@media(max-width:1100px){.pao-footer{--footer-heading-size:17px}}
+@media(max-width:800px){.pao-footer{--footer-heading-size:19px}}
+@media(max-width:499px){.pao-footer{--footer-heading-size:16px;--footer-heading-spacing:-.3px}}
+@media(max-width:699px){.pao-newsletter>label{text-align:center;text-wrap:balance}}
 .pao-newsletter>p{margin:7px 0 12px;color:#829fb9;font-size:10px;line-height:1.7}
 .pao-newsletter-field{display:flex;align-items:center;margin-top:11px;border:1px solid #31516c;border-radius:999px;background:#06172b80;overflow:hidden;transition:border-color .2s,box-shadow .2s}
 .pao-newsletter-field:focus-within{border-color:#54cce9;box-shadow:0 0 0 2px #35c7ee18}
