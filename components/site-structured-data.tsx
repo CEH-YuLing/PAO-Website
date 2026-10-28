@@ -6,6 +6,8 @@ export default function SiteStructuredData({ locale }: { locale: Locale }) {
   const organization = `${origin}/#organization`;
   const brand = `${origin}/#brand`;
   const application = `${origin}/#application`;
+  const office = `${origin}/#local-business`;
+  const officeMap = 'https://maps.app.goo.gl/q3hCtzTtqY1sJNev7';
   const graph = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -27,11 +29,30 @@ export default function SiteStructuredData({ locale }: { locale: Locale }) {
           addressLocality: 'Quang Ninh City', addressCountry: 'VN',
         },
         brand: { '@id': brand },
+        location: { '@id': office },
       },
       {
         '@type': 'Brand', '@id': brand, name: 'PAO OS', alternateName: 'PAO OS - Business Operating System',
         url: `${origin}/`, logo: `${origin}/brand/pao-primary.png`,
         sameAs: ['https://github.com/pao-os', 'https://x.com/PaoOsVN', 'https://www.facebook.com/Pao.OperatingSystems'],
+      },
+      {
+        '@type': 'LocalBusiness', '@id': office,
+        name: 'PAO OS - Business Operating System',
+        url: `${origin}/`,
+        parentOrganization: { '@id': organization },
+        brand: { '@id': brand },
+        email: 'cs@pao-os.com', telephone: '+84925880088',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: '6 Việt Thắng, Giếng Đáy',
+          addressLocality: 'Việt Hưng', addressRegion: 'Quảng Ninh',
+          postalCode: '01123', addressCountry: 'VN',
+        },
+        geo: { '@type': 'GeoCoordinates', latitude: 20.9743794, longitude: 107.0042166 },
+        hasMap: officeMap,
+        sameAs: [officeMap],
+        logo: `${origin}/brand/pao-primary.png`,
       },
       {
         '@type': 'WebSite', '@id': `${origin}/#website`,
