@@ -34,6 +34,7 @@ The website describes the product and its intended uses. Capabilities and integr
 ## Optional
 
 - [Contact PAO](https://pao-os.com/#lien-he): Official business contact information.
+- [PAO OS office on Google Maps](https://maps.app.goo.gl/q3hCtzTtqY1sJNev7): Public listing for PAO OS - Business Operating System at 6 Viet Thang, Viet Hung, Quang Ninh, Vietnam.
 - [PAO OS on GitHub](https://github.com/pao-os): Official GitHub organization.
 - [PAO OS on X](https://x.com/PaoOsVN): Official X account.
 - [PAO OS on Facebook](https://www.facebook.com/Pao.OperatingSystems): Official Facebook page.

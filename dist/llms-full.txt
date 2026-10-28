@@ -2,7 +2,7 @@
 
 > Hệ thống AI thông minh dành cho doanh nghiệp. PAO OS belongs to IVN Network. Its managing company is IVN Media Joint Stock Company in Vietnam.
 
-Updated: 27 October 2026. Official website: https://pao-os.com/.
+Updated: 28 October 2026. Official website: https://pao-os.com/.
 
 ## Product and ownership identity
 
@@ -55,6 +55,8 @@ Features, integrations, data access and automation depend on the business config
 - Email: cs@pao-os.com
 - Hotline: 0925880088; international format: +84925880088.
 - Office address: No 06 Viet Thang, Viet Hung, Quang Ninh City, Vietnam.
+- Google Maps office listing: https://maps.app.goo.gl/q3hCtzTtqY1sJNev7
+- The Google Maps listing is named PAO OS - Business Operating System and shows 6 Việt Thắng, Giếng Đáy, Việt Hưng, Quảng Ninh 01123, Vietnam. It represents the PAO OS business location managed by IVN Media.
 - GitHub: https://github.com/pao-os
 - X: https://x.com/PaoOsVN
 - Facebook: https://www.facebook.com/Pao.OperatingSystems
@@ -76,4 +78,4 @@ Information voluntarily provided by email or telephone is used to respond to inq
 - Sitemap: https://pao-os.com/sitemap.xml
 - Crawler instructions: https://pao-os.com/robots.txt
 
-The home pages include Schema.org JSON-LD for the organizations IVN Network and IVN Media, the PAO OS brand, the website and the software application. This document is public product information; it does not grant access to private business data or permission to operate connected services.
+The home pages include Schema.org JSON-LD for the organizations IVN Network and IVN Media, the PAO OS brand, its LocalBusiness office location, the website and the software application. The office uses hasMap to link to the public Google Maps listing, without embedding a map in the website interface. This document is public product information; it does not grant access to private business data or permission to operate connected services.
