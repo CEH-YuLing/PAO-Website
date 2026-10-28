@@ -1,9 +1,13 @@
-import { access, lstat, readdir, rm } from 'node:fs/promises';
+import { access, lstat, readdir, readFile, rm } from 'node:fs/promises';
 import path from 'node:path';
 
 // Remove only the generated editor route. Source/local editor remains available.
 const root = path.resolve('out');
 await access(path.join(root, 'index.html'));
+// Static exports cannot emit HTTP headers via next.config; preserve server rules.
+if (!Buffer.from(await readFile(path.join(root, '.htaccess'))).equals(await readFile('public/.htaccess'))) {
+  throw new Error('Hostinger security headers were not exported correctly');
+}
 const editor = path.resolve(root, 'editor');
 if (path.dirname(editor) !== root) throw new Error('Invalid generated editor path');
 try {

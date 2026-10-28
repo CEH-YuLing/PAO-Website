@@ -21,5 +21,12 @@ await walk(root);
 assert.deepEqual(names.sort(), Object.keys(manifest.files).sort(), 'Release contains unexpected files');
 for (const route of ['', 'en/', 'zh/', 'privacy/', 'en/privacy/', 'zh/privacy/']) await access(path.join(root, route, 'index.html'));
 await access(path.join(root, '404.html'));
+const headerRules = await readFile(path.join(root, '.htaccess'), 'utf8');
+for (const rule of [
+  'Header always set Strict-Transport-Security "max-age=31536000"',
+  'Header always set X-Frame-Options "SAMEORIGIN"',
+  'Header always set X-Content-Type-Options "nosniff"',
+  'Header always set Referrer-Policy "strict-origin-when-cross-origin"',
+]) assert.ok(headerRules.includes(rule), `Missing Hostinger security rule: ${rule}`);
 await assert.rejects(access(path.join(root, 'editor')));
 console.log(`PAO static release verified: ${names.length} files; source ${manifest.sourceCommit}. No Next.js/SWC compilation needed.`);
