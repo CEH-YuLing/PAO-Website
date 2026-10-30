@@ -1,4 +1,5 @@
-:HL["/_next/static/chunks/3_t6sdvvbadwf.css","style"]
+:HL["/_next/static/chunks/2a1-b_94vy9_6.css","style"]
+:HL["/_next/static/chunks/0c6jrq-gp4iqm.css","style"]
 2:[["children",{"s":"__PAGE__","h":128}]]
-1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["editor","privacy"]},"h":65584,"c":"$Q2"}]]
-0:{"b":"fBnrGDjLGQHYQzXf2HC8V","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["blog","contact","doi-ngu","download","editor","giai-phap","gioi-thieu","lien-he","privacy","resources","solutions","tinh-nang"]},"h":65584,"c":"$Q2"}]]
+0:{"b":"1ouRE5S8JBwSpRXMXem-j","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

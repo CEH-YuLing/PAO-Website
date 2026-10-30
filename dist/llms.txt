@@ -17,7 +17,9 @@ The website describes the product and its intended uses. Capabilities and integr
 
 ## Product information
 
-- [About PAO](https://pao-os.com/#gioi-thieu): Overview of the platform and its purpose for SMEs.
+- [About PAO - Vietnamese](https://pao-os.com/gioi-thieu/): PAO's story, AI Chief of Staff and Multi-Agent coordination approach, SME audience, development principles, IVN Network and long-term vision. PAO has been introduced to the market and continues to be refined; actual functionality depends on the product version, configuration and supported integrations.
+- [About PAO - English](https://pao-os.com/en/gioi-thieu/): English version of the official introduction.
+- [About PAO - Simplified Chinese](https://pao-os.com/zh/gioi-thieu/): Simplified Chinese version of the official introduction.
 - [Capabilities](https://pao-os.com/#kha-nang): AI assistance, business workspace, marketing, customer operations, automation and enterprise knowledge.
 - [How PAO works](https://pao-os.com/#quy-trinh): Goals, planning, coordination and review.
 - [AI team](https://pao-os.com/#doi-ngu): Functional roles and their coordination through PAO.
@@ -41,3 +43,26 @@ The website describes the product and its intended uses. Capabilities and integr
 - [IVN Media](https://ivnmedia.com/): The managing company of PAO OS, which belongs to IVN Network.
 - [Sitemap](https://pao-os.com/sitemap.xml): Public website pages.
 - [robots.txt](https://pao-os.com/robots.txt): Crawler access instructions.
+
+## Business solution areas
+
+- [PAO solutions - Vietnamese](https://pao-os.com/giai-phap/): Six areas covering management, marketing, CRM and sales, workflow automation, system integration and Multi-Agent coordination; deployment approach and integration limits.
+- [PAO solutions - English](https://pao-os.com/en/giai-phap/): English version of the solution overview.
+- [PAO solutions - Simplified Chinese](https://pao-os.com/zh/giai-phap/): Simplified Chinese version of the solution overview.
+
+These are application directions, not a guarantee that all functions are available. Availability depends on product version, configuration, integration readiness and granted permissions.
+
+## Features, development team, knowledge and deployment
+
+- [PAO features - Vietnamese](https://pao-os.com/tinh-nang/): AI Chief of Staff, Multi-Agent, Business Workspace, content, marketing, CRM, knowledge, workflow automation, integrations and access control. Availability depends on release and configuration; planned capabilities are not a promise of current availability.
+- [PAO features - English](https://pao-os.com/en/tinh-nang/): English feature overview.
+- [PAO features - Simplified Chinese](https://pao-os.com/zh/tinh-nang/): Simplified Chinese feature overview.
+- [Development team - Vietnamese](https://pao-os.com/doi-ngu/): IVN Network, product development approach, technical disciplines and collaboration. This describes the development organization, not the AI Agent roles on the homepage.
+- [Development team - English](https://pao-os.com/en/doi-ngu/): English development team information.
+- [Development team - Simplified Chinese](https://pao-os.com/zh/doi-ngu/): Simplified Chinese development team information.
+- [PAO Insights - Vietnamese](https://pao-os.com/blog/): Five knowledge categories, introductory topics and editorial principles. Topic descriptions are not individual published articles.
+- [PAO Insights - English](https://pao-os.com/en/blog/): English knowledge overview.
+- [PAO Insights - Simplified Chinese](https://pao-os.com/zh/blog/): Simplified Chinese knowledge overview.
+- [Download and deployment - Vietnamese](https://pao-os.com/download/): Cloud/VPS and Desktop directions, comparison and preparation. Cloud/VPS deployment is being developed and refined; Desktop is on the roadmap with no official installer announced. No installer download is currently provided on this page.
+- [Download and deployment - English](https://pao-os.com/en/download/): English deployment information.
+- [Download and deployment - Simplified Chinese](https://pao-os.com/zh/download/): Simplified Chinese deployment information.

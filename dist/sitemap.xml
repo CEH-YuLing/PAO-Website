@@ -9,6 +9,54 @@
 <priority>1</priority>
 </url>
 <url>
+<loc>https://pao-os.com/gioi-thieu/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/gioi-thieu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/gioi-thieu/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/gioi-thieu/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/giai-phap/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/giai-phap/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/giai-phap/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/giai-phap/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/tinh-nang/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/tinh-nang/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/tinh-nang/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/tinh-nang/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/doi-ngu/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/doi-ngu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/doi-ngu/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/doi-ngu/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/blog/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/blog/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/blog/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/blog/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/download/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/download/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/download/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/download/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>https://pao-os.com/privacy/</loc>
 <xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/privacy/" />
 <xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/privacy/" />
@@ -25,6 +73,54 @@
 <priority>1</priority>
 </url>
 <url>
+<loc>https://pao-os.com/en/gioi-thieu/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/gioi-thieu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/gioi-thieu/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/gioi-thieu/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/en/giai-phap/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/giai-phap/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/giai-phap/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/giai-phap/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/en/tinh-nang/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/tinh-nang/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/tinh-nang/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/tinh-nang/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/en/doi-ngu/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/doi-ngu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/doi-ngu/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/doi-ngu/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/en/blog/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/blog/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/blog/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/blog/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/en/download/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/download/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/download/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/download/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>https://pao-os.com/en/privacy/</loc>
 <xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/privacy/" />
 <xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/privacy/" />
@@ -39,6 +135,54 @@
 <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/" />
 <changefreq>monthly</changefreq>
 <priority>1</priority>
+</url>
+<url>
+<loc>https://pao-os.com/zh/gioi-thieu/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/gioi-thieu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/gioi-thieu/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/gioi-thieu/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/zh/giai-phap/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/giai-phap/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/giai-phap/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/giai-phap/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/zh/tinh-nang/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/tinh-nang/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/tinh-nang/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/tinh-nang/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/zh/doi-ngu/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/doi-ngu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/doi-ngu/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/doi-ngu/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/zh/blog/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/blog/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/blog/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/blog/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://pao-os.com/zh/download/</loc>
+<xhtml:link rel="alternate" hreflang="vi" href="https://pao-os.com/download/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://pao-os.com/en/download/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://pao-os.com/zh/download/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
 </url>
 <url>
 <loc>https://pao-os.com/zh/privacy/</loc>

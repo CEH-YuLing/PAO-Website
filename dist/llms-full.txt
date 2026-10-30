@@ -74,6 +74,10 @@ Information voluntarily provided by email or telephone is used to respond to inq
 
 ## Machine-readable references
 
+- About PAO OS (Vietnamese): https://pao-os.com/gioi-thieu/
+- About PAO OS (English): https://pao-os.com/en/gioi-thieu/
+- About PAO OS (Simplified Chinese): https://pao-os.com/zh/gioi-thieu/
+
 - Concise website guide: https://pao-os.com/llms.txt
 - Sitemap: https://pao-os.com/sitemap.xml
 - Crawler instructions: https://pao-os.com/robots.txt
