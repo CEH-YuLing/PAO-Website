@@ -1,0 +1,113 @@
+{
+  "seoTitle": "Giới thiệu PAO OS | Hệ điều hành AI cho doanh nghiệp",
+  "description": "Khám phá PAO OS – hệ điều hành doanh nghiệp ứng dụng AI Agent do IVN Network phát triển tại Việt Nam, giúp kết nối công việc và tự động hóa vận hành.",
+  "title": "Về PAO OS",
+  "subtitle": "PAO OS – Hệ điều hành doanh nghiệp trong kỷ nguyên AI",
+  "intro": [
+    "Công nghệ đang thay đổi cách doanh nghiệp làm việc. Trí tuệ nhân tạo có thể hỗ trợ nghiên cứu, lập kế hoạch, phân tích dữ liệu, sáng tạo nội dung và thực hiện ngày càng nhiều công việc phức tạp.",
+    "Tuy nhiên, phần lớn các công cụ vẫn hoạt động riêng lẻ. Con người phải tự kết nối thông tin, chuyển giao kết quả và điều phối công việc giữa nhiều hệ thống khác nhau.",
+    "**PAO OS được phát triển để thay đổi cách làm việc đó.**",
+    "Được phát triển tại Việt Nam bởi IVN Network, PAO OS là nền tảng Business Operating System ứng dụng AI, hướng đến việc kết nối con người, dữ liệu, công việc và các AI Agent trong một môi trường vận hành thống nhất.",
+    "Mục tiêu của PAO là giúp doanh nghiệp khai thác sức mạnh của AI một cách có tổ chức, hiệu quả và dễ kiểm soát hơn."
+  ],
+  "sections": [
+    {
+      "id": "cau-chuyen-pao",
+      "title": "Vì sao chúng tôi xây dựng PAO OS?",
+      "subtitle": "Doanh nghiệp không thiếu công cụ. Điều còn thiếu là sự kết nối.",
+      "paragraphs": [
+        "Một doanh nghiệp ngày nay có thể sử dụng hàng chục phần mềm khác nhau để quản lý dự án, triển khai marketing, bán hàng, chăm sóc khách hàng và điều hành hoạt động nội bộ.",
+        "Mỗi phần mềm giải quyết một nhu cầu cụ thể, nhưng khi các hệ thống không kết nối với nhau, nhân sự vẫn phải dành nhiều thời gian để chuyển dữ liệu, tổng hợp báo cáo, theo dõi tiến độ và phối hợp công việc.",
+        "Sự xuất hiện của AI giúp nhiều tác vụ được xử lý nhanh hơn. Tuy nhiên, nếu mỗi AI chỉ thực hiện một công việc độc lập, người dùng vẫn phải tự tổ chức toàn bộ quy trình.",
+        "Từ thực tế đó, chúng tôi đặt ra một câu hỏi:",
+        "**Điều gì sẽ xảy ra nếu AI có thể phối hợp với nhau, sử dụng các công cụ cần thiết và hỗ trợ doanh nghiệp xử lý công việc trong một hệ thống chung?**",
+        "Câu hỏi này trở thành nền tảng cho sự phát triển của PAO OS.",
+        "Thay vì tạo thêm một công cụ độc lập, chúng tôi hướng đến xây dựng một lớp điều phối thông minh, có khả năng kết nối các hệ thống và tổ chức công việc từ khi tiếp nhận yêu cầu đến khi hoàn thành."
+      ],
+      "variant": "story"
+    },
+    {
+      "id": "ai-chief-of-staff",
+      "title": "PAO OS – Từ trợ lý AI đến hệ thống điều phối công việc",
+      "subtitle": "Khi AI tham gia vào quy trình, thay vì chỉ đưa ra câu trả lời",
+      "paragraphs": [
+        "PAO OS được phát triển dựa trên mô hình **AI Chief of Staff** kết hợp kiến trúc **Multi-Agent System**.",
+        "Trong mô hình này, PAO AI đóng vai trò trung tâm tiếp nhận yêu cầu, hỗ trợ lập kế hoạch và điều phối các tác nhân AI có chuyên môn phù hợp.",
+        "Một nhiệm vụ có thể được phân chia thành nhiều bước như nghiên cứu thông tin, phân tích dữ liệu, chuẩn bị nội dung, tổng hợp kết quả và chuyển đến người phụ trách phê duyệt.",
+        "Các AI Agent được thiết kế để phối hợp thông qua hệ thống quản lý nhiệm vụ, công cụ tích hợp và quy trình được cấu hình.",
+        "PAO hướng đến một phương thức làm việc mới:",
+        "**Con người xác định mục tiêu. AI hỗ trợ tổ chức và thực hiện. Doanh nghiệp kiểm soát quá trình và kết quả.**",
+        "Đây là định hướng cốt lõi trong việc phát triển PAO từ một trợ lý AI thành nền tảng hỗ trợ vận hành doanh nghiệp."
+      ],
+      "variant": "coordination"
+    },
+    {
+      "id": "danh-cho-sme",
+      "title": "Được phát triển dành cho doanh nghiệp",
+      "subtitle": "Công nghệ AI cần phù hợp với cách doanh nghiệp thực sự vận hành",
+      "paragraphs": [
+        "PAO OS hướng đến nhiều nhóm người dùng, từ người quản lý, đội ngũ marketing, bán hàng đến các bộ phận cần phối hợp công việc và xử lý dữ liệu thường xuyên.",
+        "Trong đó, doanh nghiệp vừa và nhỏ (SME) là nhóm khách hàng trọng tâm.",
+        "Chúng tôi hiểu rằng không phải doanh nghiệp nào cũng có đội ngũ công nghệ chuyên trách hoặc nguồn lực để xây dựng những hệ thống tự động hóa phức tạp.",
+        "Vì vậy, PAO OS for SME được phát triển theo những định hướng rõ ràng:"
+      ],
+      "variant": "business",
+      "items": [
+        "**Dễ tiếp cận:** Ứng dụng AI từ những công việc và nhu cầu quen thuộc.",
+        "**Linh hoạt:** Lựa chọn tính năng, AI Agent và phương án triển khai phù hợp.",
+        "**Có khả năng kết nối:** Tận dụng các phần mềm và dịch vụ doanh nghiệp đang sử dụng.",
+        "**Có kiểm soát:** Quản lý quyền truy cập, quy trình phê duyệt và phạm vi thực hiện của AI.",
+        "**Có khả năng mở rộng:** Bắt đầu từ một số quy trình ưu tiên và phát triển theo nhu cầu thực tế."
+      ],
+      "after": [
+        "PAO không hướng đến việc buộc doanh nghiệp thay thế toàn bộ hệ thống hiện có. Thay vào đó, nền tảng được thiết kế để hỗ trợ kết nối và phát huy hiệu quả của những công cụ đang sử dụng."
+      ]
+    },
+    {
+      "id": "triet-ly-phat-trien",
+      "title": "Triết lý phát triển PAO OS",
+      "subtitle": "Linh hoạt trong công nghệ. Thực tế trong ứng dụng. Con người giữ quyền kiểm soát.",
+      "paragraphs": [
+        "Thế giới AI đang thay đổi nhanh chóng. Các mô hình ngôn ngữ, nền tảng và công cụ mới liên tục xuất hiện, mở ra những khả năng ứng dụng ngày càng đa dạng.",
+        "Chúng tôi tin rằng một nền tảng AI dành cho doanh nghiệp cần có khả năng thích ứng với những thay đổi đó.",
+        "Vì vậy, PAO OS theo đuổi kiến trúc linh hoạt, hướng đến khả năng kết nối nhiều mô hình AI, dịch vụ và phần mềm doanh nghiệp thông qua các phương thức tích hợp tương thích.",
+        "Bên cạnh khả năng tự động hóa, PAO chú trọng đến tính minh bạch, phân quyền và kiểm soát hoạt động của hệ thống.",
+        "AI có thể hỗ trợ thực hiện công việc, nhưng những quyết định quan trọng vẫn cần được giám sát và phê duyệt bởi người có thẩm quyền.",
+        "Chúng tôi cũng tin rằng giá trị của công nghệ không nằm ở số lượng tính năng, mà ở khả năng giải quyết vấn đề thực tế.",
+        "PAO OS tiếp tục được phát triển, kiểm thử và cải thiện theo từng giai đoạn, dựa trên nhu cầu sử dụng, kết quả triển khai và những yêu cầu mới của doanh nghiệp."
+      ],
+      "variant": "principles"
+    },
+    {
+      "id": "ivn-network",
+      "title": "PAO OS được phát triển bởi IVN Network",
+      "subtitle": "Phát triển công nghệ AI từ Việt Nam",
+      "paragraphs": [
+        "**IVN Network** là đơn vị phát triển PAO OS tại Việt Nam, tập trung vào các giải pháp phần mềm, AI Agent và công nghệ tự động hóa phục vụ hoạt động doanh nghiệp.",
+        "PAO OS là một trong những định hướng phát triển sản phẩm của IVN Network, kết hợp kỹ thuật phần mềm, trí tuệ nhân tạo và kiến thức về hoạt động kinh doanh trong một nền tảng thống nhất.",
+        "Chúng tôi hướng đến việc xây dựng các sản phẩm AI có khả năng ứng dụng thực tế, dễ tiếp cận và có thể phát triển cùng nhu cầu của người dùng.",
+        "PAO OS đã được giới thiệu ra thị trường và tiếp tục được hoàn thiện theo lộ trình phát triển sản phẩm."
+      ],
+      "variant": "origin"
+    },
+    {
+      "id": "tam-nhin-pao",
+      "title": "Tầm nhìn của PAO OS",
+      "subtitle": "Đưa AI trở thành một phần tự nhiên trong cách doanh nghiệp làm việc",
+      "paragraphs": [
+        "Chúng tôi hình dung một môi trường làm việc nơi con người không còn phải dành quá nhiều thời gian để kết nối các công cụ, chuyển giao dữ liệu hay thực hiện những thao tác lặp lại.",
+        "Thay vào đó, doanh nghiệp có thể tập trung vào mục tiêu, chiến lược và những quyết định thực sự quan trọng.",
+        "AI sẽ hỗ trợ tổ chức công việc, phối hợp các nguồn lực và xử lý những nhiệm vụ phù hợp trong phạm vi được cho phép.",
+        "**Tầm nhìn của PAO OS là xây dựng một hệ điều hành doanh nghiệp lấy AI làm trung tâm, nơi con người và các AI Agent có thể phối hợp để làm việc hiệu quả hơn.**",
+        "Đó là hướng đi mà IVN Network đang từng bước hiện thực hóa cùng PAO OS."
+      ],
+      "variant": "vision"
+    }
+  ],
+  "closing": {
+    "title": "Khám phá tương lai vận hành doanh nghiệp cùng PAO OS",
+    "paragraph": "Mỗi doanh nghiệp đều có những bài toán riêng. PAO OS được phát triển để giúp bạn tiếp cận AI từ nhu cầu thực tế, lựa chọn giải pháp phù hợp và từng bước xây dựng quy trình làm việc thông minh hơn.",
+    "solutions": "Khám phá giải pháp PAO OS",
+    "contact": "Liên hệ đội ngũ PAO"
+  }
+}

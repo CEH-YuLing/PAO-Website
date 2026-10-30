@@ -1,0 +1,113 @@
+{
+  "seoTitle": "About PAO OS | An AI Operating System for Businesses",
+  "description": "Discover PAO OS, an AI Agent-powered business operating system developed by IVN Network in Vietnam to connect work and automate operations.",
+  "title": "About PAO OS",
+  "subtitle": "PAO OS – A Business Operating System for the AI era",
+  "intro": [
+    "Technology is changing how businesses work. Artificial intelligence can help with research, planning, data analysis, content creation and an increasing range of complex tasks.",
+    "Yet most tools still operate separately. People have to connect information, hand over results and coordinate work across different systems themselves.",
+    "**PAO OS is being developed to change that way of working.**",
+    "Developed in Vietnam by IVN Network, PAO OS is an AI-powered Business Operating System platform that aims to connect people, data, work and AI Agents in a shared operating environment.",
+    "PAO’s goal is to help businesses use AI in a more organized, effective and manageable way."
+  ],
+  "sections": [
+    {
+      "id": "cau-chuyen-pao",
+      "variant": "story",
+      "title": "Why are we building PAO OS?",
+      "subtitle": "Businesses do not lack tools. What is missing is connection.",
+      "paragraphs": [
+        "A business today may use dozens of applications to manage projects, run marketing, sell products, serve customers and manage internal operations.",
+        "Each application meets a specific need. But when systems do not connect, staff still spend considerable time transferring data, compiling reports, tracking progress and coordinating work.",
+        "AI helps many tasks get done faster. However, if each AI handles only an independent task, users still have to organize the entire process themselves.",
+        "That experience led us to a question:",
+        "**What would happen if AI systems could work together, use the tools they need and help businesses handle work within one shared system?**",
+        "This question became the foundation for PAO OS’s development.",
+        "Rather than creating another standalone tool, we aim to build an intelligent coordination layer that can connect systems and organize work from the moment a request arrives through to completion."
+      ]
+    },
+    {
+      "id": "ai-chief-of-staff",
+      "variant": "coordination",
+      "title": "PAO OS – From an AI assistant to a work coordination system",
+      "subtitle": "AI taking part in the process, rather than only providing answers",
+      "paragraphs": [
+        "PAO OS is being developed around the **AI Chief of Staff** model combined with a **Multi-Agent System** architecture.",
+        "In this model, PAO AI serves as the central point for receiving requests, helping plan work and coordinating AI Agents with suitable expertise.",
+        "A task can be broken into steps such as researching information, analyzing data, preparing content, bringing results together and sending them to the responsible person for approval.",
+        "AI Agents are designed to coordinate through the task management system, integrated tools and configured workflows.",
+        "PAO aims for a new way of working:",
+        "**People set the goals. AI helps organize and carry out work. The business controls the process and the results.**",
+        "This is the core direction behind developing PAO from an AI assistant into a platform that supports business operations."
+      ]
+    },
+    {
+      "id": "danh-cho-sme",
+      "variant": "business",
+      "title": "Developed for businesses",
+      "subtitle": "AI technology needs to fit how businesses actually operate",
+      "paragraphs": [
+        "PAO OS is intended for a range of users, from managers, marketing and sales teams to departments that regularly coordinate work and handle data.",
+        "Small and medium-sized enterprises (SMEs) are a particular focus.",
+        "We understand that not every business has a dedicated technology team or the resources to build complex automation systems.",
+        "That is why PAO OS for SME is developed around clear directions:"
+      ],
+      "items": [
+        "**Accessible:** Apply AI to familiar tasks and needs.",
+        "**Flexible:** Choose suitable features, AI Agents and deployment options.",
+        "**Connected:** Make use of the software and services the business already uses.",
+        "**Controlled:** Manage access permissions, approval processes and the scope of AI actions.",
+        "**Scalable:** Start with priority processes and expand according to actual needs."
+      ],
+      "after": [
+        "PAO does not aim to make businesses replace all their existing systems. Instead, the platform is designed to help connect and get more value from the tools already in use."
+      ]
+    },
+    {
+      "id": "triet-ly-phat-trien",
+      "variant": "principles",
+      "title": "The principles behind PAO OS",
+      "subtitle": "Flexible technology. Practical applications. People retain control.",
+      "paragraphs": [
+        "The world of AI is changing quickly. New language models, platforms and tools keep appearing, opening up an increasingly broad range of applications.",
+        "We believe a business AI platform needs to adapt to those changes.",
+        "PAO OS therefore pursues a flexible architecture, aiming to connect multiple AI models, services and business applications through compatible integration methods.",
+        "Alongside automation, PAO pays attention to transparency, permissions and control over system activity.",
+        "AI can help carry out work, but important decisions still need oversight and approval from an authorized person.",
+        "We also believe the value of technology lies in solving real problems, rather than the number of features it offers.",
+        "PAO OS continues to be developed, tested and improved in stages, based on usage needs, deployment results and businesses’ emerging requirements."
+      ]
+    },
+    {
+      "id": "ivn-network",
+      "variant": "origin",
+      "title": "PAO OS is developed by IVN Network",
+      "subtitle": "Developing AI technology from Vietnam",
+      "paragraphs": [
+        "**IVN Network** develops PAO OS in Vietnam, focusing on software solutions, AI Agents and automation technology for business operations.",
+        "PAO OS is one of IVN Network’s product development directions, bringing software engineering, artificial intelligence and business knowledge together in a shared platform.",
+        "We aim to build AI products that are practical, accessible and able to grow with users’ needs.",
+        "PAO OS has been introduced to the market and continues to be refined according to its product roadmap."
+      ]
+    },
+    {
+      "id": "tam-nhin-pao",
+      "variant": "vision",
+      "title": "The vision for PAO OS",
+      "subtitle": "Making AI a natural part of how businesses work",
+      "paragraphs": [
+        "We imagine a working environment where people no longer have to spend so much time connecting tools, transferring data or repeating the same actions.",
+        "Instead, businesses can focus on goals, strategy and the decisions that really matter.",
+        "AI will help organize work, coordinate resources and handle suitable tasks within the permitted scope.",
+        "**PAO OS’s vision is to build an AI-centered business operating system where people and AI Agents can work together more effectively.**",
+        "This is the direction IVN Network is gradually making a reality with PAO OS."
+      ]
+    }
+  ],
+  "closing": {
+    "title": "Explore the future of business operations with PAO OS",
+    "paragraph": "Every business faces its own challenges. PAO OS is being developed to help you approach AI through real needs, choose suitable solutions and gradually build smarter workflows.",
+    "solutions": "Explore PAO OS solutions",
+    "contact": "Contact the PAO team"
+  }
+}

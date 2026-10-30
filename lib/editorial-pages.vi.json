@@ -1,0 +1,1860 @@
+{
+  "tinh-nang": {
+    "seoTitle": "Tính năng PAO OS | AI Chief of Staff, Multi-Agent & Automation",
+    "description": "Khám phá PAO OS với AI Chief of Staff, Multi-Agent, quản lý công việc, AI Workflow Automation, Knowledge Graph và khả năng tích hợp hệ thống doanh nghiệp.",
+    "title": "Khám phá các tính năng PAO OS",
+    "subtitle": "Một nền tảng thống nhất để quản lý công việc, điều phối AI Agent và tự động hóa quy trình doanh nghiệp.",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "PAO OS được phát triển theo mô hình AI-Native Business Operating System, kết hợp hệ thống quản lý công việc với các AI Agent và công cụ tự động hóa trong cùng một môi trường vận hành.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Thay vì phải làm việc riêng lẻ với từng ứng dụng AI, người dùng có thể tổ chức nhiệm vụ, kết nối dữ liệu và phối hợp các công cụ thông qua một hệ thống điều phối chung.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Từ lập kế hoạch, nghiên cứu, sáng tạo nội dung đến quản lý khách hàng và báo cáo, PAO hướng đến việc giúp các bộ phận làm việc hiệu quả hơn mà vẫn duy trì quyền kiểm soát của con người.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Các tính năng được phát triển theo từng giai đoạn, với phạm vi sử dụng phụ thuộc vào phiên bản và cấu hình triển khai.",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "1. PAO AI – AI Chief of Staff",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Trợ lý AI điều phối công việc của bạn",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO AI được định hướng trở thành trung tâm tương tác thông minh giữa người dùng và toàn bộ hệ thống PAO OS.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thay vì chỉ trả lời câu hỏi, PAO AI hướng đến khả năng tiếp nhận yêu cầu, phân tích mục tiêu, lập kế hoạch và phối hợp các công cụ để hỗ trợ thực hiện công việc.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Người dùng có thể tương tác bằng ngôn ngữ tự nhiên mà không cần trực tiếp thao tác trên từng ứng dụng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Khả năng trọng tâm:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Tiếp nhận yêu cầu và phân tích nội dung nhiệm vụ.",
+              "Hỗ trợ xây dựng kế hoạch, xác định các bước xử lý.",
+              "Điều phối công việc đến AI Agent hoặc công cụ phù hợp.",
+              "Tổng hợp thông tin và kết quả từ nhiều nguồn.",
+              "Theo dõi tiến trình và hỗ trợ quản lý các nhiệm vụ.",
+              "Yêu cầu xác nhận trước những hành động cần phê duyệt."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**PAO AI được thiết kế để giúp người dùng chuyển từ việc tự thực hiện từng thao tác sang giao việc và kiểm soát kết quả.**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "2. Multi-Agent Orchestration",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Nhiều AI Agent chuyên biệt, cùng phối hợp để hoàn thành công việc",
+            "id": "section-02-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Một nhiệm vụ trong doanh nghiệp thường cần nhiều chuyên môn khác nhau.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chẳng hạn, triển khai một chiến dịch marketing có thể cần nghiên cứu thị trường, xây dựng chiến lược, viết nội dung, chuẩn bị tài liệu sáng tạo và phân tích hiệu quả.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO sử dụng kiến trúc Multi-Agent để tổ chức các bước xử lý và điều phối những AI Agent có vai trò phù hợp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Cơ chế hoạt động hướng đến:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Phân tích và chia nhiệm vụ phức tạp thành các công việc nhỏ.",
+              "Lựa chọn AI Agent theo chuyên môn và công cụ được phép sử dụng.",
+              "Chuyển kết quả giữa các bước trong cùng quy trình.",
+              "Theo dõi trạng thái và ghi nhận quá trình xử lý.",
+              "Tổng hợp kết quả để người dùng kiểm tra và phê duyệt."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các AI Agent có thể được cấu hình cho nghiên cứu, lập kế hoạch, nội dung, phân tích dữ liệu và những nghiệp vụ khác.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Mô hình này tạo nền tảng cho **AI Workforce** — một hệ thống các tác nhân AI phối hợp theo nhiệm vụ, quyền hạn và quy trình được xác định.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "3. Business Workspace",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Không gian quản lý công việc và dự án tập trung",
+            "id": "section-03-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thông tin công việc thường nằm rải rác trong email, tin nhắn, bảng tính và nhiều phần mềm khác nhau.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Business Workspace hướng đến việc đưa các nhiệm vụ, dự án, kế hoạch và kết quả xử lý về một không gian quản lý thống nhất.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Tại đây, người quản lý và nhân sự có thể tổ chức công việc, xác định trách nhiệm và theo dõi tiến độ theo quy trình chung.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Nhóm chức năng:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Quản lý dự án, kế hoạch và nhiệm vụ.",
+              "Phân công người phụ trách và xác định mức độ ưu tiên.",
+              "Theo dõi tiến độ và trạng thái công việc.",
+              "Liên kết tài liệu và thông tin liên quan đến nhiệm vụ.",
+              "Hỗ trợ tổng hợp báo cáo và cập nhật công việc bằng AI.",
+              "Kết hợp nhiệm vụ do con người và AI Agent thực hiện."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Business Workspace đóng vai trò kết nối hoạt động quản lý truyền thống với khả năng hỗ trợ xử lý công việc của AI.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "4. Content, Design & Publishing",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Kết nối quy trình sáng tạo nội dung từ ý tưởng đến xuất bản",
+            "id": "section-04-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Một nội dung hoàn chỉnh thường trải qua nhiều bước: nghiên cứu, lên ý tưởng, viết bài, thiết kế, kiểm duyệt và xuất bản.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO hướng đến việc tổ chức toàn bộ quá trình này thành quy trình có thể phối hợp giữa nhân sự và AI Agent.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Các nhóm ứng dụng:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "**Content Research:** Nghiên cứu chủ đề, phân tích thông tin và tìm kiếm ý tưởng.",
+              "**Content Creation:** Hỗ trợ viết, biên tập và phát triển nội dung theo yêu cầu.",
+              "**Creative Support:** Chuẩn bị brief, ý tưởng thiết kế và tài liệu phục vụ sản xuất hình ảnh.",
+              "**Content Workflow:** Quản lý các bước giao việc, chỉnh sửa và kiểm duyệt.",
+              "**Publishing Workflow:** Chuẩn bị nội dung xuất bản và kết nối các kênh được hỗ trợ."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Doanh nghiệp có thể thiết lập quy trình để AI hỗ trợ những bước phù hợp, trong khi nhân sự phụ trách kiểm tra nội dung và phê duyệt trước khi xuất bản.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Mục tiêu là giảm thời gian xử lý công việc lặp lại và giúp đội ngũ sáng tạo tập trung nhiều hơn vào chất lượng nội dung.**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-05",
+        "title": "5. Marketing & Ads Management",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Tổ chức và quản lý hoạt động marketing đa nền tảng",
+            "id": "section-05-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Một chiến dịch marketing có thể triển khai trên nhiều kênh, với dữ liệu quảng cáo và kết quả nằm ở những hệ thống khác nhau.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO phát triển nhóm chức năng Marketing & Ads Management nhằm hỗ trợ tổ chức chiến dịch, kết nối thông tin và ứng dụng AI vào quá trình phân tích, quản lý.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Định hướng tính năng:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Hỗ trợ lập kế hoạch và tổ chức chiến dịch marketing.",
+              "Quản lý nhiệm vụ, nội dung và tiến độ triển khai.",
+              "Kết nối với những nền tảng quảng cáo tương thích.",
+              "Hỗ trợ tổng hợp số liệu và chuẩn bị báo cáo hiệu quả.",
+              "Sử dụng AI để phân tích thông tin và đề xuất hướng tối ưu.",
+              "Tự động hóa một số bước trong quy trình quản lý quảng cáo."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các tích hợp với Meta Ads, Google Ads và TikTok Ads được phát triển theo lộ trình. Phạm vi truy cập dữ liệu và thực hiện thao tác phụ thuộc vào API, quyền tài khoản và chính sách của từng nền tảng.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-06",
+        "title": "6. CRM & Customer Operations",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Quản lý thông tin khách hàng gắn với công việc thực tế",
+            "id": "section-06-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Mỗi tương tác với khách hàng đều mang theo những thông tin có giá trị cho hoạt động bán hàng và chăm sóc.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Nếu dữ liệu nằm phân tán trên nhiều kênh, doanh nghiệp dễ gặp khó khăn trong việc theo dõi lịch sử trao đổi, phân công xử lý và chăm sóc khách hàng liên tục.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO hướng đến kết hợp hệ thống CRM với các AI Agent để tổ chức thông tin và hỗ trợ quy trình chăm sóc khách hàng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Các nhóm chức năng định hướng:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Quản lý hồ sơ và thông tin khách hàng.",
+              "Theo dõi yêu cầu, lịch sử tương tác và trạng thái xử lý.",
+              "Hỗ trợ phân loại khách hàng và nhu cầu.",
+              "AI Agent hỗ trợ chuẩn bị nội dung phản hồi và tư vấn.",
+              "Tổ chức quy trình giao việc, nhắc việc và chăm sóc tiếp theo.",
+              "Kết nối dữ liệu từ các nguồn CRM và kênh tương thích."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI sử dụng những thông tin được doanh nghiệp cho phép truy cập, theo phạm vi dữ liệu và quy trình đã cấu hình.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-07",
+        "title": "7. Knowledge Graph & AI Memory",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Kết nối tri thức để AI hiểu đúng ngữ cảnh công việc",
+            "id": "section-07-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Một AI Agent muốn hỗ trợ công việc hiệu quả cần có thông tin phù hợp về nhiệm vụ, tài liệu, quy trình và những dữ liệu liên quan.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Nếu mỗi lần làm việc người dùng đều phải cung cấp lại toàn bộ thông tin, lợi ích của AI sẽ bị hạn chế.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO định hướng phát triển hệ thống quản lý tri thức và bộ nhớ ngữ cảnh để hỗ trợ các AI Agent truy xuất, liên kết và sử dụng thông tin trong quá trình xử lý nhiệm vụ.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Kiến trúc hướng đến:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Tổ chức tài liệu, dữ liệu và thông tin theo không gian làm việc.",
+              "Liên kết thông tin giữa dự án, nhiệm vụ và những đối tượng liên quan.",
+              "Hỗ trợ truy xuất ngữ cảnh phù hợp với từng yêu cầu.",
+              "Giảm nhu cầu nhập lại những thông tin đã được lưu và cho phép sử dụng.",
+              "Quản lý quyền truy cập đối với các nguồn tri thức.",
+              "Hỗ trợ duy trì ngữ cảnh giữa các bước trong quy trình Multi-Agent."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Knowledge Graph và AI Memory là những thành phần trong định hướng phát triển khả năng quản lý tri thức của PAO. Phạm vi triển khai cụ thể cần được xác định theo phiên bản sản phẩm.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-08",
+        "title": "8. AI Workflow Automation",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Tự động hóa quy trình, kiểm soát từng bước xử lý",
+            "id": "section-08-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Không phải công việc nào cũng cần AI. Nhiều thao tác có thể giải quyết bằng những quy tắc tự động hóa đơn giản.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Tuy nhiên, với các nhiệm vụ cần đọc hiểu nội dung, phân tích thông tin hoặc lựa chọn phương án, AI có thể đóng vai trò hỗ trợ quan trọng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO hướng đến việc kết hợp hai khả năng này trong hệ thống AI Workflow Automation.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Một quy trình có thể bao gồm:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": true,
+            "items": [
+              "Tiếp nhận yêu cầu hoặc dữ liệu từ hệ thống kết nối.",
+              "Phân tích nội dung và xác định điều kiện xử lý.",
+              "Giao nhiệm vụ cho AI Agent hoặc công cụ phù hợp.",
+              "Thực hiện các thao tác theo quy tắc và quyền hạn.",
+              "Chuyển yêu cầu phê duyệt đến nhân sự có thẩm quyền.",
+              "Lưu kết quả và cập nhật trạng thái công việc."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Hệ thống được thiết kế với các cơ chế phân quyền, phê duyệt và ghi nhận hoạt động nhằm giúp doanh nghiệp theo dõi quá trình thực hiện.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Tự động hóa để giảm thao tác thủ công, nhưng vẫn giữ con người trong những quyết định quan trọng.**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-09",
+        "title": "9. Integrations & AI Models",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Kết nối nhiều công cụ và mô hình AI theo nhu cầu",
+            "id": "section-09-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Doanh nghiệp sử dụng nhiều dịch vụ công nghệ khác nhau, từ phần mềm quản lý đến các nền tảng AI và dịch vụ dữ liệu.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO được thiết kế theo kiến trúc mở rộng, hướng đến việc kết nối các mô hình AI, API và công cụ doanh nghiệp thông qua những phương thức tích hợp tương thích.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Định hướng hỗ trợ:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Kết nối nhiều nhà cung cấp và mô hình AI.",
+              "Tích hợp các dịch vụ bên ngoài thông qua API và bộ công cụ hỗ trợ.",
+              "Kết nối nguồn dữ liệu và ứng dụng doanh nghiệp.",
+              "Cấu hình công cụ cho từng AI Agent theo nhiệm vụ.",
+              "Quản lý quyền truy cập và thông tin xác thực của các tích hợp.",
+              "Phát triển những quy trình phối hợp giữa các hệ thống."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Khả năng tích hợp phụ thuộc vào API, phương thức xác thực, điều kiện kỹ thuật và chính sách của nhà cung cấp dịch vụ.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Kiến trúc này giúp PAO có khả năng thích ứng với sự thay đổi của công nghệ AI và nhu cầu vận hành khác nhau giữa các doanh nghiệp.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-10",
+        "title": "10. Deployment & Access Control",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Linh hoạt trong triển khai, rõ ràng trong quyền kiểm soát",
+            "id": "section-10-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Mỗi doanh nghiệp có yêu cầu riêng về hạ tầng, dữ liệu và phạm vi truy cập.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS được phát triển theo chiến lược hỗ trợ nhiều môi trường triển khai, phù hợp với những nhu cầu sử dụng khác nhau.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Cloud / VPS Edition**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Định hướng triển khai PAO trên môi trường máy chủ, cho phép người dùng truy cập thông qua giao diện web và những kênh kết nối được cấu hình.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Mô hình này phù hợp với các quy trình cần vận hành tập trung và hỗ trợ nhiều người dùng làm việc trên cùng hệ thống.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Desktop / PC Edition**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Phiên bản Desktop nằm trong lộ trình phát triển, hướng đến khả năng thực hiện những thao tác được người dùng cho phép trên máy tính cá nhân.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các quyền thao tác được thiết kế để giới hạn theo thiết bị, tài khoản và phạm vi hành động được cấp phép.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Security & Access Control**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO chú trọng việc xây dựng các cơ chế kiểm soát trong quá trình AI tham gia xử lý công việc:",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Quản lý người dùng và phạm vi truy cập.",
+              "Phân quyền sử dụng công cụ và nguồn dữ liệu.",
+              "Phê duyệt những hành động quan trọng.",
+              "Ghi nhận lịch sử và trạng thái thực hiện.",
+              "Giới hạn thao tác theo cấu hình và quyền được cấp.",
+              "Hỗ trợ kiểm tra hoạt động của AI Agent."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Mục tiêu là giúp doanh nghiệp khai thác khả năng tự động hóa mà vẫn duy trì được tính minh bạch và quyền kiểm soát đối với hệ thống.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-11",
+        "title": "Các tính năng được thiết kế để phối hợp với nhau",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Điểm cốt lõi trong kiến trúc PAO OS là khả năng kết nối những thành phần của hệ thống.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Business Workspace** giúp tổ chức công việc.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**PAO AI** tiếp nhận và hỗ trợ điều phối yêu cầu.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Multi-Agent Orchestration** phân chia và phối hợp các nhiệm vụ cần nhiều chuyên môn.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Knowledge & Integrations** cung cấp dữ liệu và công cụ trong phạm vi được phép.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Workflow Automation** tổ chức các bước xử lý, trong khi cơ chế phân quyền và phê duyệt giúp người dùng duy trì quyền kiểm soát.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Tất cả cùng hướng đến mục tiêu chung: biến AI từ một công cụ hỗ trợ riêng lẻ thành một phần có tổ chức trong quy trình làm việc của doanh nghiệp.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-12",
+        "title": "Khám phá PAO OS theo nhu cầu của bạn",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "**Bắt đầu từ những công việc cần giải quyết. Lựa chọn tính năng phù hợp. Mở rộng khi doanh nghiệp sẵn sàng.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS đang được phát triển và hoàn thiện theo từng giai đoạn, với mục tiêu đưa AI Agent và tự động hóa vào hoạt động doanh nghiệp một cách thiết thực, dễ quản lý.",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Khám phá giải pháp PAO OS",
+                "href": "/solutions/"
+              },
+              {
+                "label": "Xem các phiên bản triển khai",
+                "href": "/download/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "doi-ngu": {
+    "seoTitle": "Đội ngũ phát triển PAO OS | IVN Network Việt Nam",
+    "description": "Tìm hiểu đội ngũ phát triển PAO OS tại IVN Network, tư duy xây dựng sản phẩm, chuyên môn AI Agent, kỹ thuật phần mềm và tự động hóa doanh nghiệp.",
+    "title": "Đội ngũ phát triển PAO OS",
+    "subtitle": "Kết hợp công nghệ AI, tư duy sản phẩm và sự am hiểu hoạt động doanh nghiệp.",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "Đằng sau một hệ thống AI có thể hỗ trợ công việc là nhiều lớp công nghệ, quy trình và những quyết định kỹ thuật mà người dùng ít khi nhìn thấy.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Từ thiết kế kiến trúc, phát triển AI Agent, kết nối dữ liệu đến xây dựng các cơ chế phân quyền và tự động hóa, mỗi thành phần đều cần được xem xét trong mối liên hệ với hoạt động thực tế của doanh nghiệp.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "PAO OS được phát triển với cách tiếp cận đó: bắt đầu từ vấn đề cần giải quyết, lựa chọn công nghệ phù hợp và từng bước xây dựng một nền tảng có khả năng ứng dụng lâu dài.",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "Phát triển bởi IVN Network",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Công nghệ được xây dựng từ nhu cầu thực tế",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**IVN Network** là đơn vị phát triển PAO OS tại Việt Nam, với định hướng ứng dụng trí tuệ nhân tạo và công nghệ phần mềm vào các hoạt động quản lý, điều hành và vận hành doanh nghiệp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Quá trình phát triển PAO kết hợp kiến thức từ nhiều lĩnh vực: AI Agent, kỹ thuật phần mềm, tự động hóa, thiết kế sản phẩm và hoạt động kinh doanh số.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chúng tôi không xem việc tích hợp thêm một mô hình AI hay công cụ mới là mục tiêu cuối cùng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Điều quan trọng hơn là công nghệ đó có thể giúp người dùng giải quyết công việc gì, phối hợp với hệ thống hiện có như thế nào và có đủ khả năng kiểm soát để sử dụng trong môi trường doanh nghiệp hay không.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**PAO OS được xây dựng để đưa AI đến gần hơn với công việc thực tế, thay vì khiến doanh nghiệp phải thay đổi cách làm việc chỉ để thích nghi với công nghệ.**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "Cách chúng tôi xây dựng PAO OS",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Bắt đầu từ bài toán, không bắt đầu từ tính năng",
+            "id": "section-02-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Mỗi doanh nghiệp có một cách tổ chức công việc, sử dụng dữ liệu và phối hợp nhân sự khác nhau.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Một quy trình có thể cần AI để nghiên cứu hoặc phân tích thông tin. Quy trình khác chỉ cần những quy tắc tự động hóa đơn giản. Một số công việc vẫn cần con người trực tiếp kiểm tra và quyết định.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Vì vậy, việc phát triển PAO bắt đầu từ việc hiểu rõ quy trình, xác định những bước có thể cải thiện và lựa chọn phương án xử lý phù hợp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chúng tôi ưu tiên những chức năng có giá trị sử dụng rõ ràng, thay vì bổ sung quá nhiều công nghệ khiến hệ thống trở nên phức tạp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Xây dựng một nền tảng có khả năng kết nối",
+            "id": "section-02-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Một hệ điều hành doanh nghiệp ứng dụng AI cần nhiều hơn một giao diện trò chuyện.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Phía sau PAO là định hướng kiến trúc gồm hệ thống điều phối AI Agent, quản lý nhiệm vụ, kết nối công cụ, dữ liệu, phân quyền và ghi nhận quá trình thực hiện.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các thành phần cần phối hợp trong một quy trình thống nhất, đồng thời thích ứng với những thay đổi từ các nhà cung cấp dịch vụ AI và phần mềm bên ngoài.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Đây là một trong những trọng tâm kỹ thuật của PAO OS: xây dựng nền tảng linh hoạt để có thể tiếp tục phát triển khi công nghệ và nhu cầu doanh nghiệp thay đổi.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Tự động hóa phải đi cùng trách nhiệm",
+            "id": "section-02-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI có thể hỗ trợ xử lý nhiều công việc, nhưng không phải hành động nào cũng nên được thực hiện tự động.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Những thao tác liên quan đến dữ liệu khách hàng, tài khoản doanh nghiệp, ngân sách hoặc hệ thống vận hành cần có giới hạn và cơ chế kiểm soát phù hợp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO được phát triển theo định hướng quản lý quyền truy cập, ghi nhận lịch sử thao tác và yêu cầu phê duyệt đối với những hành động quan trọng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Chúng tôi hướng đến một hệ thống AI có thể hỗ trợ thực hiện công việc, đồng thời giúp người dùng hiểu và kiểm soát những gì đang diễn ra.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Phát triển từng bước và liên tục cải thiện",
+            "id": "section-02-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Công nghệ AI thay đổi nhanh chóng. Một sản phẩm muốn phục vụ doanh nghiệp lâu dài cần được cập nhật, kiểm thử và cải tiến thường xuyên.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS đã được giới thiệu ra thị trường và đang tiếp tục được phát triển theo từng giai đoạn.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các hoạt động phát triển tập trung vào hoàn thiện chức năng, cải thiện khả năng vận hành, mở rộng những tích hợp phù hợp và đánh giá nhu cầu sử dụng thực tế.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chúng tôi xem phản hồi của người dùng, kết quả kiểm thử và những vấn đề phát sinh trong quá trình triển khai là cơ sở quan trọng để quyết định hướng phát triển tiếp theo.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "Các lĩnh vực chuyên môn phía sau PAO OS",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Việc xây dựng một hệ thống Business Operating System ứng dụng AI đòi hỏi sự kết hợp của nhiều nhóm kiến thức và năng lực chuyên môn.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "AI Engineering & Multi-Agent Systems",
+            "id": "section-03-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Nghiên cứu và phát triển kiến trúc AI Agent, điều phối tác vụ, kết nối mô hình ngôn ngữ và tổ chức các quy trình phối hợp nhiều tác nhân AI.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Mục tiêu là giúp AI tham gia xử lý những công việc có nhiều bước, thay vì chỉ trả lời những yêu cầu độc lập.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Software Engineering & Infrastructure",
+            "id": "section-03-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thiết kế kiến trúc phần mềm, phát triển hệ thống backend, frontend, quản lý cơ sở dữ liệu và xây dựng môi trường triển khai.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các vấn đề về hiệu suất, khả năng duy trì, bảo mật và tính ổn định được xem xét trong quá trình phát triển sản phẩm.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Business Process & Automation",
+            "id": "section-03-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Phân tích cách doanh nghiệp tổ chức công việc, xác định những thao tác lặp lại và thiết kế quy trình có thể kết hợp tự động hóa với AI.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Trọng tâm là tạo ra những luồng xử lý rõ ràng, có thể theo dõi và phù hợp với điều kiện vận hành thực tế.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Product Design & User Experience",
+            "id": "section-03-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thiết kế giao diện, cấu trúc thông tin và quy trình tương tác để người dùng có thể tiếp cận những khả năng AI phức tạp theo cách đơn giản hơn.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Một sản phẩm tốt cần giúp người dùng hiểu phải làm gì, hệ thống đang xử lý đến đâu và khi nào cần đưa ra quyết định.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Digital Business & Marketing Technology",
+            "id": "section-03-part-05"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Nghiên cứu khả năng ứng dụng AI trong marketing, quảng cáo, bán hàng, chăm sóc khách hàng và quản trị doanh nghiệp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Những kiến thức nghiệp vụ này giúp định hướng các chức năng PAO theo nhu cầu sử dụng, thay vì chỉ dựa trên khả năng kỹ thuật.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "Tư duy phát triển của chúng tôi",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Thực tế trong ứng dụng. Linh hoạt trong công nghệ. Rõ ràng trong kiểm soát.",
+            "id": "section-04-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chúng tôi tin rằng một sản phẩm AI có giá trị cần cân bằng được ba yếu tố:",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Giải quyết đúng vấn đề**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Công nghệ cần gắn với những công việc và nhu cầu cụ thể của người dùng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Có khả năng phát triển lâu dài**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Kiến trúc phải đủ linh hoạt để mở rộng tính năng, thay đổi mô hình AI và kết nối các dịch vụ mới khi cần.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Duy trì quyền kiểm soát của con người**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI có thể hỗ trợ lập kế hoạch, xử lý thông tin và thực hiện những tác vụ được cho phép. Người dùng vẫn cần có khả năng giám sát, kiểm tra và quyết định những hành động quan trọng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Đây là những nguyên tắc định hướng quá trình phát triển PAO OS tại IVN Network.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-05",
+        "title": "Cùng chúng tôi phát triển những ứng dụng AI thiết thực",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO OS hướng đến việc giúp doanh nghiệp đưa AI vào công việc một cách có tổ chức, linh hoạt và phù hợp với nhu cầu vận hành.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chúng tôi quan tâm đến những cơ hội hợp tác về công nghệ, phát triển sản phẩm, tích hợp hệ thống và ứng dụng AI trong môi trường doanh nghiệp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Nếu bạn đang tìm hiểu PAO OS, có ý tưởng hợp tác hoặc muốn trao đổi về một bài toán vận hành cụ thể, đội ngũ PAO sẵn sàng tiếp nhận thông tin và thảo luận về những hướng tiếp cận phù hợp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Liên hệ đội ngũ PAO OS",
+                "href": "/contact/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "seoTitle": "PAO Insights | Kiến thức AI Agent, Automation & Công nghệ AI",
+    "description": "Khám phá PAO Insights với kiến thức về AI Agent, Multi-Agent, AI Marketing, Business Automation và ứng dụng trí tuệ nhân tạo trong doanh nghiệp.",
+    "title": "PAO Insights",
+    "subtitle": "Khám phá công nghệ AI. Hiểu cách vận hành. Ứng dụng vào công việc thực tế.",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "Trí tuệ nhân tạo đang thay đổi cách chúng ta làm việc, từ những tác vụ đơn giản đến các quy trình phức tạp trong doanh nghiệp.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Mỗi ngày, những mô hình AI, công cụ và phương pháp mới tiếp tục xuất hiện. Nhưng giữa khả năng công nghệ và hiệu quả ứng dụng thực tế luôn có những vấn đề cần tìm hiểu: dữ liệu, chi phí, khả năng tích hợp, bảo mật và tính ổn định.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "**PAO Insights** là nơi chia sẻ kiến thức, phân tích công nghệ và những góc nhìn thực tiễn về AI Agent, tự động hóa và chuyển đổi phương thức làm việc bằng trí tuệ nhân tạo.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Nội dung được phát triển dành cho người quản lý doanh nghiệp, đội ngũ marketing, những người làm công nghệ và bất kỳ ai muốn hiểu rõ hơn về cách AI có thể hỗ trợ công việc.",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "Khám phá kiến thức theo chủ đề",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "1. AI Agent & Multi-Agent Systems",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Tìm hiểu cách AI chuyển từ trả lời câu hỏi sang hỗ trợ thực hiện công việc.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Agent đang mở ra một hướng tiếp cận mới trong việc ứng dụng trí tuệ nhân tạo.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thay vì chỉ phản hồi nội dung, các hệ thống AI Agent có thể được thiết kế để lập kế hoạch, sử dụng công cụ và tham gia xử lý những nhiệm vụ gồm nhiều bước.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chuyên mục tập trung giải thích các khái niệm, nguyên lý hoạt động và kiến trúc phía sau những hệ thống này.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Chủ đề khám phá:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "AI Agent là gì và khác chatbot truyền thống như thế nào?",
+              "Multi-Agent System và cách nhiều tác nhân AI phối hợp.",
+              "AI Chief of Staff và mô hình trợ lý điều phối công việc.",
+              "Agent Orchestration, Tool Calling và quản lý nhiệm vụ.",
+              "Bộ nhớ, ngữ cảnh và khả năng sử dụng công cụ của AI.",
+              "Những giới hạn và rủi ro khi triển khai AI Agent."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Từ kiến thức nền tảng đến những vấn đề kỹ thuật chuyên sâu, chuyên mục giúp người đọc hiểu rõ hơn cách xây dựng và ứng dụng các hệ thống AI có khả năng thực hiện công việc.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "2. AI trong quản trị & vận hành doanh nghiệp",
+            "id": "section-01-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Đưa AI vào hoạt động doanh nghiệp, bắt đầu từ những vấn đề cụ thể.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Ứng dụng AI hiệu quả không nhất thiết phải bắt đầu bằng một hệ thống lớn hay những khoản đầu tư phức tạp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Đôi khi, việc giảm thời gian tổng hợp báo cáo, tự động phân loại yêu cầu hoặc hỗ trợ quản lý công việc đã có thể tạo ra những cải thiện đáng kể.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chuyên mục chia sẻ cách tiếp cận AI từ góc nhìn quản trị, vận hành và tổ chức quy trình.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Chủ đề khám phá:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Business Operating System là gì?",
+              "Các trường hợp ứng dụng AI trong quản lý doanh nghiệp.",
+              "AI Workflow Automation và tự động hóa quy trình.",
+              "Ứng dụng AI trong quản lý dự án và công việc.",
+              "Kết nối AI với ERP, CRM và phần mềm doanh nghiệp.",
+              "Lựa chọn quy trình phù hợp để bắt đầu ứng dụng AI.",
+              "Đánh giá chi phí, hiệu quả và rủi ro khi triển khai."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Nội dung hướng đến việc giúp người quản lý hiểu công nghệ có thể giải quyết vấn đề nào, cần chuẩn bị những gì và làm sao để đánh giá hiệu quả một cách thực tế.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "3. AI Marketing & Sales",
+            "id": "section-01-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Ứng dụng trí tuệ nhân tạo trong marketing, bán hàng và chăm sóc khách hàng.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI đang hỗ trợ nhiều hoạt động marketing và kinh doanh, từ nghiên cứu thị trường, sáng tạo nội dung đến phân tích dữ liệu và xử lý tương tác khách hàng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Tuy nhiên, hiệu quả không chỉ phụ thuộc vào công cụ AI được lựa chọn mà còn nằm ở cách tổ chức dữ liệu, kết nối hệ thống và thiết kế quy trình làm việc.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chuyên mục tập trung vào những phương pháp ứng dụng AI trong hoạt động marketing và bán hàng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Chủ đề khám phá:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "AI Marketing Automation và các mô hình ứng dụng.",
+              "Sử dụng AI để nghiên cứu thị trường và lập kế hoạch.",
+              "AI Content Creation trong sản xuất nội dung.",
+              "AI hỗ trợ quản lý quảng cáo Meta, Google và TikTok.",
+              "AI CRM và quản lý thông tin khách hàng.",
+              "Chatbot bán hàng và tự động hóa chăm sóc khách hàng.",
+              "Kết nối dữ liệu marketing và phân tích hiệu quả chiến dịch."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các bài viết chú trọng khả năng ứng dụng, điều kiện tích hợp và những giới hạn cần lưu ý khi sử dụng AI trong hoạt động kinh doanh.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "4. AI Engineering & Open Source",
+            "id": "section-01-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Khám phá công nghệ phía sau những hệ thống AI hiện đại.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Để xây dựng một ứng dụng AI phục vụ công việc thực tế, mô hình ngôn ngữ chỉ là một phần của hệ thống.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các thành phần như API, cơ sở dữ liệu, công cụ điều phối, bộ nhớ, hạ tầng và cơ chế bảo mật đều ảnh hưởng đến khả năng vận hành.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Engineering & Open Source dành cho developer, kỹ sư phần mềm và những người muốn tìm hiểu sâu hơn về kiến trúc hệ thống AI.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Chủ đề khám phá:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "LLM API và cách tích hợp mô hình ngôn ngữ.",
+              "Model Context Protocol (MCP) và kết nối công cụ.",
+              "AI Agent Framework và các kiến trúc Multi-Agent.",
+              "Retrieval-Augmented Generation (RAG) và Knowledge Graph.",
+              "Các dự án mã nguồn mở phục vụ phát triển AI.",
+              "Triển khai ứng dụng AI trên Cloud, VPS và Desktop.",
+              "Quản lý token, chi phí API và hiệu suất xử lý.",
+              "Bảo mật, phân quyền và giám sát hoạt động AI Agent."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các nội dung kỹ thuật ưu tiên giải thích nguyên lý, phân tích phương án triển khai và những vấn đề có thể phát sinh khi đưa hệ thống vào vận hành.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "5. PAO Development & Product Updates",
+            "id": "section-01-part-05"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Theo dõi hành trình phát triển PAO OS.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS được phát triển theo định hướng kết hợp quản lý công việc, điều phối AI Agent và tự động hóa doanh nghiệp trong một nền tảng thống nhất.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chuyên mục PAO Development là nơi cập nhật những thông tin được công bố về sản phẩm, quá trình phát triển và các hướng cải tiến.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Nội dung bao gồm:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Thông báo phiên bản và cập nhật tính năng.",
+              "Giới thiệu các thành phần trong kiến trúc PAO OS.",
+              "Những thay đổi về giao diện và quy trình sử dụng.",
+              "Cập nhật khả năng tích hợp và triển khai.",
+              "Chia sẻ về các quyết định thiết kế và kỹ thuật.",
+              "Lộ trình phát triển và những chức năng đang được nghiên cứu."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thông tin được phân biệt rõ giữa tính năng đã phát hành, chức năng đang phát triển và các định hướng trong tương lai.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Đây cũng là nơi người dùng có thể hiểu thêm về cách PAO OS được xây dựng và hoàn thiện qua từng giai đoạn.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "Những chủ đề nổi bật để bắt đầu",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Nếu bạn mới tìm hiểu AI Agent hoặc đang cân nhắc ứng dụng AI vào doanh nghiệp, những chủ đề dưới đây là điểm khởi đầu phù hợp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "AI Agent là gì? Cách hoạt động và ứng dụng thực tế",
+            "id": "section-02-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Tìm hiểu khái niệm AI Agent, cách AI sử dụng công cụ, xử lý nhiệm vụ và những điểm khác biệt so với chatbot thông thường.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Multi-Agent System là gì? Khi nhiều AI cùng phối hợp làm việc",
+            "id": "section-02-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Khám phá cách phân chia nhiệm vụ, điều phối các AI Agent và tổ chức những quy trình cần nhiều bước xử lý.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Business Operating System là gì?",
+            "id": "section-02-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Tìm hiểu khái niệm hệ điều hành doanh nghiệp và cách một nền tảng điều phối có thể kết nối công việc, dữ liệu và các phần mềm sẵn có.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "AI Workflow Automation: Khi nào nên sử dụng AI?",
+            "id": "section-02-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Phân biệt tự động hóa theo quy tắc với quy trình có AI tham gia, đồng thời tìm hiểu cách lựa chọn phương án phù hợp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Ứng dụng AI cho doanh nghiệp vừa và nhỏ",
+            "id": "section-02-part-05"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Những điều SME cần xem xét trước khi triển khai AI, từ nhu cầu công việc, dữ liệu đến chi phí và khả năng vận hành.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "AI Marketing Automation hoạt động như thế nào?",
+            "id": "section-02-part-06"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Khám phá cách AI có thể hỗ trợ nghiên cứu, sáng tạo nội dung, quản lý chiến dịch và phân tích hoạt động marketing.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "Kiến thức có giá trị khi có thể áp dụng",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO Insights được xây dựng dựa trên một quan điểm đơn giản: **hiểu đúng công nghệ quan trọng hơn chạy theo mọi xu hướng mới.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Chúng tôi tập trung vào ba nguyên tắc biên tập:",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Rõ ràng và dễ tiếp cận**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Những khái niệm kỹ thuật được giải thích theo cách dễ hiểu, giúp cả người làm công nghệ và người sử dụng trong doanh nghiệp có thể tiếp cận.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Dựa trên thông tin có cơ sở**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các bài phân tích ưu tiên tài liệu kỹ thuật, nguồn tham khảo đáng tin cậy và những thông tin có thể kiểm chứng. Chúng tôi phân biệt giữa khả năng lý thuyết, thử nghiệm và ứng dụng đã được xác nhận.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Gắn với công việc thực tế**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Bên cạnh việc giải thích công nghệ, nội dung hướng đến những vấn đề người dùng cần giải quyết: lựa chọn công cụ, xây dựng quy trình, quản lý chi phí và đánh giá hiệu quả.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Insights không hướng đến việc giới thiệu AI như câu trả lời cho mọi vấn đề. Mục tiêu là giúp người đọc có thêm kiến thức để lựa chọn và ứng dụng công nghệ phù hợp.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "Về PAO Insights",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO Insights là chuyên mục chia sẻ kiến thức công nghệ thuộc hệ sinh thái **PAO OS**, được phát triển bởi **IVN Network** tại Việt Nam.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thông qua các bài viết chuyên môn, phân tích kỹ thuật và nội dung ứng dụng, chúng tôi mong muốn góp phần giúp AI trở nên dễ hiểu, dễ tiếp cận và hữu ích hơn đối với cộng đồng doanh nghiệp và người làm công nghệ.",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Tìm hiểu về PAO OS",
+                "href": "/gioi-thieu/"
+              },
+              {
+                "label": "Khám phá các giải pháp AI cho doanh nghiệp",
+                "href": "/giai-phap/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "download": {
+    "seoTitle": "Download PAO OS | Cloud, VPS & Desktop",
+    "description": "Khám phá các phiên bản PAO OS Cloud/VPS, Self-hosted AI Agent và PAO Desktop. Tìm hiểu phương án triển khai hệ điều hành AI phù hợp với doanh nghiệp.",
+    "title": "Download PAO OS",
+    "subtitle": "Linh hoạt trong triển khai. Chủ động trong vận hành. Sẵn sàng cho công việc cùng AI.",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "Mỗi doanh nghiệp có những yêu cầu khác nhau về hạ tầng, dữ liệu và cách sử dụng công nghệ.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "PAO OS được phát triển theo định hướng hỗ trợ nhiều môi trường triển khai, từ máy chủ Cloud/VPS đến máy tính cá nhân, giúp người dùng lựa chọn phương án phù hợp với nhu cầu công việc.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Dù sử dụng trên máy chủ hay thiết bị cá nhân, PAO đều hướng đến một mục tiêu chung: kết nối công việc, AI Agent và các công cụ trong một hệ thống có tổ chức, có khả năng mở rộng và được kiểm soát bởi người dùng.",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "Lựa chọn phiên bản PAO OS",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "PAO OS Cloud / VPS",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Hệ điều hành AI dành cho môi trường máy chủ và doanh nghiệp.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS Cloud/VPS được phát triển theo mô hình vận hành trên máy chủ, cho phép người dùng làm việc thông qua giao diện web và những kênh kết nối được cấu hình.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thay vì phải cài đặt toàn bộ hệ thống trên từng máy tính, doanh nghiệp có thể triển khai PAO trong một môi trường tập trung để tổ chức công việc và phối hợp các AI Agent.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Định hướng khả năng:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Truy cập hệ thống thông qua giao diện web.",
+              "Tổ chức công việc, dự án và quy trình trên môi trường tập trung.",
+              "Phối hợp các AI Agent và công cụ theo nhiệm vụ.",
+              "Kết nối mô hình AI và dịch vụ bên ngoài.",
+              "Quản lý người dùng, quyền truy cập và các bước phê duyệt.",
+              "Theo dõi trạng thái xử lý và hoạt động của hệ thống."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Self-hosted AI Agent**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO hướng đến hỗ trợ triển khai trên VPS riêng của doanh nghiệp, giúp khách hàng chủ động lựa chọn nhà cung cấp hạ tầng, tài nguyên máy chủ và các dịch vụ AI cần sử dụng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Phương án này phù hợp với doanh nghiệp có yêu cầu riêng về môi trường vận hành, tích hợp hệ thống hoặc quản lý tài nguyên.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Việc triển khai cần đáp ứng các yêu cầu kỹ thuật và phạm vi hỗ trợ của phiên bản PAO tương ứng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Phù hợp với:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Doanh nghiệp vừa và nhỏ.",
+              "Đội ngũ làm việc từ nhiều địa điểm.",
+              "Tổ chức cần quản lý công việc tập trung.",
+              "Doanh nghiệp muốn triển khai AI Agent trên hạ tầng riêng."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Trạng thái:** Đang phát triển và hoàn thiện phương án triển khai.",
+            "tone": "status"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Tìm hiểu triển khai Cloud/VPS",
+                "href": "/contact/"
+              }
+            ]
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "PAO OS Desktop / PC",
+            "id": "section-01-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Đưa AI đến gần hơn với công việc trên máy tính cá nhân.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Không phải mọi công việc đều diễn ra trên nền tảng web.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Nhiều tác vụ yêu cầu tương tác với tệp dữ liệu, ứng dụng cài đặt trên máy hoặc những tài nguyên chỉ có trong môi trường máy tính cá nhân.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Desktop được định hướng phát triển để hỗ trợ những nhu cầu này thông qua AI Desktop Agent, kết hợp khả năng xử lý của AI với các công cụ được người dùng cho phép sử dụng trên thiết bị.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Định hướng khả năng:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Tương tác với AI Agent từ môi trường máy tính.",
+              "Hỗ trợ xử lý các tác vụ liên quan đến tệp và thư mục được cấp quyền.",
+              "Kết nối với những ứng dụng và công cụ cục bộ tương thích.",
+              "Phối hợp nhiệm vụ giữa người dùng và AI.",
+              "Hỗ trợ những quy trình tự động hóa trên máy tính.",
+              "Kiểm soát phạm vi thao tác và quyền truy cập tài nguyên."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Quyền kiểm soát thuộc về người dùng**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Khả năng thao tác trên máy tính cần đi kèm những giới hạn rõ ràng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Desktop được thiết kế theo định hướng chỉ thực hiện những hành động trong phạm vi được cấp phép, có cơ chế xác nhận đối với các thao tác quan trọng và cho phép người dùng kiểm soát hoạt động của AI Agent.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Phù hợp với:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Cá nhân và người làm việc độc lập.",
+              "Developer và người sử dụng công cụ kỹ thuật.",
+              "Nhân sự thường xuyên làm việc với phần mềm trên máy tính.",
+              "Doanh nghiệp có quy trình phụ thuộc vào tài nguyên cục bộ."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Trạng thái:** Nằm trong lộ trình phát triển, chưa công bố bộ cài chính thức.",
+            "tone": "status"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Theo dõi cập nhật PAO Desktop",
+                "href": "/blog/#section-01-part-05"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "So sánh các phương án triển khai",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Lựa chọn phù hợp phụ thuộc vào môi trường làm việc, loại dữ liệu và những tác vụ doanh nghiệp muốn AI hỗ trợ.",
+            "tone": "normal"
+          },
+          {
+            "kind": "table",
+            "header": [
+              "Tiêu chí",
+              "Cloud / VPS",
+              "Desktop / PC"
+            ],
+            "rows": [
+              [
+                "Môi trường",
+                "Máy chủ",
+                "Máy tính cá nhân"
+              ],
+              [
+                "Truy cập",
+                "Giao diện web",
+                "Giao diện và công cụ cục bộ theo phiên bản"
+              ],
+              [
+                "Quản lý tập trung",
+                "Phù hợp",
+                "Phụ thuộc cấu hình"
+              ],
+              [
+                "Làm việc nhiều thiết bị",
+                "Phù hợp",
+                "Tập trung vào thiết bị"
+              ],
+              [
+                "Tương tác ứng dụng cục bộ",
+                "Cần tích hợp phù hợp",
+                "Định hướng hỗ trợ"
+              ],
+              [
+                "Hạ tầng",
+                "Cloud hoặc VPS",
+                "Tài nguyên máy tính"
+              ],
+              [
+                "Đối tượng",
+                "Doanh nghiệp, nhóm làm việc",
+                "Cá nhân, người dùng chuyên môn"
+              ]
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Bảng trên mô tả định hướng thiết kế của hai phiên bản, không đồng nghĩa tất cả tính năng đã được phát hành.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "Yêu cầu hệ thống & cài đặt",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Chuẩn bị môi trường phù hợp trước khi triển khai",
+            "id": "section-03-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS có thể cần những điều kiện kỹ thuật khác nhau tùy phiên bản và các dịch vụ AI được kết nối.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Đối với Cloud/VPS**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các yếu tố cần xem xét bao gồm:",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Hệ điều hành và môi trường máy chủ được hỗ trợ.",
+              "CPU, RAM và dung lượng lưu trữ.",
+              "Kết nối mạng và cấu hình bảo mật.",
+              "Dịch vụ AI, API Key và tài khoản tích hợp.",
+              "Cơ sở dữ liệu và các thành phần phụ trợ theo phiên bản.",
+              "Phương án sao lưu, cập nhật và giám sát."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Đối với Desktop/PC**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các yêu cầu cần được xác định bao gồm:",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Hệ điều hành tương thích.",
+              "Cấu hình phần cứng tối thiểu.",
+              "Quyền truy cập tệp, ứng dụng và tài nguyên thiết bị.",
+              "Kết nối Internet và dịch vụ AI cần thiết.",
+              "Cơ chế cài đặt, cập nhật và khôi phục."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thông số cấu hình tối thiểu và danh sách hệ điều hành hỗ trợ sẽ được công bố theo từng bản phát hành đã kiểm chứng.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "Cài đặt và triển khai PAO OS",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Từng bước đưa AI vào môi trường làm việc",
+            "id": "section-04-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Quá trình triển khai PAO được định hướng theo bốn bước:",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**01. Lựa chọn môi trường**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Xác định nhu cầu sử dụng, mô hình Cloud/VPS hoặc Desktop và các yêu cầu về hạ tầng.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**02. Chuẩn bị cấu hình**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thiết lập môi trường, tài khoản, nguồn dữ liệu và những dịch vụ AI cần kết nối.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**03. Kết nối và kiểm thử**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Cấu hình AI Agent, quyền truy cập và kiểm tra các quy trình xử lý trong phạm vi được hỗ trợ.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**04. Vận hành và cập nhật**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Theo dõi hoạt động, quản lý quyền hạn, sao lưu dữ liệu và áp dụng các bản cập nhật phù hợp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Đối với doanh nghiệp có nhu cầu tích hợp hệ thống hoặc triển khai trên hạ tầng riêng, phạm vi công việc sẽ được đánh giá theo điều kiện kỹ thuật thực tế.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-05",
+        "title": "Phiên bản, cập nhật & tài liệu",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO OS được phát triển và hoàn thiện theo từng giai đoạn.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Thông tin về phiên bản, tài liệu cài đặt và khả năng tương thích cần được công bố tương ứng với từng bản phát hành chính thức.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Người dùng nên sử dụng các nguồn phân phối được xác nhận bởi PAO OS, kiểm tra thông tin phiên bản và sao lưu dữ liệu quan trọng trước khi thực hiện nâng cấp.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Các phiên bản đang thử nghiệm có thể có những giới hạn về chức năng, tích hợp và tính ổn định.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-06",
+        "title": "Bắt đầu cùng PAO OS",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "**Lựa chọn đúng môi trường. Kết nối đúng công cụ. Xây dựng quy trình làm việc phù hợp.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS hướng đến việc giúp doanh nghiệp và cá nhân tiếp cận các hệ thống AI Agent theo cách linh hoạt, có tổ chức và dễ kiểm soát.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Nếu bạn quan tâm đến việc triển khai PAO trên Cloud/VPS, tích hợp AI Agent vào hệ thống hiện có hoặc muốn theo dõi phiên bản Desktop, hãy liên hệ để tìm hiểu thông tin phát hành và các phương án triển khai được hỗ trợ.",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Liên hệ đội ngũ PAO OS",
+                "href": "/contact/"
+              },
+              {
+                "label": "Khám phá tính năng PAO OS",
+                "href": "/tinh-nang/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -26,7 +26,7 @@ const pkg = { name: 'pao-website-static', version: '1.0.0', private: true, type:
 await writeFile(path.join(target, 'package.json'), JSON.stringify(pkg, null, 2) + '\n');
 await writeFile(path.join(target, 'package-lock.json'), JSON.stringify({ name: pkg.name, version: pkg.version, lockfileVersion: 3, requires: true, packages: { '': { name: pkg.name, version: pkg.version, engines: pkg.engines } } }, null, 2) + '\n');
 await cp('scripts/verify-static-release.mjs', path.join(target, 'verify-build.mjs'));
-await cp('LICENSE', path.join(target, 'LICENSE'));
+try { await cp('LICENSE', path.join(target, 'LICENSE')); } catch (error) { if (error.code !== 'ENOENT') throw error; }
 await writeFile(path.join(target, '.gitignore'), 'node_modules/\n*.log\n');
 await writeFile(path.join(target, '.gitattributes'), 'dist/** -text\n');
 await writeFile(path.join(target, 'README.md'), `# PAO OS — Hostinger static release\n\nSource commit: ${sourceCommit}\n\nHostinger: select branch **hostinger-static**, framework **Other / static frontend**, Node.js **24.x**, build script **build**, output directory **dist**. No environment variables, Next.js compiler or server entry file are required.\n\nThis branch contains the precompiled website. Edit source on main, run npm run build:hostinger there, then package a new release with scripts/package-hostinger-static.mjs and publish the generated files to this branch. Do not edit generated dist files. The local editor is excluded.\n\nBuild checks the SHA-256 integrity of every static file. Third-party notices are included in dist/third-party-notices/.\n`);

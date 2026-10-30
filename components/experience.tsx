@@ -1,14 +1,13 @@
 'use client';
 
-import LanguageSwitcher, {useT} from './site-language';
+import {useT} from './site-language';
 import CrystalMemory from './crystal-memory';
-import { scrollToSection } from '@/lib/section-navigation.mjs';
 import DetailedAgentMap from './detailed-agent-map';
-import { EditableText, EditableImage, useContentCollection } from './site-content';
+import { useContentCollection } from './site-content';
 
-import { ArrowRight, ArrowUpRight, Grip, Menu, Minus, Move, Plus, RotateCcw, X } from 'lucide-react';
-import { useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
-import { graphNodes as baseGraphNodes, navItems } from '@/lib/content';
+import { Grip, Minus, Move, Plus, RotateCcw } from 'lucide-react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { graphNodes as baseGraphNodes } from '@/lib/content';
 import { FeatureIcon } from './icons';
 
 export function Reveal({ children, className = '', delay = 0 }: { children: ReactNode; className?: string; delay?: number }) {
@@ -33,27 +32,7 @@ export function Reveal({ children, className = '', delay = 0 }: { children: Reac
   return <div ref={ref} className={className}>{children}</div>;
 }
 
-export function Navbar() {
-  const t=useT();
-  const [open, setOpen] = useState(false);
-  const toggleRef = useRef<HTMLButtonElement>(null);
-  function navigate(event: MouseEvent<HTMLAnchorElement>, href: string) {
-    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-    const target = document.getElementById(href.slice(1));
-    if (!target) return;
-    event.preventDefault(); setOpen(false);
-    scrollToSection(target, event.detail === 0);
-  }
-  useEffect(() => {
-    if (!open) return;
-    const escape = (e: KeyboardEvent) => { if (e.key === 'Escape') { setOpen(false); toggleRef.current?.focus(); } };
-    const closeOnWide = () => { if (window.innerWidth >= 1000) setOpen(false); };
-    document.addEventListener('keydown', escape);
-    window.addEventListener('resize', closeOnWide);
-    return () => { document.removeEventListener('keydown', escape); window.removeEventListener('resize', closeOnWide); };
-  }, [open]);
-  return <header data-beasties-container="" className="site-header"><div className="nav-inner shell"><a className="brand-link" href="#trang-chu" aria-label={t("PAO OS — Business Operating System — về đầu trang")} onClick={() => setOpen(false)}><EditableImage field="images.primary" width={89} height={37} alt="PAO" loading="eager" /><span className="brand-divider" /><span className="brand-descriptor">BUSINESS<br />OPERATING SYSTEM</span></a><nav className="desktop-nav" aria-label={t("Điều hướng chính")}>{navItems.map(([, href], i) => <a key={href} href={href}><EditableText field={`navItems.${i}.label`} /></a>)}</nav><div className="nav-actions"><LanguageSwitcher/><a className="nav-contact" href="#lien-he"><EditableText field="nav.cta" /> <ArrowUpRight size={15} /></a><button ref={toggleRef} className="menu-toggle" aria-expanded={open} aria-controls="mobile-nav" aria-label={open ? t("Đóng menu") : t("Mở menu")} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button></div></div><nav id="mobile-nav" className={`mobile-nav ${open ? 'is-open' : ''}`} aria-label={t("Điều hướng trên điện thoại")} inert={!open}>{navItems.map(([, href], i) => <a key={href} href={href} onClick={event => navigate(event, href)}><EditableText field={`navItems.${i}.label`} /><ArrowRight size={16} /></a>)}<a href="#lien-he" onClick={event => navigate(event, '#lien-he')}>{t("Liên hệ IVN Media")}<ArrowUpRight size={16} /></a></nav></header>;
-}
+export { default as Navbar } from './site-header';
 
 export function AgentTeam() { return <DetailedAgentMap />; }
 

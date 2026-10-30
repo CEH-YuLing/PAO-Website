@@ -1,0 +1,42 @@
+import { ArrowDownToLine, Bot, BookOpen, Check, Code2, Database, FileText, Globe2, Layers3, Mail, MessageSquare, Monitor, Network, ShieldCheck, Sparkles, Users, Workflow } from 'lucide-react';
+import type { Locale } from '@/lib/locale';
+import type { WebsiteSlug } from '@/lib/website-pages';
+
+const labels = {
+  vi: { people: 'Con người', agents: 'AI Agent', work: 'Công việc', data: 'Dữ liệu', tools: 'Công cụ', context: 'Cùng một ngữ cảnh', plan: 'Kế hoạch', review: 'Xem xét', connect: 'Kết nối', build: 'Cùng xây dựng PAO', knowledge: 'Góc nhìn & kiến thức', release: 'PAO OS', channels: 'Kết nối cùng PAO' },
+  en: { people: 'People', agents: 'AI agents', work: 'Work', data: 'Data', tools: 'Tools', context: 'One shared context', plan: 'Plan', review: 'Review', connect: 'Connect', build: 'Building PAO together', knowledge: 'Ideas & knowledge', release: 'PAO OS', channels: 'Connect with PAO' },
+  zh: { people: '团队', agents: 'AI 智能体', work: '工作', data: '数据', tools: '工具', context: '共同的业务背景', plan: '规划', review: '审核', connect: '连接', build: '共同构建 PAO', knowledge: '观点与知识', release: 'PAO OS', channels: '联系 PAO' },
+};
+
+// Decorative SVGs: server-rendered, no canvas, animation loop or extra requests.
+export default function PageIllustration({ kind, locale }: { kind: WebsiteSlug | 'coordination'; locale: Locale }) {
+  const c = labels[locale];
+  const gradient = `pao-art-${kind}`;
+  const node = (x: number, y: number, text: string, Icon: typeof Users, accent = false) => <g key={text} transform={`translate(${x} ${y})`}>
+    <rect x="-59" y="-35" width="118" height="70" rx="16" fill={accent ? '#0c2d49' : '#081b30'} stroke={accent ? '#44d4ee' : '#234c68'} />
+    <Icon x="-10" y="-22" width="20" height="20" stroke={accent ? '#65e6f7' : '#9bbdd9'} strokeWidth="1.4" />
+    <text y="19" textAnchor="middle" fill="#d5e6f5" fontSize="11">{text}</text>
+  </g>;
+  const core = (x: number, y: number, radius = 57) => <g transform={`translate(${x} ${y})`}>
+    <circle r={radius + 12} fill="#0b2038" stroke="#1b536f" strokeDasharray="3 8" />
+    <circle r={radius} fill={`url(#${gradient})`} stroke="#48cce9" strokeWidth="1.5" />
+    <circle r={radius - 8} fill="none" stroke="#4ed7f3" strokeOpacity=".16" />
+    <image href="/brand/pao-primary-v2-200.webp" x={-radius*.74} y="-23" width={radius*1.48} height="40" preserveAspectRatio="xMidYMid meet"/>
+    <text y="23" textAnchor="middle" fontSize="7" letterSpacing="2" fill="#85b9d6">OPERATING SYSTEM</text>
+  </g>;
+  const rays = <g fill="none" stroke="#2986af" strokeWidth="1.2"><path d="M260 188 120 105M260 188 400 105M260 188 120 275M260 188 400 275"/><path d="M120 105Q260 15 400 105M120 275Q260 365 400 275" strokeDasharray="4 7" strokeOpacity=".5"/></g>;
+  return <div className={`page-illustration page-illustration-${kind}`} aria-hidden="true"><svg viewBox="0 0 520 390" fill="none" focusable="false">
+    <defs><radialGradient id={gradient}><stop stopColor="#123d65"/><stop offset="1" stopColor="#071c32"/></radialGradient></defs>
+    <g stroke="#225175" strokeOpacity=".22" strokeWidth=".6">{[70,130,190,250,310,370,430].map(x=><path key={`v${x}`} d={`M${x} 40V350`}/>)}{[70,130,190,250,310].map(y=><path key={`h${y}`} d={`M35 ${y}H485`}/>)}</g>
+    <ellipse cx="260" cy="205" rx="205" ry="150" stroke="#226a8a" strokeOpacity=".16"/>
+    {kind === 'gioi-thieu' && <><circle cx="260" cy="195" r="128" stroke="#28627e" strokeDasharray="2 9"/><path d="M260 88V116M260 274V310" stroke="#53b5d2"/><rect x="167" y="39" width="186" height="49" rx="12" fill="#0a2137" stroke="#315c77"/><text x="260" y="69" textAnchor="middle" fontSize="14" letterSpacing="2" fill="#beddeb">IVN NETWORK</text>{core(260,195,67)}<circle cx="132" cy="195" r="5" fill="#51cee5"/><circle cx="388" cy="195" r="5" fill="#51cee5"/><rect x="180" y="311" width="160" height="30" rx="15" fill="#0a2137" stroke="#245976"/><text x="260" y="331" textAnchor="middle" fill="#90c8df" fontSize="10">{locale==='vi'?'Phát triển tại Việt Nam':locale==='en'?'Developed in Vietnam':'在越南开发'}</text></>}
+    {kind === 'coordination' && <>{rays}{core(260,188)}{node(120,105,c.people,Users)}{node(400,105,c.agents,Bot,true)}{node(120,275,c.data,Database)}{node(400,275,c.work,Workflow)}<text x="260" y="365" textAnchor="middle" fill="#70b7d5" fontSize="10" letterSpacing="1">{c.context}</text></>}
+    {kind === 'giai-phap' && <><g stroke="#3297ba" strokeWidth="1.5"><path d="M130 100C200 100 170 195 260 195S330 100 395 100M130 285C200 285 175 195 260 195S330 285 395 285"/><path d="M260 195V55M260 195V338" strokeDasharray="4 7"/></g>{core(260,195,49)}{node(120,100,c.plan,FileText)}{node(400,100,c.agents,Bot,true)}{node(120,285,c.tools,Layers3)}{node(400,285,c.review,ShieldCheck)}<circle cx="260" cy="55" r="5" fill="#52dcf0"/><circle cx="260" cy="338" r="5" fill="#52dcf0"/></>}
+    {kind === 'tinh-nang' && <><rect x="78" y="57" width="365" height="268" rx="17" fill="#081c31" stroke="#275673"/><path d="M78 94H443M164 94V325" stroke="#275673"/><circle cx="97" cy="76" r="3" fill="#59d5ee"/><circle cx="109" cy="76" r="3" fill="#467389"/><circle cx="121" cy="76" r="3" fill="#467389"/><g fill="#193e59">{[126,156,186,216].map(y=><rect key={y} x="95" y={y} width="48" height="6" rx="3"/>)}</g><rect x="185" y="114" width="236" height="67" rx="10" fill="#0d2b44"/><Sparkles x="201" y="134" width="22" height="22" stroke="#55d8ee"/><path d="M240 138H397M240 150H349M240 162H376" stroke="#40728f" strokeWidth="4" strokeLinecap="round"/>{[207,245,283].map((y,i)=><g key={y}><rect x="185" y={y-9} width="236" height="29" rx="6" stroke="#234b65"/><Check x="195" y={y-2} width="15" height="15" stroke="#52cee5"/><path d={`M221 ${y+6}H${375-i*18}`} stroke="#365d79" strokeWidth="4" strokeLinecap="round"/></g>)}<g transform="translate(382 300)"><circle r="39" fill="#0a2843" stroke="#35a7c7"/><ShieldCheck x="-19" y="-19" width="38" height="38" stroke="#6de2f3" strokeWidth="1.3"/></g></>}
+    {kind === 'doi-ngu' && <><g stroke="#2f7c9e"><path d="M260 180 110 120M260 180 410 120M260 180 110 280M260 180 410 280" strokeDasharray="5 6"/></g>{core(260,180,56)}{node(110,120,'IVN',Users)}{node(410,120,'</>',Code2,true)}{node(110,280,'AI',Network)}{node(410,280,'PAO OS',Sparkles)}<text x="260" y="365" fill="#91b5cf" textAnchor="middle" fontSize="12">{c.build}</text></>}
+    {kind === 'blog' && <><g transform="translate(97 92) rotate(-10 100 120)"><rect width="190" height="230" rx="12" fill="#0a2037" stroke="#285b77"/><rect x="20" y="20" width="150" height="92" rx="7" fill="#103653"/><Network x="67" y="39" width="54" height="54" stroke="#53d4ed" strokeWidth="1.1"/><path d="M22 139H148M22 155H167M22 171H139M22 197H85" stroke="#315976" strokeWidth="5" strokeLinecap="round"/></g><g transform="translate(256 72) rotate(9 80 120)"><rect width="175" height="240" rx="12" fill="#0b223a" stroke="#3483a0"/><BookOpen x="56" y="30" width="64" height="64" stroke="#6adcf0" strokeWidth="1.2"/><path d="M23 125H146M23 143H130M23 161H149M23 179H118" stroke="#3c6e89" strokeWidth="5" strokeLinecap="round"/><circle cx="145" cy="211" r="12" fill="#124362"/><path d="m140 211 8 0m-3-3 3 3-3 3" stroke="#69d7ed"/></g><text x="260" y="366" fill="#91b5cf" textAnchor="middle" fontSize="12">{c.knowledge}</text></>}
+    {kind === 'download' && <><rect x="105" y="73" width="310" height="207" rx="16" fill="#081c31" stroke="#2f6f91"/><rect x="117" y="85" width="286" height="183" rx="9" fill={`url(#${gradient})`}/>{core(260,174,49)}<path d="M237 281V308H283V281M204 309H316" stroke="#477e9d" strokeWidth="3" strokeLinecap="round"/><g transform="translate(392 266)"><circle r="41" fill="#0b2e49" stroke="#58cce5"/><ArrowDownToLine x="-18" y="-18" width="36" height="36" stroke="#8ce8f6" strokeWidth="1.4"/></g><Monitor x="76" y="320" width="20" height="20" stroke="#6ea4c2"/><text x="260" y="357" fill="#91b5cf" textAnchor="middle" fontSize="12">{c.release}</text></>}
+    {kind === 'lien-he' && <><g stroke="#3585a4"><path d="M260 191 120 105M260 191 400 105M260 191 120 280M260 191 400 280" strokeDasharray="4 6"/></g>{core(260,191,52)}{node(120,105,'Email',Mail)}{node(400,105,'Social',MessageSquare,true)}{node(120,280,'IVN Network',Globe2)}{node(400,280,'PAO OS',Users)}<text x="260" y="365" fill="#91b5cf" textAnchor="middle" fontSize="12">{c.channels}</text></>}
+    <g fill="#6edcf2">{[[46,192],[465,201],[325,44],[189,345]].map(([x,y])=><circle key={`${x}-${y}`} cx={x} cy={y} r="2.5"/>)}</g>
+  </svg></div>;
+}

@@ -20,5 +20,5 @@ try {
 for (const entry of await readdir(root)) {
   if (/^editor\.(?:html|txt)(?:\.(?:br|gz))?$/.test(entry)) await rm(path.join(root, entry));
 }
-for (const route of ['en', 'zh', 'privacy', 'en/privacy', 'zh/privacy']) await access(path.join(root, route, 'index.html'));
+for (const route of ['en', 'zh', ...['', 'en/', 'zh/'].flatMap(prefix => ['privacy', 'gioi-thieu', 'giai-phap', 'tinh-nang', 'doi-ngu', 'blog', 'download', 'lien-he'].map(route => prefix + route))]) await access(path.join(root, route, 'index.html'));
 console.log('Hostinger static output ready: out/ (local editor excluded).');

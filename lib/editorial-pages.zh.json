@@ -1,0 +1,1860 @@
+{
+  "tinh-nang": {
+    "seoTitle": "PAO OS 功能 | AI Chief of Staff、Multi-Agent 与自动化",
+    "description": "探索 PAO OS 的 AI Chief of Staff、Multi-Agent、工作管理、AI Workflow Automation、Knowledge Graph 与企业系统集成方向。",
+    "title": "探索 PAO OS 功能",
+    "subtitle": "在统一平台中管理工作、协调 AI Agent，并实现企业流程自动化。",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "PAO OS 围绕 AI-Native Business Operating System 模型开发，将工作管理、AI Agent 和自动化工具结合到同一个运营环境中。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "用户不必分别操作每个 AI 应用，而可以通过共同的协调系统组织任务、连接数据并配合工具。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "从规划、研究和内容创作，到客户管理与报告，PAO 希望帮助各部门更有效地工作，同时让人保留控制权。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "功能分阶段开发，实际使用范围取决于版本和部署配置。",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "1. PAO AI – AI Chief of Staff",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "协调工作的 AI 助手",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO AI 的发展方向是成为连接用户与整个 PAO OS 的智能交互中心。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO AI 不只面向问答，还希望接收需求、分析目标、制定计划，并协调工具来协助执行工作。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "用户可以通过自然语言互动，而不必直接操作每个应用。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**核心能力方向：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "接收需求，分析任务内容。",
+              "协助制定计划并确定处理步骤。",
+              "将工作协调给适合的 AI Agent 或工具。",
+              "汇总多个来源的信息与结果。",
+              "跟踪进程，协助管理任务。",
+              "对需要审批的操作先请求确认。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**PAO AI 的设计目标，是帮助用户从亲自执行每项操作，转向分配工作并控制结果。**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "2. Multi-Agent Orchestration",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "不同专长的 AI Agent，共同完成工作",
+            "id": "section-02-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "企业中的一项任务往往需要多个专业领域。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "例如，开展营销活动可能需要市场研究、策略制定、内容撰写、创意资料准备和效果分析。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 使用 Multi-Agent 架构组织处理步骤，并协调角色适合的 AI Agent。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**机制的发展方向：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "分析复杂任务，并拆分为较小的工作。",
+              "根据专业能力和允许使用的工具选择 AI Agent。",
+              "在同一流程的步骤之间传递结果。",
+              "跟踪状态并记录处理过程。",
+              "汇总结果供用户检查和审批。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Agent 可按研究、规划、内容、数据分析和其他业务工作进行配置。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "这一模型为 **AI Workforce** 奠定基础：让多个 AI Agent 按照明确的任务、权限和流程协作。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "3. Business Workspace",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "集中管理工作与项目的空间",
+            "id": "section-03-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "工作信息往往散落在电子邮件、消息、表格和不同软件中。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Business Workspace 希望将任务、项目、计划和处理结果集中到统一的管理空间。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "管理者与员工可以在这里组织工作、明确责任，并按照共同流程跟踪进度。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**功能方向：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "管理项目、计划与任务。",
+              "分配负责人并确定优先级。",
+              "跟踪工作进度和状态。",
+              "关联任务所需的文档与信息。",
+              "利用 AI 协助汇总报告和更新工作情况。",
+              "结合人员和 AI Agent 执行的任务。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Business Workspace 连接传统管理活动与 AI 协助处理工作的能力。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "4. Content, Design & Publishing",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "从创意到发布，连接内容创作流程",
+            "id": "section-04-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "完整内容通常需要经过研究、构思、写作、设计、审核和发布等步骤。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 希望把这些步骤组织为人员与 AI Agent 能够协作的流程。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**应用方向：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "**Content Research：**研究主题、分析信息并寻找创意。",
+              "**Content Creation：**根据需求协助写作、编辑和发展内容。",
+              "**Creative Support：**准备 brief、设计构思和图像制作资料。",
+              "**Content Workflow：**管理分工、修改和审核步骤。",
+              "**Publishing Workflow：**准备发布内容，并连接受支持的渠道。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "企业可以设置流程，让 AI 协助适合的步骤，由员工负责检查内容并在发布前审批。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**目标是减少重复工作的处理时间，让创作团队更多关注内容质量。**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-05",
+        "title": "5. Marketing & Ads Management",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "组织与管理跨平台营销活动",
+            "id": "section-05-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "一项营销活动可能在多个渠道开展，广告数据与结果分别保存在不同系统中。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 正在开发 Marketing & Ads Management，协助组织活动、连接信息，并将 AI 应用于分析与管理。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**功能发展方向：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "协助规划和组织营销活动。",
+              "管理任务、内容和执行进度。",
+              "连接兼容的广告平台。",
+              "协助汇总指标并准备效果报告。",
+              "利用 AI 分析信息并提出优化建议。",
+              "自动化广告管理流程中的部分步骤。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Meta Ads、Google Ads 和 TikTok Ads 集成按路线图开发。数据访问与操作范围取决于各平台的 API、账户权限和政策。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-06",
+        "title": "6. CRM & Customer Operations",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "结合实际工作管理客户信息",
+            "id": "section-06-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "每次客户互动，都包含对销售和客户服务有价值的信息。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "如果数据分散在多个渠道，企业就容易在跟踪沟通历史、分配处理和持续服务方面遇到困难。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 希望将 CRM 与 AI Agent 结合，组织信息并协助客户服务流程。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**功能发展方向：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "管理客户档案与信息。",
+              "跟踪请求、互动历史和处理状态。",
+              "协助客户与需求分类。",
+              "由 AI Agent 协助准备回复和咨询内容。",
+              "组织分工、提醒和后续服务流程。",
+              "连接兼容的 CRM 数据来源与渠道。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI 使用企业允许访问的信息，并遵守已配置的数据范围和流程。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-07",
+        "title": "7. Knowledge Graph & AI Memory",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "连接知识，让 AI 理解工作上下文",
+            "id": "section-07-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Agent 要有效协助工作，需要获得关于任务、文档、流程和相关数据的适当信息。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "如果每次工作都要由用户重新提供全部信息，AI 的作用就会受到限制。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 的发展方向包括知识管理和上下文记忆系统，帮助 AI Agent 在处理任务时检索、关联并使用信息。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**架构的发展方向：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "按工作空间组织文档、数据与信息。",
+              "关联项目、任务和相关对象之间的信息。",
+              "协助检索符合请求的上下文。",
+              "减少重复输入已保存且允许使用的信息。",
+              "管理知识来源的访问权限。",
+              "协助在 Multi-Agent 流程各步骤之间保留上下文。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Knowledge Graph 和 AI Memory 是 PAO 知识管理能力的发展组成部分。具体部署范围需要按产品版本确定。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-08",
+        "title": "8. AI Workflow Automation",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "自动化流程，控制每个处理步骤",
+            "id": "section-08-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "并不是所有工作都需要 AI，许多操作用简单的自动化规则就能解决。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "但在需要理解内容、分析信息或选择方案的任务中，AI 可以发挥重要的辅助作用。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 希望在 AI Workflow Automation 中结合这两类能力。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**一个流程可以包括：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": true,
+            "items": [
+              "从已连接系统接收请求或数据。",
+              "分析内容，确定处理条件。",
+              "将任务分配给适合的 AI Agent 或工具。",
+              "按规则和权限执行操作。",
+              "向有权限的人员提交审批请求。",
+              "保存结果，更新工作状态。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "系统的设计包含权限、审批和活动记录机制，帮助企业跟踪执行过程。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**通过自动化减少手动操作，同时让人参与重要决策。**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-09",
+        "title": "9. Integrations & AI Models",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "按需连接工具与 AI 模型",
+            "id": "section-09-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "企业使用多种技术服务，包括管理软件、AI 平台和数据服务。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 采用可扩展架构的设计方向，希望通过兼容的集成方式连接 AI 模型、API 和企业工具。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**计划支持的方向：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "连接多个服务商和 AI 模型。",
+              "通过 API 和配套工具集成外部服务。",
+              "连接企业数据来源与应用。",
+              "按任务为每个 AI Agent 配置工具。",
+              "管理集成的访问权限和认证信息。",
+              "构建不同系统之间的协作流程。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "集成能力取决于 API、认证方式、技术条件和服务商政策。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "这一架构帮助 PAO 适应 AI 技术变化，以及企业不同的运营需求。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-10",
+        "title": "10. Deployment & Access Control",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "灵活部署，清晰控制",
+            "id": "section-10-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "每家企业对基础设施、数据和访问范围都有自己的要求。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS 朝着支持多种部署环境的方向开发，以适应不同的使用需求。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Cloud / VPS Edition**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "方向是在服务器环境部署 PAO，让用户通过网页界面和配置好的渠道访问。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "这一模式适合需要集中运行，并支持多名用户在同一系统工作的流程。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Desktop / PC Edition**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Desktop 版本在开发路线图中，旨在个人计算机上执行用户允许的操作。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "操作权限的设计按设备、账户和获准行为范围进行限制。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Security & Access Control**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 重视在 AI 参与工作时构建控制机制：",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "管理用户与访问范围。",
+              "分配工具和数据来源的使用权限。",
+              "审批重要操作。",
+              "记录历史和执行状态。",
+              "按配置与授权范围限制操作。",
+              "协助检查 AI Agent 活动。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "目标是帮助企业运用自动化，同时保持系统的透明度和控制权。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-11",
+        "title": "为协作而设计的功能",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO OS 架构的核心，是系统组成部分之间的连接。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Business Workspace** 协助组织工作。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**PAO AI** 接收需求并协助协调。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Multi-Agent Orchestration** 拆分并协调需要多种专业能力的任务。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Knowledge & Integrations** 在允许范围内提供数据和工具。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Workflow Automation** 组织处理步骤，权限与审批机制则帮助用户保留控制权。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "这些部分共同面向一个目标：让 AI 从独立的辅助工具，成为企业工作流程中有组织的一部分。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-12",
+        "title": "根据需求探索 PAO OS",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "**从需要解决的工作开始，选择适合的功能，在企业准备好后再扩展。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS 正在分阶段开发和完善，目标是以实用、易管理的方式将 AI Agent 和自动化引入企业运营。",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "探索 PAO OS 解决方案",
+                "href": "/solutions/"
+              },
+              {
+                "label": "查看部署版本",
+                "href": "/download/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "doi-ngu": {
+    "seoTitle": "PAO OS 开发团队 | 越南 IVN Network",
+    "description": "了解 IVN Network 的 PAO OS 开发团队、产品思考方式，以及 AI Agent、软件工程和企业自动化方面的专业方向。",
+    "title": "PAO OS 开发团队",
+    "subtitle": "结合 AI 技术、产品思维与对企业运营的理解。",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "一个能够协助工作的 AI 系统背后，有着用户不常看到的技术层次、流程和技术决策。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "从架构设计、AI Agent 开发和数据连接，到权限机制与自动化，每个组成部分都需要结合企业实际运营来考虑。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "PAO OS 按照这样的方式开发：从需要解决的问题出发，选择合适的技术，逐步构建具有长期实用价值的平台。",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "由 IVN Network 开发",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "从实际需求出发构建技术",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**IVN Network** 是 PAO OS 在越南的开发方，致力于将人工智能和软件技术应用于企业管理与运营。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 的开发结合 AI Agent、软件工程、自动化、产品设计和数字业务等领域的知识。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "我们不把增加一个 AI 模型或新工具视为最终目标。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "更重要的是，这项技术能帮助用户解决什么工作、如何配合现有系统，以及是否具备在企业环境中使用所需的控制能力。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**PAO OS 希望让 AI 更贴近实际工作，而不是让企业仅为适应技术而改变工作方式。**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "我们如何构建 PAO OS",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "从问题开始，而不是从功能开始",
+            "id": "section-02-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "每家企业组织工作、使用数据和协调人员的方式都不同。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "有的流程需要 AI 研究或分析信息，有的只需要简单的自动化规则，还有些工作仍需要人直接检查和决定。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "因此，PAO 的开发首先了解流程，识别可改善的步骤，再选择合适的处理方式。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "我们优先考虑有明确实用价值的功能，避免因堆叠过多技术而让系统变得复杂。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "构建能够连接的平台",
+            "id": "section-02-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "一个应用 AI 的企业操作系统，需要的不只是聊天界面。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 的架构方向包含 AI Agent 协调、任务管理、工具与数据连接、权限分配和执行记录。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "这些部分需要在统一流程中协作，同时适应外部 AI 服务与软件的变化。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "这是 PAO OS 的技术重点之一：构建灵活的平台，让产品能随技术和企业需求的变化继续发展。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "自动化也需要责任",
+            "id": "section-02-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI 可以协助处理许多工作，但并非所有操作都应该自动执行。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "涉及客户数据、企业账户、预算或运营系统的操作，需要适当的边界和控制机制。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 朝着访问管理、操作记录和重要行为审批的方向开发。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**我们希望 AI 系统能够协助执行工作，同时让用户了解并控制正在发生的事情。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "分阶段开发，持续改进",
+            "id": "section-02-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI 技术变化迅速。要长期服务企业，产品需要持续更新、测试和改进。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS 已向市场推出，并继续分阶段开发。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "开发工作聚焦于完善功能、改善运行能力、扩展适合的集成，以及评估实际使用需求。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "我们把用户反馈、测试结果和部署中遇到的问题，作为决定下一步发展方向的重要依据。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "PAO OS 背后的专业领域",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "构建一个应用 AI 的 Business Operating System，需要多类知识和专业能力共同配合。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "AI Engineering & Multi-Agent Systems",
+            "id": "section-03-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "研究与开发 AI Agent 架构、任务协调、语言模型连接和多智能体协作流程。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "目标是让 AI 参与处理多步骤工作，而不只是回应彼此独立的请求。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Software Engineering & Infrastructure",
+            "id": "section-03-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "设计软件架构，开发后端与前端系统，管理数据库并构建部署环境。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "开发过程中会考虑性能、可维护性、安全性和稳定性。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Business Process & Automation",
+            "id": "section-03-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "分析企业如何组织工作，识别重复操作，并设计结合自动化与 AI 的流程。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "重点是建立清晰、可跟踪且符合实际运营条件的工作流。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Product Design & User Experience",
+            "id": "section-03-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "设计界面、信息结构和交互流程，让用户以更简单的方式接触复杂的 AI 能力。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "好的产品应让用户知道该做什么、系统处理到哪一步，以及何时需要作出决定。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Digital Business & Marketing Technology",
+            "id": "section-03-part-05"
+          },
+          {
+            "kind": "paragraph",
+            "text": "研究 AI 在营销、广告、销售、客户服务和企业管理中的应用。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "这些业务知识帮助 PAO 围绕使用需求确定功能方向，而不只是依据技术可能性。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "我们的发展思维",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "应用务实，技术灵活，控制清晰。",
+            "id": "section-04-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "我们相信，有价值的 AI 产品需要平衡三个方面：",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**解决正确的问题**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "技术需要与用户的具体工作和需求相连。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**能够长期发展**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "架构需要足够灵活，以便按需扩展功能、更换 AI 模型并连接新服务。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**人保留控制权**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI 可以协助规划、处理信息和执行获准任务。用户仍需能够监督、检查并决定重要操作。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "这些原则指导着 IVN Network 对 PAO OS 的开发。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-05",
+        "title": "一起开发实用的 AI 应用",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO OS 希望帮助企业以有组织、灵活且符合运营需求的方式，将 AI 引入工作。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "我们关注技术、产品开发、系统集成和企业 AI 应用方面的合作机会。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "如果您正在了解 PAO OS、有合作想法，或希望讨论具体的运营问题，PAO 团队欢迎您提供信息，一起探讨合适的方向。",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "联系 PAO OS 团队",
+                "href": "/contact/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "seoTitle": "PAO Insights | AI Agent、自动化与 AI 技术知识",
+    "description": "探索 PAO Insights，了解 AI Agent、Multi-Agent、AI 营销、业务自动化及人工智能在企业中的应用。",
+    "title": "PAO Insights",
+    "subtitle": "探索 AI 技术。理解运作方式。应用于实际工作。",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "人工智能正在改变我们的工作方式，从简单任务到复杂的企业流程。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "每天都有新的 AI 模型、工具和方法出现。但在技术能力与实际应用效果之间，始终有需要了解的问题：数据、成本、集成能力、安全与稳定性。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "**PAO Insights** 分享 AI Agent、自动化以及借助人工智能改变工作方式的知识、技术分析和实践观点。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "内容面向企业管理者、营销团队、技术从业者，以及希望进一步了解 AI 如何协助工作的读者。",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "按主题探索知识",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "1. AI Agent 与多智能体系统",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**了解 AI 如何从回答问题转向协助执行工作。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Agent 正在为人工智能应用开辟新的思路。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Agent 系统不只生成回复，还可以通过设计来制定计划、使用工具，并参与处理包含多个步骤的任务。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "本栏目重点解释这些系统背后的概念、运作原理和架构。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**探索主题：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "什么是 AI Agent？它与传统聊天机器人有何不同？",
+              "Multi-Agent System 以及多个 AI 智能体如何协作。",
+              "AI Chief of Staff 与工作协调助手模式。",
+              "Agent Orchestration、Tool Calling 与任务管理。",
+              "AI 的记忆、上下文和工具使用能力。",
+              "部署 AI Agent 时的限制与风险。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "从基础知识到深入的技术问题，本栏目帮助读者了解如何构建和应用能够执行工作的 AI 系统。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "2. 企业管理与运营中的 AI",
+            "id": "section-01-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**从具体问题出发，将 AI 引入企业工作。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "有效应用 AI 不一定要从大型系统或复杂投资开始。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "有时，减少汇总报告的时间、自动分类请求或协助任务管理，就能带来明显改善。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "本栏目从管理、运营和流程组织的角度分享 AI 应用方法。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**探索主题：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "什么是 Business Operating System？",
+              "AI 在企业管理中的应用场景。",
+              "AI Workflow Automation 与流程自动化。",
+              "AI 在项目和任务管理中的应用。",
+              "将 AI 与 ERP、CRM 及企业软件连接。",
+              "选择适合起步的 AI 应用流程。",
+              "评估部署的成本、效果与风险。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "内容帮助管理者了解技术可以解决哪些问题、需要准备什么，以及如何务实地评估效果。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "3. AI 营销与销售",
+            "id": "section-01-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**将人工智能应用于营销、销售和客户服务。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI 正在协助多种营销和业务活动，从市场研究、内容创作到数据分析和客户互动处理。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "但效果不仅取决于所选 AI 工具，也取决于数据组织、系统连接和工作流程设计。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "本栏目关注在营销和销售中应用 AI 的方法。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**探索主题：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "AI Marketing Automation 及其应用模式。",
+              "使用 AI 进行市场研究和规划。",
+              "内容制作中的 AI Content Creation。",
+              "AI 协助管理 Meta、Google 和 TikTok 广告。",
+              "AI CRM 与客户信息管理。",
+              "销售聊天机器人与客户服务自动化。",
+              "连接营销数据并分析活动效果。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "文章注重实用性、集成条件，以及在业务中使用 AI 时需要注意的限制。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "4. AI 工程与开源",
+            "id": "section-01-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**探索现代 AI 系统背后的技术。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "构建用于实际工作的 AI 应用时，语言模型只是系统的一部分。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "API、数据库、协调工具、记忆、基础设施和安全机制等组成部分都会影响系统运行。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Engineering & Open Source 面向开发者、软件工程师，以及希望深入了解 AI 系统架构的人。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**探索主题：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "LLM API 与语言模型集成。",
+              "Model Context Protocol（MCP）与工具连接。",
+              "AI Agent Framework 与 Multi-Agent 架构。",
+              "Retrieval-Augmented Generation（RAG）与知识图谱。",
+              "用于 AI 开发的开源项目。",
+              "在 Cloud、VPS 和 Desktop 上部署 AI 应用。",
+              "Token、API 成本与处理性能管理。",
+              "AI Agent 的安全、权限控制与活动监控。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "技术内容优先解释原理、分析部署方案，以及系统投入运行后可能出现的问题。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "5. PAO 开发与产品更新",
+            "id": "section-01-part-05"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**关注 PAO OS 的开发历程。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS 的开发方向是在统一平台中结合任务管理、AI Agent 协调和企业自动化。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Development 栏目发布已公开的产品信息、开发进展与改进方向。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**内容包括：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "版本公告与功能更新。",
+              "PAO OS 架构组成部分介绍。",
+              "界面与使用流程的变化。",
+              "集成和部署能力更新。",
+              "设计与技术决策分享。",
+              "开发路线图与正在研究的功能。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "信息明确区分已发布功能、开发中功能与未来方向。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "用户也可以在这里进一步了解 PAO OS 如何分阶段构建和完善。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "值得从这里开始的主题",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "如果你刚开始了解 AI Agent，或正在考虑将 AI 引入企业，以下主题是合适的起点。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "什么是 AI Agent？运作方式与实际应用",
+            "id": "section-02-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "了解 AI Agent 的概念、AI 如何使用工具和处理任务，以及它与普通聊天机器人的区别。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "什么是 Multi-Agent System？当多个 AI 协同工作",
+            "id": "section-02-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "探索任务划分、AI Agent 协调，以及需要多个处理步骤的流程组织方式。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "什么是 Business Operating System？",
+            "id": "section-02-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "了解企业操作系统的概念，以及协调平台如何连接工作、数据和现有软件。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "AI Workflow Automation：何时应该使用 AI？",
+            "id": "section-02-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "区分基于规则的自动化与 AI 参与的流程，并了解如何选择适合的方法。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "中小企业如何应用 AI",
+            "id": "section-02-part-05"
+          },
+          {
+            "kind": "paragraph",
+            "text": "SME 部署 AI 前需要考虑的事项，包括工作需求、数据、成本和运行能力。",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "AI Marketing Automation 如何运作？",
+            "id": "section-02-part-06"
+          },
+          {
+            "kind": "paragraph",
+            "text": "探索 AI 如何协助研究、内容创作、活动管理和营销分析。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "能够应用的知识才有价值",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO Insights 基于一个简单观点：**正确理解技术，比追逐每个新趋势更重要。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "我们注重三项编辑原则：",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**清晰易懂**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "以易于理解的方式解释技术概念，让技术人员与企业用户都能接近这些知识。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**有可靠信息依据**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "分析优先参考技术文档、可信来源与可核实的信息。我们区分理论能力、实验结果和已经确认的应用。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**联系实际工作**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "除了讲解技术，内容还围绕用户需要解决的问题：选择工具、建立流程、管理成本与评估效果。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Insights 不把 AI 视为所有问题的答案。目标是帮助读者获得更多知识，以便选择和应用合适的技术。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "关于 PAO Insights",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO Insights 是 **PAO OS** 生态中的技术知识栏目，由越南 **IVN Network** 开发。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "通过专业文章、技术分析与应用内容，我们希望帮助企业与技术从业者更容易理解、接近并有效使用 AI。",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "了解 PAO OS",
+                "href": "/gioi-thieu/"
+              },
+              {
+                "label": "探索企业 AI 解决方案",
+                "href": "/giai-phap/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "download": {
+    "seoTitle": "Download PAO OS | Cloud、VPS 与 Desktop",
+    "description": "探索 PAO OS Cloud/VPS、自托管 AI Agent 和 PAO Desktop 版本，了解适合企业的 AI 操作系统部署方案。",
+    "title": "Download PAO OS",
+    "subtitle": "灵活部署。自主运行。准备好与 AI 一起工作。",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "每家企业对基础设施、数据和技术使用方式都有不同要求。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "PAO OS 的开发方向是支持多种部署环境，从 Cloud/VPS 服务器到个人电脑，帮助用户选择适合工作需求的方案。",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "无论在服务器还是个人设备上使用，PAO 都有同一个目标：将工作、AI Agent 和工具连接到一个有组织、可扩展且由用户控制的系统中。",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "选择 PAO OS 版本",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "PAO OS Cloud / VPS",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**面向服务器和企业环境的 AI 操作系统。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS Cloud/VPS 采用服务器运行模式进行开发，让用户通过网页界面和已配置的连接渠道开展工作。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "企业无需在每台电脑上安装完整系统，而是可以在集中环境中部署 PAO，以组织工作并协调 AI Agent。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**规划能力：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "通过网页界面访问系统。",
+              "在集中环境中组织工作、项目和流程。",
+              "按任务协调 AI Agent 与工具。",
+              "连接 AI 模型与外部服务。",
+              "管理用户、访问权限和审批步骤。",
+              "跟踪处理状态与系统活动。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**自托管 AI Agent**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 致力于支持部署在企业自己的 VPS 上，让客户自主选择基础设施供应商、服务器资源与所需 AI 服务。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "这一方案适合对运行环境、系统集成或资源管理有特定要求的企业。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "部署需要满足相应 PAO 版本的技术要求和支持范围。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**适合：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "中小企业。",
+              "在多个地点工作的团队。",
+              "需要集中管理工作的组织。",
+              "希望在自有基础设施部署 AI Agent 的企业。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**状态：** 正在开发，并完善部署方案。",
+            "tone": "status"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "了解 Cloud/VPS 部署",
+                "href": "/contact/"
+              }
+            ]
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "PAO OS Desktop / PC",
+            "id": "section-01-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**让 AI 更贴近个人电脑上的工作。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "并非所有工作都在网页平台上进行。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "许多任务需要与数据文件、本机安装的应用，或仅在个人电脑环境中可用的资源交互。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Desktop 计划通过 AI Desktop Agent 支持这些需求，将 AI 的处理能力与用户授权在设备上使用的工具结合。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**规划能力：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "在电脑环境中与 AI Agent 交互。",
+              "协助处理已授权文件和文件夹相关任务。",
+              "连接兼容的本地应用与工具。",
+              "协调用户与 AI 之间的任务。",
+              "支持电脑上的自动化流程。",
+              "控制操作范围与资源访问权限。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**控制权属于用户**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "电脑操作能力必须配合清晰的边界。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Desktop 的设计方向是仅在授权范围内执行操作，对重要操作设置确认机制，并允许用户控制 AI Agent 的活动。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**适合：**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "个人与独立工作者。",
+              "开发者与技术工具用户。",
+              "经常使用电脑软件的工作人员。",
+              "流程依赖本地资源的企业。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**状态：** 已列入开发路线图，尚未公布正式安装程序。",
+            "tone": "status"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "关注 PAO Desktop 更新",
+                "href": "/blog/#section-01-part-05"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "部署方案比较",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "合适的选择取决于工作环境、数据类型，以及企业希望 AI 协助的任务。",
+            "tone": "normal"
+          },
+          {
+            "kind": "table",
+            "header": [
+              "比较项",
+              "Cloud / VPS",
+              "Desktop / PC"
+            ],
+            "rows": [
+              [
+                "环境",
+                "服务器",
+                "个人电脑"
+              ],
+              [
+                "访问方式",
+                "网页界面",
+                "按版本提供本地界面与工具"
+              ],
+              [
+                "集中管理",
+                "适合",
+                "取决于配置"
+              ],
+              [
+                "多设备工作",
+                "适合",
+                "以设备为中心"
+              ],
+              [
+                "本地应用交互",
+                "需要适当集成",
+                "规划支持"
+              ],
+              [
+                "基础设施",
+                "Cloud 或 VPS",
+                "电脑资源"
+              ],
+              [
+                "适用对象",
+                "企业、团队",
+                "个人、专业用户"
+              ]
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "上表描述两个版本的设计方向，不代表所有功能均已发布。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "系统要求与安装",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "部署前准备合适的环境",
+            "id": "section-03-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "不同版本和连接的 AI 服务可能对 PAO OS 提出不同技术要求。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**对于 Cloud/VPS**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "需要考虑的因素包括：",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "支持的服务器操作系统与环境。",
+              "CPU、RAM 和存储容量。",
+              "网络连接与安全配置。",
+              "AI 服务、API Key 和集成账号。",
+              "版本所需的数据库与配套组件。",
+              "备份、更新与监控方案。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**对于 Desktop/PC**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "需要明确的要求包括：",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "兼容的操作系统。",
+              "最低硬件配置。",
+              "文件、应用与设备资源的访问权限。",
+              "Internet 连接与所需 AI 服务。",
+              "安装、更新与恢复机制。"
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "最低配置和支持的操作系统列表将随各个经过验证的版本公布。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "PAO OS 安装与部署",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "逐步将 AI 引入工作环境",
+            "id": "section-04-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO 部署计划分为四步：",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**01. 选择环境**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "确定使用需求、Cloud/VPS 或 Desktop 模式，以及基础设施要求。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**02. 准备配置**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "设置环境、账号、数据来源和需要连接的 AI 服务。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**03. 连接与测试**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "配置 AI Agent、访问权限，并在支持范围内测试处理流程。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**04. 运行与更新**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "跟踪活动、管理权限、备份数据，并应用适当的更新。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "对于需要系统集成或在自有基础设施部署的企业，工作范围将根据实际技术条件评估。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-05",
+        "title": "版本、更新与文档",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO OS 按阶段开发和完善。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "版本信息、安装文档和兼容性说明需要随对应正式版本发布。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "用户应使用 PAO OS 确认的分发来源，检查版本信息，并在升级前备份重要数据。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "测试中的版本可能在功能、集成和稳定性方面存在限制。",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-06",
+        "title": "与 PAO OS 一起开始",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "**选择合适的环境。连接合适的工具。建立合适的工作流程。**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS 希望帮助企业和个人以灵活、有组织且易于控制的方式使用 AI Agent 系统。",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "如果你希望在 Cloud/VPS 部署 PAO、将 AI Agent 集成到现有系统，或关注 Desktop 版本，请联系团队了解发布信息和支持的部署方案。",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "联系 PAO OS 团队",
+                "href": "/contact/"
+              },
+              {
+                "label": "探索 PAO OS 功能",
+                "href": "/tinh-nang/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "seoTitle": "AI Agent & Business Automation Solutions | PAO OS",
+  "description": "Explore how PAO OS aims to help businesses use AI Agents for management, marketing, CRM, sales and workflow automation on a shared platform.",
+  "title": "AI solutions for businesses with PAO OS",
+  "subtitle": "Connect work. Automate processes. Operate more intelligently with AI.",
+  "intro": [
+    "Every day, businesses handle hundreds of tasks: managing staff, running marketing, serving customers, tracking revenue and compiling reports.",
+    "The problem is often not a lack of software, but tools and departments that do not coordinate effectively.",
+    "**PAO OS is being developed to address that fragmentation.**",
+    "By combining management tools, workflow automation and specialist AI Agents, PAO aims to provide a shared working environment where businesses can organize, coordinate and control work more easily.",
+    "Businesses can start with a specific need, choose a suitable solution and expand gradually when needed."
+  ],
+  "sections": [
+    {
+      "id": "quan-tri-dieu-hanh",
+      "title": "Business management & operations",
+      "subtitle": "Keep track of work, control progress and make informed decisions",
+      "paragraphs": [
+        "As a business grows, managers cannot follow every task through messages, spreadsheets and constant meetings.",
+        "Scattered information makes it time-consuming to track progress, assess performance and identify problems.",
+        "PAO aims to bring management activities into one system, combining work organization tools with an AI assistant to support operations.",
+        "**The solution focuses on:**"
+      ],
+      "items": [
+        "Managing plans, tasks and project progress.",
+        "Tracking responsibilities and task status.",
+        "Helping consolidate data and prepare management reports.",
+        "Using AI to analyze information and suggest next steps.",
+        "Organizing approvals and role-based permissions."
+      ],
+      "ordered": false,
+      "after": [
+        "**Intended value:** Reduce time spent gathering information, improve coordination and help managers focus on important decisions."
+      ]
+    },
+    {
+      "id": "ai-marketing",
+      "title": "AI Marketing & Advertising Automation",
+      "subtitle": "From an idea to a campaign in an organized process",
+      "paragraphs": [
+        "Modern marketing calls for coordination across research, content, design, advertising and data analysis.",
+        "When each task sits on a different platform, teams spend considerable time handing over information, checking progress and bringing results together.",
+        "PAO is developing **AI Marketing Automation** solutions to connect marketing steps and support teams with AI Agents that have different areas of expertise.",
+        "**Areas of application:**"
+      ],
+      "items": [
+        "**Marketing Planning:** Helping research markets, develop plans and organize campaigns.",
+        "**Content & Creative:** Helping develop ideas, write advertising copy and prepare creative materials.",
+        "**Campaign Management:** Working toward integrating advertising activities on Meta Ads, Google Ads and TikTok Ads.",
+        "**Workflow Automation:** Coordinating tasks across production, review and deployment.",
+        "**Marketing Analytics:** Consolidating data, supporting performance analysis and preparing reports."
+      ],
+      "ordered": false,
+      "after": [
+        "Capabilities involving advertising platforms depend on actual integrations, API scope and the access permissions granted.",
+        "**Intended value:** Help marketing teams reduce repetitive work, organize campaigns consistently and spend more time on strategy, creative work and improving results."
+      ]
+    },
+    {
+      "id": "crm-ban-hang",
+      "title": "CRM, sales & AI-assisted customer care",
+      "subtitle": "Connect customer information so every conversation has context",
+      "paragraphs": [
+        "Customers may reach a business through Facebook, its website, telephone or other channels.",
+        "When data is scattered, sales teams can overlook requests, lose conversation history or ask customers for information they have already provided.",
+        "PAO aims to combine customer management with AI Agents to help receive, handle and follow up on interactions in an organized process.",
+        "**The solution focuses on:**"
+      ],
+      "items": [
+        "Collecting and managing customer information from connected sources.",
+        "Categorizing requests and helping identify customer needs.",
+        "AI Chatbot support for frequently asked questions.",
+        "Helping prepare advice and customer care content.",
+        "Organizing the handover of requests to employees.",
+        "Tracking sales tasks and follow-up work after interactions."
+      ],
+      "ordered": false,
+      "after": [
+        "AI uses information according to the data, policies and access permissions configured by the business.",
+        "**Intended value:** Work toward consistent customer care, reduce lost information and help sales teams handle requests more effectively."
+      ]
+    },
+    {
+      "id": "tu-dong-hoa",
+      "title": "Business workflow automation",
+      "subtitle": "Reduce repetitive tasks so people can focus on important work",
+      "paragraphs": [
+        "Every business has recurring processes: receiving requests, checking data, assigning work, sending notifications and updating reports.",
+        "If every step requires manual action, time and resources become spread thin.",
+        "With an **AI Workflow Automation** approach, PAO combines automation tools with AI Agents to organize multi-step processes.",
+        "**A process could be designed as follows:**"
+      ],
+      "items": [
+        "Receive a request from a connected data source.",
+        "AI reads, analyzes and categorizes the information.",
+        "The system determines the next step using configured rules.",
+        "Assign work to a suitable AI Agent, tool or person.",
+        "Request approval for important actions.",
+        "Update the status and record the processing history."
+      ],
+      "ordered": true,
+      "after": [
+        "PAO aims to combine AI’s ability to understand information with the consistency of traditional automated workflows.",
+        "**Intended value:** Reduce manual actions, help prevent missed tasks and make processes easier to track and review."
+      ]
+    },
+    {
+      "id": "tich-hop-he-thong",
+      "title": "Connect ERP, CRM & business systems",
+      "subtitle": "Build on existing systems instead of starting again",
+      "paragraphs": [
+        "Many businesses have already invested in accounting software, sales management, ERP, CRM or their own management systems.",
+        "Replacing all of these tools is often expensive and disruptive.",
+        "PAO is designed as a coordination layer to help connect compatible systems through APIs, webhooks and suitable integration methods.",
+        "Depending on the external system, PAO aims to support:"
+      ],
+      "items": [
+        "Looking up information from several data sources.",
+        "Combining data for reporting and analysis.",
+        "Helping synchronize information across processes.",
+        "Triggering tasks in connected systems.",
+        "Allowing AI Agents to use tools within their granted permissions."
+      ],
+      "ordered": false,
+      "after": [
+        "Integration capabilities are assessed against each business’s APIs, security requirements and technical conditions.",
+        "**Intended value:** Make use of existing technology investments while expanding AI use without replacing the entire operating system."
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "title": "Multi-Agent AI Workforce",
+      "subtitle": "Specialist AI Agents working together in one system",
+      "paragraphs": [
+        "One AI Agent can help write content. Another can focus on research, data processing or planning.",
+        "In practice, however, a job often requires several areas of expertise and multiple steps.",
+        "That is why PAO is being developed around a **Multi-Agent** architecture, aiming to organize AI Agents into a coordinated workforce that supports work.",
+        "Rather than requiring users to work with each AI separately, PAO aims to:"
+      ],
+      "items": [
+        "Receive requests and analyze tasks.",
+        "Break work into suitable steps.",
+        "Select AI Agents and tools according to their roles.",
+        "Coordinate execution and the exchange of results.",
+        "Bring outputs together for users to check, approve or continue working on."
+      ],
+      "ordered": false,
+      "after": [
+        "This model underpins PAO OS’s **AI Chief of Staff** direction: an AI coordination assistant that helps organize work around business goals.",
+        "**Intended value:** Help businesses approach AI as an organized work support system, rather than a collection of independent AI tools."
+      ]
+    }
+  ],
+  "deployment": {
+    "title": "Flexible solutions for your business needs",
+    "subtitle": "Start with the process that most needs improvement",
+    "paragraphs": [
+      "Not every business needs to deploy all AI solutions at once.",
+      "One company may prioritize marketing automation. Another needs work management, sales support or data connections between systems.",
+      "PAO OS aims for flexible, staged deployment:"
+    ],
+    "steps": [
+      {
+        "title": "Understand the needs",
+        "paragraph": "Identify difficult processes, the tools the business uses and the goals for improvement."
+      },
+      {
+        "title": "Choose a solution",
+        "paragraph": "Identify functions, AI Agents and integrations suited to the actual conditions."
+      },
+      {
+        "title": "Configure & test",
+        "paragraph": "Set up the operating environment and access permissions, then test workflows before use."
+      },
+      {
+        "title": "Evaluate & expand",
+        "paragraph": "Monitor results, adjust operations and extend to other areas of work when appropriate."
+      }
+    ],
+    "after": [
+      "Deployment scope depends on the product version, integration readiness and the business’s specific requirements."
+    ]
+  },
+  "closing": {
+    "title": "Bring AI into your business workflows",
+    "subtitle": "Start with a real problem. Build a suitable solution. Expand when it creates value.",
+    "paragraphs": [
+      "PAO OS is being developed to help businesses approach AI in an organized, manageable way that fits their existing resources.",
+      "The PAO team can work with businesses to assess needs, identify priority processes and choose a suitable deployment direction."
+    ],
+    "contact": "Discuss a solution",
+    "features": "Explore PAO OS features"
+  }
+}

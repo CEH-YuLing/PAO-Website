@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import type { Viewport } from 'next';
 import '../manrope.css';
 import '../globals.css';
+import '../site-pages.css';
 import SiteShell, { getSiteMetadata } from '@/components/site-shell';
 export const metadata=getSiteMetadata('vi');
 export const viewport:Viewport={themeColor:'#030B1E',width:'device-width',initialScale:1};

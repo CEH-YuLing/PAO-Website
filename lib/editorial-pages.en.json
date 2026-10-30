@@ -1,0 +1,1860 @@
+{
+  "tinh-nang": {
+    "seoTitle": "PAO OS Features | AI Chief of Staff, Multi-Agent & Automation",
+    "description": "Explore PAO OS with AI Chief of Staff, Multi-Agent coordination, task management, AI Workflow Automation, Knowledge Graph and business system integration.",
+    "title": "Explore PAO OS features",
+    "subtitle": "A shared platform for managing work, coordinating AI Agents and automating business processes.",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "PAO OS is being developed as an AI-Native Business Operating System, combining work management, AI Agents and automation tools in one operating environment.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Instead of working separately with each AI application, users can organize tasks, connect data and coordinate tools through a shared coordination system.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "From planning, research and content creation to customer management and reporting, PAO aims to help departments work more effectively while keeping people in control.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Features are developed in stages, and their scope of use depends on the version and deployment configuration.",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "1. PAO AI – AI Chief of Staff",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "An AI assistant to coordinate your work",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO AI is intended to become the intelligent interaction center between users and the whole PAO OS system.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Rather than only answering questions, PAO AI aims to receive requests, analyze goals, plan steps and coordinate tools to help carry out work.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Users can interact in natural language without operating each application directly.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Core capabilities:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Receive requests and analyze task content.",
+              "Help develop plans and identify processing steps.",
+              "Coordinate work with suitable AI Agents or tools.",
+              "Bring information and results together from several sources.",
+              "Track progress and help manage tasks.",
+              "Ask for confirmation before actions that require approval."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**PAO AI is designed to help users move from performing every action themselves to assigning work and controlling the results.**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "2. Multi-Agent Orchestration",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Specialist AI Agents working together to complete tasks",
+            "id": "section-02-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "A business task often calls for several areas of expertise.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "For example, a marketing campaign may need market research, strategy, copywriting, creative materials and performance analysis.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO uses a Multi-Agent architecture to organize processing steps and coordinate AI Agents with suitable roles.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**The intended approach:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Analyze and break complex tasks into smaller pieces of work.",
+              "Select AI Agents by expertise and the tools they are allowed to use.",
+              "Pass results between steps in the same process.",
+              "Track status and record the processing history.",
+              "Bring results together for users to check and approve."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Agents can be configured for research, planning, content, data analysis and other business activities.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "This model provides the foundation for an **AI Workforce** — a system of AI Agents coordinating through defined tasks, permissions and processes.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "3. Business Workspace",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "A shared space for managing work and projects",
+            "id": "section-03-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Work information is often scattered across email, messages, spreadsheets and different applications.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Business Workspace aims to bring tasks, projects, plans and processing results into one management space.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Managers and staff can organize work, define responsibilities and track progress through shared processes.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Functional areas:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Manage projects, plans and tasks.",
+              "Assign responsibility and set priorities.",
+              "Track work progress and status.",
+              "Link documents and information to tasks.",
+              "Use AI to help prepare reports and work updates.",
+              "Combine tasks carried out by people and AI Agents."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Business Workspace connects traditional management activities with AI-assisted work processing.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "4. Content, Design & Publishing",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Connect the creative process from an idea to publication",
+            "id": "section-04-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "A finished piece of content usually goes through several steps: research, ideas, writing, design, review and publication.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO aims to organize this process so staff and AI Agents can work together.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Areas of application:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "**Content Research:** Research topics, analyze information and find ideas.",
+              "**Content Creation:** Help write, edit and develop content to meet a request.",
+              "**Creative Support:** Prepare briefs, design ideas and materials for visual production.",
+              "**Content Workflow:** Manage assignments, revisions and review.",
+              "**Publishing Workflow:** Prepare content for publication and connect supported channels."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Businesses can configure workflows so AI assists with suitable steps, while people review the content and approve it before publication.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**The goal is to reduce time spent on repetitive work and let creative teams focus more on content quality.**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-05",
+        "title": "5. Marketing & Ads Management",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Organize and manage marketing across platforms",
+            "id": "section-05-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "A marketing campaign may run on several channels, with advertising data and results held in different systems.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO is developing Marketing & Ads Management to help organize campaigns, connect information and apply AI to analysis and management.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Feature directions:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Help plan and organize marketing campaigns.",
+              "Manage tasks, content and deployment progress.",
+              "Connect compatible advertising platforms.",
+              "Help consolidate metrics and prepare performance reports.",
+              "Use AI to analyze information and suggest improvements.",
+              "Automate some steps in advertising management workflows."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Integrations with Meta Ads, Google Ads and TikTok Ads are developed along the roadmap. Data access and actions depend on each platform’s API, account permissions and policies.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-06",
+        "title": "6. CRM & Customer Operations",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Manage customer information in the context of real work",
+            "id": "section-06-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Every customer interaction brings information that can be useful for sales and customer care.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "When data is spread across channels, businesses can struggle to follow conversation histories, assign work and provide ongoing care.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO aims to combine CRM with AI Agents to organize information and support customer care processes.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Intended functional areas:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Manage customer profiles and information.",
+              "Track requests, interaction history and processing status.",
+              "Help categorize customers and their needs.",
+              "Use AI Agents to help prepare responses and advice.",
+              "Organize assignments, reminders and follow-up care.",
+              "Connect data from compatible CRM sources and channels."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI uses information that the business permits it to access, within configured data and process boundaries.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-07",
+        "title": "7. Knowledge Graph & AI Memory",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Connect knowledge so AI understands the work context",
+            "id": "section-07-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "An AI Agent needs appropriate information about tasks, documents, processes and related data to support work effectively.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "If users have to provide all that information again every time, AI’s usefulness is limited.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO’s development direction includes knowledge management and contextual memory to help AI Agents retrieve, connect and use information while processing tasks.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**The intended architecture:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Organize documents, data and information by workspace.",
+              "Connect information between projects, tasks and related entities.",
+              "Help retrieve context suited to each request.",
+              "Reduce the need to enter information that has already been stored and permitted for use.",
+              "Manage access to knowledge sources.",
+              "Help maintain context between steps in Multi-Agent processes."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Knowledge Graph and AI Memory are components of PAO’s knowledge management development direction. Their actual deployment scope must be determined for each product version.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-08",
+        "title": "8. AI Workflow Automation",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Automate processes and control each step",
+            "id": "section-08-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Not every task needs AI. Many actions can be handled with simple automation rules.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "For tasks that require understanding content, analyzing information or choosing an approach, however, AI can play an important supporting role.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO aims to bring these two capabilities together in AI Workflow Automation.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**A process may include:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": true,
+            "items": [
+              "Receive requests or data from a connected system.",
+              "Analyze the content and determine processing conditions.",
+              "Assign tasks to suitable AI Agents or tools.",
+              "Carry out actions according to rules and permissions.",
+              "Send approval requests to authorized staff.",
+              "Store results and update task status."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "The system is designed with permissions, approvals and activity records to help businesses track execution.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Automate to reduce manual actions while keeping people involved in important decisions.**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-09",
+        "title": "9. Integrations & AI Models",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Connect tools and AI models to match your needs",
+            "id": "section-09-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Businesses use different technology services, from management software to AI platforms and data services.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO is designed with an extensible architecture, aiming to connect AI models, APIs and business tools through compatible integration methods.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Intended support:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Connect multiple providers and AI models.",
+              "Integrate outside services through APIs and supporting tools.",
+              "Connect business data sources and applications.",
+              "Configure tools for each AI Agent according to its tasks.",
+              "Manage access permissions and integration credentials.",
+              "Develop workflows that coordinate across systems."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Integration capabilities depend on APIs, authentication methods, technical conditions and service providers’ policies.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "This architecture helps PAO adapt to changes in AI technology and different business operating needs.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-10",
+        "title": "10. Deployment & Access Control",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Flexible deployment with clear control",
+            "id": "section-10-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Each business has its own requirements for infrastructure, data and access boundaries.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS is being developed with a strategy to support multiple deployment environments for different usage needs.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Cloud / VPS Edition**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "The direction is to deploy PAO on servers, allowing users to access it through the web interface and configured channels.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "This model suits processes that need centralized operations and several users working in the same system.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Desktop / PC Edition**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "The Desktop edition is on the development roadmap, aiming to carry out user-authorized actions on personal computers.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Permissions are designed to be limited by device, account and the authorized scope of actions.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Security & Access Control**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO focuses on building controls for AI-assisted work processing:",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Manage users and access boundaries.",
+              "Set permissions for tools and data sources.",
+              "Approve important actions.",
+              "Record history and execution status.",
+              "Limit actions according to configuration and granted permissions.",
+              "Support review of AI Agent activity."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "The goal is to help businesses use automation while maintaining transparency and control over the system.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-11",
+        "title": "Features designed to work together",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The core of PAO OS’s architecture is the connection between its components.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Business Workspace** helps organize work.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**PAO AI** receives requests and helps coordinate them.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Multi-Agent Orchestration** divides and coordinates tasks requiring several areas of expertise.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Knowledge & Integrations** supplies data and tools within permitted boundaries.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Workflow Automation** organizes processing steps, while permissions and approvals help users retain control.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "They share a common goal: turn AI from a separate assistance tool into an organized part of business workflows.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-12",
+        "title": "Explore PAO OS for your needs",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "**Start with the work that needs doing. Choose suitable features. Expand when your business is ready.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS is being developed and refined in stages to bring AI Agents and automation into business operations in a practical, manageable way.",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Explore PAO OS solutions",
+                "href": "/solutions/"
+              },
+              {
+                "label": "View deployment editions",
+                "href": "/download/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "doi-ngu": {
+    "seoTitle": "The PAO OS Development Team | IVN Network Vietnam",
+    "description": "Meet the thinking behind PAO OS at IVN Network: product development, AI Agent expertise, software engineering and business automation.",
+    "title": "The PAO OS development team",
+    "subtitle": "Bringing together AI technology, product thinking and an understanding of business operations.",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "Behind an AI system that can support work are layers of technology, processes and technical decisions that users rarely see.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "From architecture and AI Agent development to data connections, permissions and automation, each component needs to be considered in relation to how businesses actually operate.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "PAO OS follows that approach: start with the problem, choose suitable technology and gradually build a platform with lasting practical value.",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "Developed by IVN Network",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Technology built around real needs",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**IVN Network** develops PAO OS in Vietnam, with a focus on applying artificial intelligence and software technology to business management and operations.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Developing PAO brings together knowledge from AI Agents, software engineering, automation, product design and digital business.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "We do not see adding another AI model or tool as the final goal.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "What matters more is what work that technology can help users do, how it can work with existing systems and whether it offers enough control for a business environment.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**PAO OS is being built to bring AI closer to real work, rather than making businesses change how they work just to fit the technology.**",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "How we build PAO OS",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Start with the problem, not the feature",
+            "id": "section-02-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Every business organizes work, uses data and coordinates people in its own way.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "One process may need AI for research or analysis. Another may only need simple automation rules. Some work still needs a person to check it and make the decision directly.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Developing PAO therefore starts with understanding the process, identifying steps that can be improved and choosing a suitable approach.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "We prioritize features with clear practical value, rather than adding so much technology that the system becomes complicated.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Build a platform that can connect",
+            "id": "section-02-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "An AI-powered business operating system needs more than a chat interface.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO’s architectural direction includes AI Agent coordination, task management, tool and data connections, permissions and records of execution.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "These components need to work together in one process, while adapting to changes in outside AI services and software.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "This is one of PAO OS’s technical priorities: build a flexible platform that can keep developing as technology and business needs change.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Automation comes with responsibility",
+            "id": "section-02-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI can help handle many tasks, but not every action should be automated.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Actions involving customer data, business accounts, budgets or operating systems need appropriate limits and controls.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO is being developed with access management, activity records and approval requirements for important actions.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**We aim for an AI system that can help carry out work while letting users understand and control what is happening.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Develop in stages and keep improving",
+            "id": "section-02-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI technology changes quickly. A product that serves businesses over time needs regular updates, testing and improvement.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS has been introduced to the market and continues to be developed in stages.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Development focuses on refining functionality, improving operations, expanding suitable integrations and assessing real usage needs.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "We see user feedback, test results and issues encountered during deployment as important evidence for deciding what to develop next.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "The expertise behind PAO OS",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "Building an AI-powered Business Operating System requires several areas of knowledge and expertise to work together.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "AI Engineering & Multi-Agent Systems",
+            "id": "section-03-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Researching and developing AI Agent architectures, task coordination, language model connections and processes involving multiple AI Agents.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "The goal is to help AI take part in multi-step work, rather than only answering separate requests.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Software Engineering & Infrastructure",
+            "id": "section-03-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Designing software architecture, developing backend and frontend systems, managing databases and building deployment environments.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Performance, maintainability, security and stability are considered throughout product development.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Business Process & Automation",
+            "id": "section-03-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Analyzing how businesses organize work, identifying repetitive actions and designing processes that combine automation with AI.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "The focus is on clear, trackable workflows that fit actual operating conditions.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Product Design & User Experience",
+            "id": "section-03-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Designing interfaces, information structures and interactions so users can approach complex AI capabilities more simply.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "A good product helps users understand what to do, where the system is in a process and when a decision is needed.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Digital Business & Marketing Technology",
+            "id": "section-03-part-05"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Researching AI applications in marketing, advertising, sales, customer care and business management.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "This business knowledge helps guide PAO’s features around usage needs, rather than technical possibilities alone.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "Our development mindset",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Practical applications. Flexible technology. Clear control.",
+            "id": "section-04-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "We believe a valuable AI product needs to balance three things:",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Solve the right problem**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Technology needs to relate to specific user tasks and needs.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Support long-term development**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "The architecture needs enough flexibility to add features, change AI models and connect new services when needed.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Keep people in control**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI can help plan, process information and carry out permitted tasks. Users still need to oversee, review and decide on important actions.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "These principles guide PAO OS’s development at IVN Network.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-05",
+        "title": "Build practical AI applications with us",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO OS aims to help businesses bring AI into work in an organized, flexible way that fits their operating needs.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "We are interested in opportunities to collaborate on technology, product development, system integration and business applications of AI.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "If you are exploring PAO OS, have a collaboration idea or would like to discuss a specific operational problem, the PAO team welcomes the information and a discussion about suitable approaches.",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Contact the PAO OS team",
+                "href": "/contact/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "seoTitle": "PAO Insights | AI Agent, Automation & AI Technology Knowledge",
+    "description": "Explore PAO Insights for knowledge about AI Agents, Multi-Agent systems, AI Marketing, Business Automation and applying artificial intelligence in business.",
+    "title": "PAO Insights",
+    "subtitle": "Explore AI technology. Understand how it works. Apply it to real work.",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "Artificial intelligence is changing how we work, from simple tasks to complex business processes.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "New AI models, tools and methods keep appearing every day. But between what technology can do and effective real-world use, there are always questions to explore: data, costs, integration, security and reliability.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "**PAO Insights** shares knowledge, technology analysis and practical perspectives on AI Agents, automation and changing the way we work with artificial intelligence.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "The content is developed for business managers, marketing teams, technology professionals and anyone who wants to better understand how AI can support their work.",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "Explore knowledge by topic",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "1. AI Agent & Multi-Agent Systems",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Understand how AI moves from answering questions to helping carry out work.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Agents are opening up a new approach to applying artificial intelligence.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Instead of only responding with content, AI Agent systems can be designed to plan, use tools and participate in tasks that involve multiple steps.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "This category explains the concepts, operating principles and architecture behind these systems.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Topics to explore:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "What is an AI Agent, and how does it differ from a traditional chatbot?",
+              "Multi-Agent Systems and how multiple AI agents cooperate.",
+              "AI Chief of Staff and the model of an assistant that coordinates work.",
+              "Agent Orchestration, Tool Calling and task management.",
+              "AI memory, context and tool use.",
+              "Limitations and risks when deploying AI Agents."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "From foundational knowledge to deeper technical issues, this category helps readers understand how to build and apply AI systems that can carry out work.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "2. AI in business management & operations",
+            "id": "section-01-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Bring AI into business operations, starting with specific problems.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Effective AI adoption does not have to begin with a large system or complicated investments.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Sometimes, reducing time spent compiling reports, automatically categorizing requests or supporting task management can already make a meaningful difference.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "This category shares approaches to AI from the perspectives of management, operations and process organization.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Topics to explore:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "What is a Business Operating System?",
+              "Use cases for AI in business management.",
+              "AI Workflow Automation and process automation.",
+              "Applying AI to project and task management.",
+              "Connecting AI with ERP, CRM and business software.",
+              "Choosing the right process for an initial AI application.",
+              "Assessing costs, effectiveness and deployment risks."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "The content helps managers understand which problems technology can solve, what to prepare and how to assess effectiveness in practical terms.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "3. AI Marketing & Sales",
+            "id": "section-01-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Apply artificial intelligence to marketing, sales and customer service.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI is supporting many marketing and business activities, from market research and content creation to data analysis and handling customer interactions.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "However, effectiveness depends not only on the AI tool selected, but also on how data is organized, systems are connected and workflows are designed.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "This category focuses on ways to apply AI in marketing and sales.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Topics to explore:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "AI Marketing Automation and application models.",
+              "Using AI for market research and planning.",
+              "AI Content Creation in content production.",
+              "AI support for managing Meta, Google and TikTok advertising.",
+              "AI CRM and customer information management.",
+              "Sales chatbots and customer service automation.",
+              "Connecting marketing data and analyzing campaign effectiveness."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Articles focus on practical applications, integration requirements and the limitations to consider when using AI in business.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "4. AI Engineering & Open Source",
+            "id": "section-01-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Explore the technology behind modern AI systems.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "To build an AI application for real work, the language model is only one part of the system.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Components such as APIs, databases, orchestration tools, memory, infrastructure and security mechanisms all affect how it operates.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "AI Engineering & Open Source is for developers, software engineers and people who want a deeper understanding of AI system architecture.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Topics to explore:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "LLM APIs and integrating language models.",
+              "Model Context Protocol (MCP) and tool connections.",
+              "AI Agent Frameworks and Multi-Agent architectures.",
+              "Retrieval-Augmented Generation (RAG) and Knowledge Graphs.",
+              "Open-source projects for AI development.",
+              "Deploying AI applications on Cloud, VPS and Desktop.",
+              "Managing tokens, API costs and processing performance.",
+              "Security, access control and monitoring AI Agent activity."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Technical content prioritizes explaining principles, analyzing deployment options and examining issues that may arise when systems enter operation.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "5. PAO Development & Product Updates",
+            "id": "section-01-part-05"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Follow the development of PAO OS.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS is being developed to combine task management, AI Agent orchestration and business automation in one platform.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Development provides publicly announced information about the product, its development process and planned improvements.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Content includes:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Release announcements and feature updates.",
+              "Introductions to components of the PAO OS architecture.",
+              "Changes to the interface and user workflows.",
+              "Updates on integration and deployment capabilities.",
+              "Insights into design and engineering decisions.",
+              "The development roadmap and functions being researched."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Information clearly distinguishes released features, functions in development and future directions.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "It is also a place where users can learn how PAO OS is built and refined at each stage.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "Featured topics to start with",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "If you are new to AI Agents or considering AI for your business, the topics below offer a suitable starting point.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "What is an AI Agent? How it works and practical applications",
+            "id": "section-02-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Explore the AI Agent concept, how AI uses tools and handles tasks, and how it differs from a typical chatbot.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "What is a Multi-Agent System? When several AIs work together",
+            "id": "section-02-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Explore task allocation, AI Agent coordination and organizing processes that require multiple processing steps.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "What is a Business Operating System?",
+            "id": "section-02-part-03"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Learn about the business operating system concept and how an orchestration platform can connect work, data and existing software.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "AI Workflow Automation: When should you use AI?",
+            "id": "section-02-part-04"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Distinguish rules-based automation from workflows involving AI, and learn how to choose an appropriate approach.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Applying AI in small and medium-sized businesses",
+            "id": "section-02-part-05"
+          },
+          {
+            "kind": "paragraph",
+            "text": "What SMEs should consider before deploying AI, from work requirements and data to costs and operational capabilities.",
+            "tone": "normal"
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "How does AI Marketing Automation work?",
+            "id": "section-02-part-06"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Explore how AI can support research, content creation, campaign management and marketing analysis.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "Knowledge matters when it can be applied",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO Insights is built on a simple view: **understanding technology properly matters more than following every new trend.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "We focus on three editorial principles:",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Clear and accessible**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Technical concepts are explained in understandable terms so both technology professionals and business users can engage with them.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Grounded in reliable information**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Analysis prioritizes technical documentation, trustworthy references and verifiable information. We distinguish theoretical capabilities, experiments and confirmed applications.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Connected to real work**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Alongside explaining technology, content addresses problems users need to solve: choosing tools, building processes, managing costs and assessing effectiveness.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Insights does not aim to present AI as the answer to every problem. Its goal is to give readers more knowledge to select and apply technology appropriately.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "About PAO Insights",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO Insights is a technology knowledge publication in the **PAO OS** ecosystem, developed by **IVN Network** in Vietnam.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Through specialist articles, technical analysis and application-focused content, we hope to help make AI more understandable, accessible and useful for businesses and technology professionals.",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Learn about PAO OS",
+                "href": "/gioi-thieu/"
+              },
+              {
+                "label": "Explore AI solutions for business",
+                "href": "/giai-phap/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "download": {
+    "seoTitle": "Download PAO OS | Cloud, VPS & Desktop",
+    "description": "Explore PAO OS Cloud/VPS, Self-hosted AI Agent and PAO Desktop editions. Learn about AI operating system deployment options for your business.",
+    "title": "Download PAO OS",
+    "subtitle": "Flexible deployment. Control over operations. Ready to work with AI.",
+    "intro": [
+      {
+        "kind": "paragraph",
+        "text": "Every business has different requirements for infrastructure, data and how it uses technology.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "PAO OS is being developed to support multiple deployment environments, from Cloud/VPS servers to personal computers, helping users choose an option suited to their work.",
+        "tone": "normal"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Whether running on a server or a personal device, PAO pursues the same goal: connecting work, AI Agents and tools in an organized, extensible system controlled by the user.",
+        "tone": "normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "section-01",
+        "title": "Choose a PAO OS edition",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "PAO OS Cloud / VPS",
+            "id": "section-01-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**An AI operating system for server and business environments.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS Cloud/VPS is being developed for server-based operation, allowing users to work through a web interface and configured connection channels.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Rather than installing the entire system on every computer, a business can deploy PAO in a centralized environment to organize work and coordinate AI Agents.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Planned capabilities:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Access the system through a web interface.",
+              "Organize work, projects and processes in a centralized environment.",
+              "Coordinate AI Agents and tools by task.",
+              "Connect AI models and external services.",
+              "Manage users, access rights and approval steps.",
+              "Monitor processing status and system activity."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Self-hosted AI Agent**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO aims to support deployment on a business's own VPS, giving customers control over infrastructure providers, server resources and the AI services they need.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "This option suits businesses with specific requirements for their operating environment, system integration or resource management.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Deployment must meet the technical requirements and support scope of the relevant PAO edition.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Suited to:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Small and medium-sized businesses.",
+              "Teams working across multiple locations.",
+              "Organizations needing centralized task management.",
+              "Businesses wanting to deploy AI Agents on their own infrastructure."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Status:** In development, with deployment arrangements being refined.",
+            "tone": "status"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Learn about Cloud/VPS deployment",
+                "href": "/contact/"
+              }
+            ]
+          },
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "PAO OS Desktop / PC",
+            "id": "section-01-part-02"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Bring AI closer to work on personal computers.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Not all work takes place on web platforms.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Many tasks require interaction with data files, installed applications or resources available only on a personal computer.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Desktop is planned to support these needs through an AI Desktop Agent, combining AI processing with tools the user authorizes on their device.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Planned capabilities:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Interact with AI Agents from a desktop environment.",
+              "Support tasks involving authorized files and folders.",
+              "Connect compatible local applications and tools.",
+              "Coordinate tasks between the user and AI.",
+              "Support automation workflows on the computer.",
+              "Control the scope of actions and resource access."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Users remain in control**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "The ability to act on a computer must come with clear limits.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO Desktop is being designed to act only within granted permissions, require confirmation for important actions and let users control AI Agent activity.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Suited to:**",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Individuals and independent professionals.",
+              "Developers and users of technical tools.",
+              "Staff who frequently work with desktop software.",
+              "Businesses with processes dependent on local resources."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Status:** On the development roadmap; no official installer has been announced.",
+            "tone": "status"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Follow PAO Desktop updates",
+                "href": "/blog/#section-01-part-05"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section-02",
+        "title": "Compare deployment options",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "The right choice depends on the working environment, data types and tasks the business wants AI to support.",
+            "tone": "normal"
+          },
+          {
+            "kind": "table",
+            "header": [
+              "Criterion",
+              "Cloud / VPS",
+              "Desktop / PC"
+            ],
+            "rows": [
+              [
+                "Environment",
+                "Server",
+                "Personal computer"
+              ],
+              [
+                "Access",
+                "Web interface",
+                "Local interface and tools, depending on the edition"
+              ],
+              [
+                "Centralized management",
+                "Suited to this",
+                "Depends on configuration"
+              ],
+              [
+                "Work across devices",
+                "Suited to this",
+                "Device-focused"
+              ],
+              [
+                "Local application interaction",
+                "Requires appropriate integration",
+                "Planned support"
+              ],
+              [
+                "Infrastructure",
+                "Cloud or VPS",
+                "Computer resources"
+              ],
+              [
+                "Audience",
+                "Businesses and teams",
+                "Individuals and specialist users"
+              ]
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "This table describes the design direction of the two editions; it does not mean all features have been released.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-03",
+        "title": "System requirements & installation",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Prepare a suitable environment before deployment",
+            "id": "section-03-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS may have different technical requirements depending on the edition and connected AI services.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**For Cloud/VPS**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Factors to consider include:",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Supported server operating systems and environments.",
+              "CPU, RAM and storage capacity.",
+              "Network connectivity and security configuration.",
+              "AI services, API Keys and integration accounts.",
+              "Databases and supporting components for the edition.",
+              "Backup, update and monitoring arrangements."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "**For Desktop/PC**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Requirements to establish include:",
+            "tone": "normal"
+          },
+          {
+            "kind": "list",
+            "ordered": false,
+            "items": [
+              "Compatible operating systems.",
+              "Minimum hardware specifications.",
+              "Access permissions for files, applications and device resources.",
+              "Internet connectivity and required AI services.",
+              "Installation, update and recovery mechanisms."
+            ]
+          },
+          {
+            "kind": "paragraph",
+            "text": "Minimum specifications and supported operating systems will be announced for each verified release.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-04",
+        "title": "Install and deploy PAO OS",
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 3,
+            "text": "Bring AI into the working environment step by step",
+            "id": "section-04-part-01"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO deployment is planned around four steps:",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**01. Choose an environment**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Identify usage needs, the Cloud/VPS or Desktop model and infrastructure requirements.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**02. Prepare configuration**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Set up the environment, accounts, data sources and AI services to connect.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**03. Connect and test**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Configure AI Agents and access rights, and test processing workflows within the supported scope.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "**04. Operate and update**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Monitor activity, manage permissions, back up data and apply appropriate updates.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "For businesses needing system integration or deployment on their own infrastructure, the scope of work will be assessed against actual technical conditions.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-05",
+        "title": "Versions, updates & documentation",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "PAO OS is developed and refined in stages.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Version information, installation documentation and compatibility details need to be published for each official release.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Users should use distribution sources confirmed by PAO OS, check version information and back up important data before upgrading.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "Experimental versions may have limitations in functionality, integration and stability.",
+            "tone": "normal"
+          }
+        ]
+      },
+      {
+        "id": "section-06",
+        "title": "Get started with PAO OS",
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "text": "**Choose the right environment. Connect the right tools. Build a suitable workflow.**",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "PAO OS aims to help businesses and individuals access AI Agent systems in a flexible, organized and controllable way.",
+            "tone": "normal"
+          },
+          {
+            "kind": "paragraph",
+            "text": "If you are interested in deploying PAO on Cloud/VPS, integrating AI Agents into existing systems or following the Desktop edition, contact us for release information and supported deployment options.",
+            "tone": "normal"
+          },
+          {
+            "kind": "actions",
+            "actions": [
+              {
+                "label": "Contact the PAO OS team",
+                "href": "/contact/"
+              },
+              {
+                "label": "Explore PAO OS features",
+                "href": "/tinh-nang/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

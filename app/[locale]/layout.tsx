@@ -3,6 +3,7 @@ import type { Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import '../manrope.css';
 import '../globals.css';
+import '../site-pages.css';
 import SiteShell, { getSiteMetadata } from '@/components/site-shell';
 export const dynamicParams=false;
 export function generateStaticParams() {return [{locale:'en'},{locale:'zh'}];}

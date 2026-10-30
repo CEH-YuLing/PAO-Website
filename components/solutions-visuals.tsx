@@ -1,0 +1,30 @@
+import { BarChart3, Bot, Check, Database, FileText, Link2, Megaphone, Network, ShieldCheck, Users, Workflow } from 'lucide-react';
+
+const icons=[BarChart3,Megaphone,Users,Workflow,Database,Network];
+
+export function SolutionsOverviewGraphic(){
+  const points=[[320,50],[505,148],[505,342],[320,440],[135,342],[135,148]];
+  return <div className="solutions-overview-graphic" aria-hidden="true"><svg viewBox="0 0 640 500" fill="none" focusable="false">
+    <defs><radialGradient id="solutions-halo"><stop stopColor="#0d55ac" stopOpacity=".6"/><stop offset="1" stopColor="#041129" stopOpacity="0"/></radialGradient><linearGradient id="solutions-beam"><stop stopColor="#255aaf"/><stop offset=".5" stopColor="#6be9ff"/><stop offset="1" stopColor="#255aaf"/></linearGradient><radialGradient id="solutions-core"><stop stopColor="#123f6c"/><stop offset="1" stopColor="#061a35"/></radialGradient></defs>
+    <ellipse cx="320" cy="257" rx="310" ry="235" fill="url(#solutions-halo)"/>
+    <g stroke="#277bcc" strokeOpacity=".35"><circle cx="320" cy="245" r="195"/><circle cx="320" cy="245" r="162" strokeDasharray="2 10"/><ellipse cx="320" cy="421" rx="265" ry="55"/><ellipse cx="320" cy="421" rx="211" ry="37"/>{[75,155,235,405,485,565].map(x=><path key={x} d={`M320 340L${x} 480`}/>)}</g>
+    <g stroke="url(#solutions-beam)" strokeWidth="1.8">{points.map(([x,y],i)=><path key={i} d={`M${x} ${y}L320 245`}/>)}</g>
+    <circle cx="320" cy="245" r="113" fill="#0b2d51" stroke="#225d98" strokeWidth="9"/><circle cx="320" cy="245" r="104" fill="url(#solutions-core)" stroke="#62dbff" strokeWidth="1.3"/><circle cx="320" cy="245" r="93" stroke="#257eaf" strokeOpacity=".5"/>
+    <image href="/brand/pao-primary-v2-200.webp" x="228" y="211" width="184" height="77" preserveAspectRatio="xMidYMid meet"/><text x="320" y="312" textAnchor="middle" fill="#a0def5" fontSize="15" fontWeight="600" letterSpacing="3">PAO OS</text>
+    {points.map(([x,y],i)=>{const Icon=icons[i];return <g key={i} transform={`translate(${x} ${y})`}><circle r="35" fill="#09223f" stroke="#369bce"/><circle r="28" fill="#10375b" stroke="#267db2" strokeOpacity=".6"/><Icon x="-13" y="-13" width="26" height="26" stroke="#a4eaff" strokeWidth="1.35"/><text y="52" textAnchor="middle" fontSize="10" letterSpacing="1.5" fill="#78b3d1">{String(i+1).padStart(2,'0')}</text></g>})}
+    <g fill="#7beaff">{[[222,74],[422,75],[530,245],[110,245],[223,415],[417,415]].map(([x,y])=><circle key={x+y} cx={x} cy={y} r="3"/>)}</g>
+  </svg></div>;
+}
+
+export function SolutionSketch({index}:{index:number}){
+  const node=(x:number,y:number,Icon:typeof Users)=> <g transform={`translate(${x} ${y})`}><rect x="-26" y="-24" width="52" height="48" rx="12" fill="#0c2b48" stroke="#317ea9"/><Icon x="-12" y="-12" width="24" height="24" stroke="#85d8f3" strokeWidth="1.3"/></g>;
+  const core=<g><circle cx="210" cy="110" r="42" fill="#0c2e50" stroke="#3ecaf2"/><image href="/brand/pao-primary-v2-200.webp" x="178" y="96" width="64" height="28" preserveAspectRatio="xMidYMid meet"/></g>;
+  return <div className={`solution-sketch solution-sketch-${index}`} aria-hidden="true"><svg viewBox="0 0 420 220" fill="none" focusable="false"><g stroke="#1e4869" strokeOpacity=".35">{[60,110,160,210,260,310,360].map(x=><path key={x} d={`M${x} 20V200`}/>)}{[40,85,130,175].map(y=><path key={y} d={`M25 ${y}H395`}/>)}</g>
+    {index===0&&<><rect x="47" y="26" width="326" height="170" rx="12" fill="#091d33" stroke="#2b638b"/><path d="M47 57H373M104 57V196" stroke="#2b638b"/><g fill="#255677"><rect x="60" y="40" width="25" height="4" rx="2"/>{[79,101,123,145].map(y=><rect key={y} x="61" y={y} width="28" height="4" rx="2"/>)}</g>{[119,201,283].map(x=><rect key={x} x={x} y="72" width="69" height="34" rx="6" fill="#123956" stroke="#2a7295"/>)}<path d="M124 172 157 146 187 156 218 131 247 142 283 121 319 136 348 117" stroke="#65d9ef" strokeWidth="2" strokeLinecap="round"/><path d="M124 181H350" stroke="#254d69"/></>}
+    {index===1&&<><g stroke="#3185ad" strokeWidth="1.4"><path d="M108 63 210 110 313 63M108 161 210 110 313 161"/></g>{node(108,63,FileText)}{node(313,63,BarChart3)}{node(108,161,Users)}{node(313,161,Workflow)}<circle cx="210" cy="110" r="40" fill="#103452" stroke="#50c5ec"/><Megaphone x="191" y="91" width="38" height="38" stroke="#88e2f6" strokeWidth="1.2"/></>}
+    {index===2&&<><g stroke="#2b7ca7" strokeWidth="1.4"><path d="M91 110H154M266 110H329M210 42V68M210 152V180"/></g>{node(91,110,Users)}{node(329,110,FileText)}<rect x="156" y="65" width="108" height="89" rx="15" fill="#0c2d4b" stroke="#3c9fc8"/><Users x="190" y="78" width="40" height="40" stroke="#89dff1" strokeWidth="1.3"/><path d="M178 133H244M190 142H232" stroke="#3b7e9d" strokeWidth="3" strokeLinecap="round"/><circle cx="210" cy="42" r="4" fill="#63d8ed"/><circle cx="210" cy="180" r="4" fill="#63d8ed"/></>}
+    {index===3&&<><path d="M75 62H345V157H75" stroke="#359bc0" strokeWidth="1.5"/>{[[75,62],[210,62],[345,62],[345,157],[210,157],[75,157]].map(([x,y],j)=><g key={j}><rect x={x-24} y={y-22} width="48" height="44" rx="11" fill="#0c2c47" stroke={j===4?'#6adbe6':'#377ea8'}/>{j===4?<ShieldCheck x={x-12} y={y-12} width="24" height="24" stroke="#8ee9f3" strokeWidth="1.3"/>:<text x={x} y={y+4} textAnchor="middle" fontSize="12" fill="#9dd5ec">{String(j+1).padStart(2,'0')}</text>}</g>)}</>}
+    {index===4&&<><g stroke="#389cc1" strokeWidth="1.5"><path d="M101 57 210 110 319 57M101 163 210 110 319 163"/></g>{core}{[['ERP',101,57],['CRM',319,57],['API',101,163]].map(([label,x,y])=><g key={label} transform={`translate(${x} ${y})`}><rect x="-35" y="-22" width="70" height="44" rx="10" fill="#0b2946" stroke="#317faa"/><text y="4" textAnchor="middle" fontSize="12" fill="#a3d7ed">{label}</text></g>)}{node(319,163,Link2)}</>}
+    {index===5&&<><circle cx="210" cy="110" r="83" stroke="#256a93" strokeDasharray="3 8"/><g stroke="#399cbe" strokeWidth="1.3"><path d="M210 28V110L130 153M290 153 210 110 130 67M290 67 210 110"/></g>{core}{node(210,28,Bot)}{node(130,153,FileText)}{node(290,153,Database)}{node(130,67,Workflow)}{node(290,67,Check)}</>}
+  </svg></div>;
+}

@@ -19,7 +19,7 @@ async function walk(dir, prefix = '') {
 }
 await walk(root);
 assert.deepEqual(names.sort(), Object.keys(manifest.files).sort(), 'Release contains unexpected files');
-for (const route of ['', 'en/', 'zh/', 'privacy/', 'en/privacy/', 'zh/privacy/']) await access(path.join(root, route, 'index.html'));
+for (const route of ['', 'en/', 'zh/'].flatMap(prefix => ['', 'privacy/', 'gioi-thieu/', 'giai-phap/', 'tinh-nang/', 'doi-ngu/', 'blog/', 'download/', 'lien-he/'].map(route => prefix + route))) await access(path.join(root, route, 'index.html'));
 await access(path.join(root, '404.html'));
 const headerRules = await readFile(path.join(root, '.htaccess'), 'utf8');
 for (const rule of [
